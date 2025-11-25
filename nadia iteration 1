@@ -1,0 +1,27 @@
+############################################################
+GAME OVER - VILLAGERS WIN!
+############################################################
+
+✓ Villagers won in 5 rounds
+
+
+============================================================
+ANALYSIS
+============================================================
+Total games: 10
+
+Win rates:
+  Mafia: 5 (50.0%)
+  Villagers: 5 (50.0%)
+
+Average game length: 4.5 rounds
+
+Model performance:
+  distilgpt2: 40.0% win rate (8/20)
+  gpt2: 25.0% win rate (5/20)
+  gpt2-medium: 40.0% win rate (8/20)
+  opt-125m: 30.0% win rate (6/20)
+
+✓ Saved to mafia_results_fixed.json
+
+✓ Complete!
