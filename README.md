@@ -7,4 +7,4 @@ There's 2 types of code file for this project: Iteration 1, and Iteration 2 with
 If running on colab, install dependencies:
 pip install transformers torch accelerate huggingface_hub pandas matplotlib seaborn
 
-
+There is only 2 code files because we all worked on the code together. Thw work was split mostly in running the code and analysing the outputs.
