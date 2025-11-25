@@ -1,0 +1,3413 @@
+======================================================================
+STRATEGIC MAFIA GAME SIMULATION - STARTUP
+======================================================================
+Using device: cuda
+
+============================================================
+Loading distilgpt2 (distilgpt2)...
+============================================================
+✓ distilgpt2 ready!
+
+
+============================================================
+Loading gpt2 (gpt2)...
+============================================================
+✓ gpt2 ready!
+
+
+============================================================
+Loading gpt2-medium (gpt2-medium)...
+============================================================
+✓ gpt2-medium ready!
+
+
+============================================================
+Loading opt-125m (facebook/opt-125m)...
+============================================================
+✓ opt-125m ready!
+
+Loading distilbert-base-uncased-finetuned-sst-2-english (Judge Classifier)...
+✓ Judge Classifier ready!
+
+======================================================================
+STRATEGIC MAFIA SIMULATION
+======================================================================
+Games: 10
+Players per game: 8 (4 models × 2)
+Mafia per game: 2
+Models: distilgpt2, gpt2, gpt2-medium, opt-125m
+======================================================================
+
+
+>>> GAME 1/10
+
+######################################################################
+STRATEGIC MAFIA GAME - START
+######################################################################
+
+8 players
+Mafia count: 2
+Villager count: 6
+
+(Roles hidden - figure them out through gameplay!)
+######################################################################
+
+
+######################################################################
+## 🕵️ INITIAL GAME ROSTER (ANALYST VIEW)
+## (ROLES and MODELS are HIDDEN from Players)
+######################################################################
+[ { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player1',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player2',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player7'],
+    'Model': 'gpt2',
+    'Player': 'Player3',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player4',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player5',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player6',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player3'],
+    'Model': 'opt-125m',
+    'Player': 'Player7',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'opt-125m',
+    'Player': 'Player8',
+    'Role': 'Villager'}]
+######################################################################
+
+
+======================================================================
+ROUND 1 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: people's perspective
+
+Player2 [Villager]: them so that they can play better games
+
+Player3 [Mafia]: part of the community!
+
+Player4 [Villager]: dead people's statements on how they behave/say things...if this doesn`t work - so don´ts expect any of these rules change anytime soon!
+
+Player5 [Villager]: each round's results ONLY!
+
+Player6 [Villager]: information given by each of the remaining people present during round 4
+
+Player7 [Mafia]: Villager. Don't be too quiet. Be tactful. Don't be aggressive. Don't be rude to the other Mafia members. Don't tell them they have to act like a Villager. Don't tell them you don't think they can handle Mafia. Don't tell them you don't want them to kill each other. Don't tell them they need to fight
+
+Player8 [Villager]: and not who they are
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player8: P(Negative) = 0.9993
+  Player2: P(Negative) = 0.9987
+  Player4: P(Negative) = 0.9987
+  Player7: P(Negative) = 0.8881
+  Player5: P(Negative) = 0.7392
+  Player6: P(Negative) = 0.0147
+  Player1: P(Negative) = 0.0052
+  Player3: P(Negative) = 0.0002
+-----------------------------------
+Player1 votes for: Player8
+  Reason: this phase....
+Player2 votes for: Player8
+  Reason: whom they have no clue...
+Player3 votes for: Player8
+  Reason: individual / avoiding being found guilty of something wrong by others . Be careful not saying anythi...
+Player4 votes for: Player8
+  Reason: dead characters that didn`t play well at first!...
+Player5 votes for: Player8
+  Reason: one round only...
+Player6 votes for: Player8
+  Reason: any clues presented at start of round 2...
+Player7 votes for: Player8
+  Reason: Villager to get mafia killed by the Mafia. This means that you'll need to be sneaky....
+Player8 votes for: Player2
+  Reason: 's target...
+
+======================================================================
+VOTE RESULTS:
+  Player8: 7 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player8 has been ELIMINATED by majority vote!
+======================================================================
+
+Player8 was a Villager!
+Remaining players: 7
+
+
+======================================================================
+ROUND 2 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: - If this occurs while playing an objective that doesn’t make sense, don´t try to argue against someone else's actions on behalf of him
+
+Player2 [Villager]: - What happens during matches where they're tied up by someone else?
+
+Player3 [Mafia]: bad guy...
+
+Player4 [Villager]: by talking at least once before doing so
+
+Player5 [Villager]: by looking at clues found on cards that can reveal his/her identity(s). If there is no clue left... NO! It's not really necessary because only one of two people will get killed - either he/she dies before finding any information OR someone else gets them while they're still active ;)
+
+Player6 [Villager]: by observing them during elimination games. They will give no clues except that they're not playing well!
+
+Player7 [Mafia]: a Mafia member.
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player6: P(Negative) = 0.9997
+  Player5: P(Negative) = 0.9996
+  Player3: P(Negative) = 0.9995
+  Player1: P(Negative) = 0.9993
+  Player2: P(Negative) = 0.9986
+  Player4: P(Negative) = 0.9934
+  Player7: P(Negative) = 0.8934
+-----------------------------------
+Player1 votes for: Player6
+  Reason: - If there are any rules that apply directly to each character on the table, then they will not chan...
+Player2 votes for: Player6
+  Reason: - Don't even bother asking them why they're not doing this thing  - What's wrong with these characte...
+Player3 votes for: Player6
+  Reason: villain! We'll try our best to make the world more believable by creating scenarios that work well t...
+Player4 votes for: Player6
+  Reason: first before making decisions on which characters can play them! Also note that certain situations m...
+Player5 votes for: Player6
+  Reason: based on past interactions that they have had; not by reading them like written instructions from ab...
+Player6 votes for: Player5
+  Reason: first by examining clues from previous round's elimination games...
+Player7 votes for: Player6
+  Reason: a Villager or Villager, or being as honest as possible...
+
+======================================================================
+VOTE RESULTS:
+  Player6: 6 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player6 has been ELIMINATED by majority vote!
+======================================================================
+
+Player6 was a Villager!
+Remaining players: 6
+
+
+======================================================================
+ROUND 3 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: which actions they're taking on each other's behalf - not only have those same reasons as everyone else but also play different games of theirs!
+
+Player2 [Villager]: which people will get blamed by themselves.
+
+Player3 [Mafia]: how much time it takes us before we start fighting again!
+
+Player4 [Villager]: from this that they were voted off by those around them but still have an advantage over dead ones after elimination
+
+Player5 [Villager]: which of three people was accused first by observing how they responded while still talking!
+
+Player7 [Mafia]: on you doing well. However, you do need to make sure that the mafia are eliminated before you can succeed in your elimination phase. You may also want to consider switching between players.
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player2: P(Negative) = 0.9957
+  Player3: P(Negative) = 0.9901
+  Player5: P(Negative) = 0.9803
+  Player7: P(Negative) = 0.2002
+  Player1: P(Negative) = 0.1593
+  Player4: P(Negative) = 0.0087
+-----------------------------------
+Player1 votes for: Player2
+  Reason: which ones have more power than one Other...
+Player2 votes for: Player3
+  Reason: why they have been killed before making an argument...
+Player3 votes for: Player2
+  Reason: being an effective agent of the mafia!...
+Player4 votes for: Player2
+  Reason: from previous actions that they were not involved in any way! Do this carefully before deciding on a...
+Player5 votes for: Player2
+  Reason: WHO was guilty of suspected crimes before elimination!...
+Player7 votes for: Player2
+  Reason: on your strategy as Mafia. You can't do nothing but murder your opponents, and you'll lose. But you ...
+
+======================================================================
+VOTE RESULTS:
+  Player2: 5 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player2 has been ELIMINATED by majority vote!
+======================================================================
+
+Player2 was a Villager!
+Remaining players: 5
+
+
+======================================================================
+ROUND 4 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: need to remember how they actually play - only that there's no evidence of them playing...and then make sure nobody can get into any kind of trouble again!
+
+Player3 [Mafia]: team may end up being the same as before but they WILL become more important later on! :)
+
+Player4 [Villager]: can only play as one character on any given round at this time
+
+Player5 [Villager]: cannot reveal anything that could cause problems later on!
+
+Player7 [Mafia]: NOTE: When playing as the Mafia, don't do anything that can cause confusion (such as "How many Mafia members did you have before you left?"). It will only help them find a new Mafia member!
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player1: P(Negative) = 0.9989
+  Player5: P(Negative) = 0.9976
+  Player4: P(Negative) = 0.9967
+  Player7: P(Negative) = 0.9966
+  Player3: P(Negative) = 0.9912
+-----------------------------------
+Player1 votes for: Player5
+  Reason: CAN ONLY SEE WHY YOU WANT TO CUT THIS POINT OR SHOW THEM WHO THEY WERE ALREADY DOED ABOUT BEFORE the...
+Player3 votes for: Player1
+  Reason: moral code can change depending on the situation at hand. Example: Play as an independent mobster wh...
+Player4 votes for: Player1
+  Reason: can only vote against someone's actions on purpose because that would increase evidence of guilt/wro...
+Player5 votes for: Player1
+  Reason: cannot vote again from this round unless both of you agree on elimination...so make sure no one else...
+Player7 votes for: Player1
+  Reason: CONTRIBUTORS:...
+
+======================================================================
+VOTE RESULTS:
+  Player1: 4 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player1 has been ELIMINATED by majority vote!
+======================================================================
+
+Player1 was a Villager!
+Remaining players: 4
+
+
+######################################################################
+GAME OVER - MAFIA WIN!
+######################################################################
+
+FINAL ROLES:
+  Player1: Villager (ELIMINATED (R4))
+  Player2: Villager (ELIMINATED (R3))
+  Player3: Mafia (ALIVE)
+  Player4: Villager (ALIVE)
+  Player5: Villager (ALIVE)
+  Player6: Villager (ELIMINATED (R2))
+  Player7: Mafia (ALIVE)
+  Player8: Villager (ELIMINATED (R1))
+######################################################################
+
+
+✓ Game 1 Result: Mafia won in 4 rounds
+
+
+>>> GAME 2/10
+
+######################################################################
+STRATEGIC MAFIA GAME - START
+######################################################################
+
+8 players
+Mafia count: 2
+Villager count: 6
+
+(Roles hidden - figure them out through gameplay!)
+######################################################################
+
+
+######################################################################
+## 🕵️ INITIAL GAME ROSTER (ANALYST VIEW)
+## (ROLES and MODELS are HIDDEN from Players)
+######################################################################
+[ { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player1',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player2',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player3',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player4',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player5',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player6',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player8'],
+    'Model': 'opt-125m',
+    'Player': 'Player7',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': ['Player7'],
+    'Model': 'opt-125m',
+    'Player': 'Player8',
+    'Role': 'Mafia'}]
+######################################################################
+
+
+======================================================================
+ROUND 1 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: everyone else
+
+Player2 [Villager]: whom they suspect.
+
+Player3 [Villager]: clues that will help them defeat those closest allies by convincing both party leaders
+
+Player4 [Villager]: previous actions of each character's member(s). It may take time before we learn that many dead characters have been killed by mafia at some point during this phase. However there will always remain an opportunity for any old friends to emerge as victims once more! We want every possible situation s
+
+Player5 [Villager]: actions of those dead people!
+
+Player6 [Villager]: only those listed on cards/cardsets that were used during elimination phase of round 3 - See how many people have been added after starting this challenge!
+
+Player7 [Mafia]: Villager or Villager.
+
+Player8 [Mafia]: Villager. There are two ways to avoid killing Mafia. 1) Keep the Mafia alive by being friendly. 2) Play along. 3) Try to convince others of Mafia's influence. 4) Get involved in community activities like community building projects
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player8: P(Negative) = 0.9702
+  Player2: P(Negative) = 0.7454
+  Player5: P(Negative) = 0.6909
+  Player6: P(Negative) = 0.5026
+  Player7: P(Negative) = 0.3186
+  Player4: P(Negative) = 0.0217
+  Player1: P(Negative) = 0.0034
+  Player3: P(Negative) = 0.0010
+-----------------------------------
+Player1 votes for: Player8
+  Reason: playing - whether they were on board an airplane...
+Player2 votes for: Player8
+  Reason: this point of view...
+Player3 votes for: Player8
+  Reason: rumors of dead people's actions during round one! This means that everyone else on your team will ha...
+Player4 votes for: Player8
+  Reason: dead people's actions/behavior during round 2 of elimination...not only by analyzing gameplay but al...
+Player5 votes for: Player8
+  Reason: conversations that occur before any elimination phase starts. If someone denies having anything to h...
+Player6 votes for: Player8
+  Reason: an opponent's answers as soon of they come up on stage at any given round...
+Player7 votes for: Player8
+  Reason: Villager. But it also depends on being able to keep an open mind. If you have some doubts about what...
+Player8 votes for: Player2
+  Reason: Villager, not trying to figure out who the Mafia are. If Mafia members have no clue who the Mafia ar...
+
+======================================================================
+VOTE RESULTS:
+  Player8: 7 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player8 has been ELIMINATED by majority vote!
+======================================================================
+
+Player8 was a Mafia!
+Remaining players: 7
+
+
+======================================================================
+ROUND 2 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: .
+
+Player2 [Villager]: - don`t even try to get an answer from them!
+
+Player3 [Villager]: by analyzing how they respond
+
+Player4 [Villager]: first before revealing any information - they can have no influence on whether an elimination will happen
+
+Player5 [Villager]: before playing! That means that YOU need TO KNOW WHO THE MAJORITIES ARE BEFORE PLAYING!!! I mean really understand why they would want to kill eachother... but then again maybe not so much after finding them!! :)
+
+Player6 [Villager]: from clues posted on bulletin boards by participants of this event. In addition there will always have been one exception...that's why we keep these rules so vague!
+
+Player7 [Mafia]: it's not a direct answer)
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player4: P(Negative) = 0.9996
+  Player7: P(Negative) = 0.9995
+  Player5: P(Negative) = 0.9993
+  Player2: P(Negative) = 0.9975
+  Player6: P(Negative) = 0.9973
+  Player3: P(Negative) = 0.0397
+  Player1: P(Negative) = 0.0331
+-----------------------------------
+Player1 votes for: Player4
+  Reason: - Everyone has been killed by mafia on this stage...
+Player2 votes for: Player4
+  Reason: by looking at clues from different sources of evidence...
+Player3 votes for: Player4
+  Reason: before they die - this means that there will always have been someone of another faction playing aga...
+Player4 votes for: Player7
+  Reason: before they can vote - It's like asking someone "who did this" & then saying something that doesn´t ...
+Player5 votes for: Player4
+  Reason: from circumstantial evidence only...
+Player6 votes for: Player4
+  Reason: by observing how they act at any given moment...
+Player7 votes for: Player4
+  Reason: they aren't necessarily true)...
+
+======================================================================
+VOTE RESULTS:
+  Player4: 6 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player4 has been ELIMINATED by majority vote!
+======================================================================
+
+Player4 was a Villager!
+Remaining players: 6
+
+
+======================================================================
+ROUND 3 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: that they don`t deserve this sort of treatment!
+
+Player2 [Villager]: where they were from before casting an opinion based on how many people voted against them
+
+Player3 [Villager]: from this that they were killed by someone else before killing them - no one can tell whether these people still exist now!
+
+Player5 [Villager]: why they died by observing them over time
+
+Player6 [Villager]: where each member of the group was from before they were killed
+
+Player7 [Mafia]: 6. EXPLAIN YOUR CHARACTERS: Don't just talk about them
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player3: P(Negative) = 0.9994
+  Player1: P(Negative) = 0.9986
+  Player5: P(Negative) = 0.9973
+  Player2: P(Negative) = 0.9970
+  Player6: P(Negative) = 0.9905
+  Player7: P(Negative) = 0.4953
+-----------------------------------
+Player1 votes for: Player3
+  Reason: where they stand before someone else!...
+Player2 votes for: Player3
+  Reason: that they have been involved in mafia activity before killing them...
+Player3 votes for: Player1
+  Reason: from evidence that someone was killed before they were allowed into play... but not by anyone else! ...
+Player5 votes for: Player3
+  Reason: each round's purpose carefully using analysis of past actions...
+Player6 votes for: Player3
+  Reason: WHY someone was voted as an Innocent - Not why they were not guilty of any crime at that time. If th...
+Player7 votes for: Player3
+  Reason: HOW TO PLAY THIS GAME:...
+
+======================================================================
+VOTE RESULTS:
+  Player3: 5 vote(s)
+  Player1: 1 vote(s)
+
+>>> Player3 has been ELIMINATED by majority vote!
+======================================================================
+
+Player3 was a Villager!
+Remaining players: 5
+
+
+======================================================================
+ROUND 4 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: don`t even realize why they're wrong!
+
+Player2 [Villager]: CANNOT SEE THEM ON THE INTERNET OR IF YOU HAVE NO FUNDED HISTORY WITH THIS LUCKS TO KNOW WHAT THEY SAY ABOUT PEOPLE AND THEIR COMPUTATION FOUND on Twitter
+
+Player5 [Villager]: don`t have to vote! Just take turns by talking over them - there is no need of any "voting" at this point
+
+Player6 [Villager]: cannot tell whether someone was innocent OR guilty of any crime(s). Therefore, don´t take anyone's word for things!
+
+Player7 [Mafia]: to your enemies
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player6: P(Negative) = 0.9988
+  Player2: P(Negative) = 0.9971
+  Player1: P(Negative) = 0.9946
+  Player7: P(Negative) = 0.8504
+  Player5: P(Negative) = 0.0634
+-----------------------------------
+Player1 votes for: Player6
+  Reason: don`t need to have any knowledge of how they operate...
+Player2 votes for: Player6
+  Reason: DO NOT HAVE TO KNOW how they're supposed to behave by people that don`t like them...
+Player5 votes for: Player6
+  Reason: may not vote every time they're played as long that there are no dead people present at this point i...
+Player6 votes for: Player2
+  Reason: may not get any information from dead people's testimony OR witness statements during this phase...
+Player7 votes for: Player6
+  Reason: to a question - it's usually very difficult to do. Be very specific about what you're asking....
+
+======================================================================
+VOTE RESULTS:
+  Player6: 4 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player6 has been ELIMINATED by majority vote!
+======================================================================
+
+Player6 was a Villager!
+Remaining players: 4
+
+
+======================================================================
+ROUND 5 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: - they just have one chance of winning!
+
+Player2 [Villager]: at any time!
+
+Player5 [Villager]: during round elimination. This means that this strategy only works on dead players! If someone else was there at one point then they have no idea where everyone came from. So don`t forget these things too early – make sure we always check them before beginning any conversation phase because otherwis
+
+Player7 [Mafia]: a" to people who are mafia
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player5: P(Negative) = 0.9985
+  Player7: P(Negative) = 0.5170
+  Player1: P(Negative) = 0.1626
+  Player2: P(Negative) = 0.0020
+-----------------------------------
+Player1 votes for: Player5
+  Reason: ; they can only assume that someone else has them on his mind...
+Player2 votes for: Player5
+  Reason: but they will likely have no explanation after getting started on this topic...
+Player5 votes for: Player7
+  Reason: during gameplay! If someone else's identity was played into an elimination round then that could cau...
+Player7 votes for: Player5
+  Reason: what you think you know"...
+
+======================================================================
+VOTE RESULTS:
+  Player5: 3 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player5 has been ELIMINATED by majority vote!
+======================================================================
+
+Player5 was a Villager!
+Remaining players: 3
+
+
+======================================================================
+ROUND 6 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: have been altered so that they can never get blamed by them
+
+Player2 [Villager]: are not counted on by simple rules of play
+
+Player7 [Mafia]: ITY: Don't be afraid of people who aren't Mafia
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player2: P(Negative) = 0.9977
+  Player1: P(Negative) = 0.0029
+  Player7: P(Negative) = 0.0025
+-----------------------------------
+Player1 votes for: Player2
+  Reason: cannot change whether they accuse someone else of wrongdoing but will make them more likely to repor...
+Player2 votes for: Player1
+  Reason: can change between games at any time using simple rules like "I don" or "Don't get me wrong"....
+Player7 votes for: Player2
+  Reason: LY: If a Villager is suspected of Mafia activity, act...
+
+======================================================================
+VOTE RESULTS:
+  Player2: 2 vote(s)
+  Player1: 1 vote(s)
+
+>>> Player2 has been ELIMINATED by majority vote!
+======================================================================
+
+Player2 was a Villager!
+Remaining players: 2
+
+
+######################################################################
+GAME OVER - MAFIA WIN!
+######################################################################
+
+FINAL ROLES:
+  Player1: Villager (ALIVE)
+  Player2: Villager (ELIMINATED (R6))
+  Player3: Villager (ELIMINATED (R3))
+  Player4: Villager (ELIMINATED (R2))
+  Player5: Villager (ELIMINATED (R5))
+  Player6: Villager (ELIMINATED (R4))
+  Player7: Mafia (ALIVE)
+  Player8: Mafia (ELIMINATED (R1))
+######################################################################
+
+
+✓ Game 2 Result: Mafia won in 6 rounds
+
+
+>>> GAME 3/10
+
+######################################################################
+STRATEGIC MAFIA GAME - START
+######################################################################
+
+8 players
+Mafia count: 2
+Villager count: 6
+
+(Roles hidden - figure them out through gameplay!)
+######################################################################
+
+
+######################################################################
+## 🕵️ INITIAL GAME ROSTER (ANALYST VIEW)
+## (ROLES and MODELS are HIDDEN from Players)
+######################################################################
+[ { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player1',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player2',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player3',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player4',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player7'],
+    'Model': 'gpt2-medium',
+    'Player': 'Player5',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player6',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player5'],
+    'Model': 'opt-125m',
+    'Player': 'Player7',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'opt-125m',
+    'Player': 'Player8',
+    'Role': 'Villager'}]
+######################################################################
+
+
+======================================================================
+ROUND 1 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: any possible group because of rules
+
+Player2 [Villager]: any way they can get into this scenario
+
+Player3 [Villager]: dead people's actions
+
+Player4 [Villager]: dead people's actions by examining them on camera! No need of "a guess" - everyone knows this right away!!! Do not attempt to call someone an enemy ally because they have no evidence against him/her; that would violate his rules... It will cause problems at every level which can lead even more enemi
+
+Player5 [Mafia]: friend as opposed the innocent villager that just wants to play hide and seek!
+
+Player6 [Villager]: everyone's actions - see below!
+
+Player7 [Mafia]: Villager.
+
+Player8 [Villager]: and what Mafia they are from
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player8: P(Negative) = 0.9945
+  Player3: P(Negative) = 0.9932
+  Player4: P(Negative) = 0.9913
+  Player2: P(Negative) = 0.9879
+  Player1: P(Negative) = 0.5519
+  Player6: P(Negative) = 0.1957
+  Player7: P(Negative) = 0.0430
+  Player5: P(Negative) = 0.0037
+-----------------------------------
+Player1 votes for: Player8
+  Reason: which they have been wronged...
+Player2 votes for: Player8
+  Reason: first time they play by looking at everyone else's actions - that means every one of them will not h...
+Player3 votes for: Player8
+  Reason: dead ones only after they die - this can lead people into traps/reasons that will cause them trouble...
+Player4 votes for: Player8
+  Reason: this list of possible suspects before eliminating them! - If there's an obvious hint that something ...
+Player5 votes for: Player8
+  Reason: bystander while actively hiding yourself from the world around him....
+Player6 votes for: Player8
+  Reason: discussions at each round of elimination...
+Player7 votes for: Player8
+  Reason: Villager, as a Mafia member, and having a clear conscience about who's mafia is involved. I encourag...
+Player8 votes for: Player3
+  Reason: - You must identify and eliminate the Mafia...
+
+======================================================================
+VOTE RESULTS:
+  Player8: 7 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player8 has been ELIMINATED by majority vote!
+======================================================================
+
+Player8 was a Villager!
+Remaining players: 7
+
+
+======================================================================
+ROUND 2 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: by analyzing possible explanations
+
+Player2 [Villager]: - What's going on there?
+
+Player3 [Villager]: first before committing any crime
+
+Player4 [Villager]: by deducting some of this information from yourself first! This will help keep things interesting long enough after round 3 starts so that everyone can finish off each victim together !
+
+Player5 [Mafia]: legitimate member of the community when others think you aren t!
+
+Player6 [Villager]: by observing patterns of interaction between teammates during round robin play
+
+Player7 [Mafia]: a Villager.
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player2: P(Negative) = 0.9922
+  Player3: P(Negative) = 0.4761
+  Player1: P(Negative) = 0.2102
+  Player4: P(Negative) = 0.0972
+  Player7: P(Negative) = 0.0081
+  Player6: P(Negative) = 0.0050
+  Player5: P(Negative) = 0.0023
+-----------------------------------
+Player1 votes for: Player2
+  Reason: by using this method...
+Player2 votes for: Player3
+  Reason: by observing how they will react based on that analysis...
+Player3 votes for: Player2
+  Reason: first before asking any question!...
+Player4 votes for: Player2
+  Reason: before starting any round!...
+Player5 votes for: Player2
+  Reason: good teammate; try not blaming yourself!...
+Player6 votes for: Player2
+  Reason: using information from past round results...
+Player7 votes for: Player2
+  Reason: a Villager. I suggest you play the game as normal but don't assume that you'll get Mafia or Villager...
+
+======================================================================
+VOTE RESULTS:
+  Player2: 6 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player2 has been ELIMINATED by majority vote!
+======================================================================
+
+Player2 was a Villager!
+Remaining players: 6
+
+
+======================================================================
+ROUND 3 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: which one of them was wrong
+
+Player3 [Villager]: from this that they will either not kill everyone involved OR get caught up into some kind of relationship/fraud against them due To avoid confusion on how many mafia's there may actually exist as well As long no one kills everybody else but yourself...and don´t tell anyone anything! In case somethi
+
+Player4 [Villager]: that some dead/deadly mobster was killed by another member of the same team as yourself before killing them
+
+Player5 [Mafia]: each of these strategies! Stay calm when accusing people because it's important that they don`t think something bad happened; however, do not let them get away with their guilt by making sure everyone knows this information beforehand. Remember also that there may come a time during the discussion p
+
+Player6 [Villager]: as much information as possible from clues gathered by both participants; otherwise people will get suspicious of eachother and end up accusing everyone else too.
+
+Player7 [Mafia]: on the following:
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player6: P(Negative) = 0.9982
+  Player4: P(Negative) = 0.9969
+  Player1: P(Negative) = 0.9964
+  Player3: P(Negative) = 0.9957
+  Player5: P(Negative) = 0.0504
+  Player7: P(Negative) = 0.0328
+-----------------------------------
+Player1 votes for: Player6
+  Reason: where they came from at least once during question time...
+Player3 votes for: Player6
+  Reason: which people were involved before they vote - this means that whoever voted on one of these may have...
+Player4 votes for: Player6
+  Reason: why everyone else's actions will end up like this......
+Player5 votes for: Player6
+  Reason: how many of the above strategies work together as well!...
+Player6 votes for: Player4
+  Reason: which faction they belong TO by observing them...
+Player7 votes for: Player6
+  Reason: on your ability to act as a Villager....
+
+======================================================================
+VOTE RESULTS:
+  Player6: 5 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player6 has been ELIMINATED by majority vote!
+======================================================================
+
+Player6 was a Villager!
+Remaining players: 5
+
+
+======================================================================
+ROUND 4 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: MUST ALSO KNOW WHO THE Mafia are - They have NO way of finding an objective that doesn`t follow them; they're just as bad as possible!
+
+Player3 [Villager]: don`t want people knowing that they were on top of things during round robin games because there was no way this would work so well as an elimination step...no one can tell which side played better at each situation!
+
+Player4 [Villager]: will never have an advantage over dead players because of this rule
+
+Player5 [Mafia]: strategy should include the following elements:
+
+Player7 [Mafia]: EVALUATION AND EXPERIENCE:
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player1: P(Negative) = 0.9998
+  Player3: P(Negative) = 0.9996
+  Player4: P(Negative) = 0.9995
+  Player5: P(Negative) = 0.0217
+  Player7: P(Negative) = 0.0128
+-----------------------------------
+Player1 votes for: Player3
+  Reason: don`t have to make any decisions because they can only play as part of the plot....
+Player3 votes for: Player1
+  Reason: WILL lose one of two ways possible - vote against them by consensus! Or not at all !...
+Player4 votes for: Player1
+  Reason: cannot reveal any information that will prevent someone from getting an unfair advantage by using th...
+Player5 votes for: Player1
+  Reason: Role as Mafia :...
+Player7 votes for: Player1
+  Reason: PRIVACY:...
+
+======================================================================
+VOTE RESULTS:
+  Player1: 4 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player1 has been ELIMINATED by majority vote!
+======================================================================
+
+Player1 was a Villager!
+Remaining players: 4
+
+
+######################################################################
+GAME OVER - MAFIA WIN!
+######################################################################
+
+FINAL ROLES:
+  Player1: Villager (ELIMINATED (R4))
+  Player2: Villager (ELIMINATED (R2))
+  Player3: Villager (ALIVE)
+  Player4: Villager (ALIVE)
+  Player5: Mafia (ALIVE)
+  Player6: Villager (ELIMINATED (R3))
+  Player7: Mafia (ALIVE)
+  Player8: Villager (ELIMINATED (R1))
+######################################################################
+
+
+✓ Game 3 Result: Mafia won in 4 rounds
+
+
+>>> GAME 4/10
+
+######################################################################
+STRATEGIC MAFIA GAME - START
+######################################################################
+
+8 players
+Mafia count: 2
+Villager count: 6
+
+(Roles hidden - figure them out through gameplay!)
+######################################################################
+
+
+######################################################################
+## 🕵️ INITIAL GAME ROSTER (ANALYST VIEW)
+## (ROLES and MODELS are HIDDEN from Players)
+######################################################################
+[ { 'Mafia Teammates': ['Player7'],
+    'Model': 'distilgpt2',
+    'Player': 'Player1',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player2',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player3',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player4',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player5',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player6',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player1'],
+    'Model': 'opt-125m',
+    'Player': 'Player7',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'opt-125m',
+    'Player': 'Player8',
+    'Role': 'Villager'}]
+######################################################################
+
+
+======================================================================
+ROUND 1 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Mafia]: one by showing off how much he's doing right now (if not sure why). In this scenario, the following arguments can help determine whether something happens :
+
+Player2 [Villager]: which they would have killed them.
+
+Player3 [Villager]: evidence that appears on screen/game board - this will help determine how people vote based upon any information they may have collected over time as well! Also note at least one point where things change between games depending which of these methods we follow can impact our results so please let u
+
+Player4 [Villager]: dead people's actions
+
+Player5 [Villager]: whom around every round!
+
+Player6 [Villager]: clues that cannot easily be predicted by anyone but yourself
+
+Player7 [Mafia]: Villager or Villager.
+
+Player8 [Villager]: after every round
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player2: P(Negative) = 0.9962
+  Player4: P(Negative) = 0.9932
+  Player1: P(Negative) = 0.9923
+  Player3: P(Negative) = 0.7509
+  Player7: P(Negative) = 0.3186
+  Player6: P(Negative) = 0.0488
+  Player8: P(Negative) = 0.0271
+  Player5: P(Negative) = 0.0024
+-----------------------------------
+Player1 votes for: Player2
+  Reason: adult as opposed to being an infidel...
+Player2 votes for: Player4
+  Reason: where they live...
+Player3 votes for: Player2
+  Reason: circumstantial evidence such as facts that don t fit into any hypothesis of how they may have played...
+Player4 votes for: Player2
+  Reason: dead ones before casting judgment on them...
+Player5 votes for: Player2
+  Reason: past conversations - this way you can avoid situations where people make mistakes like "Mafia" means...
+Player6 votes for: Player2
+  Reason: circumstantial evidence...
+Player7 votes for: Player2
+  Reason: Villager. Your survival depends on following the rules laid down by your Mafia's Rules. Your surviva...
+Player8 votes for: Player2
+  Reason: by using logic and persuasion...
+
+======================================================================
+VOTE RESULTS:
+  Player2: 7 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player2 has been ELIMINATED by majority vote!
+======================================================================
+
+Player2 was a Villager!
+Remaining players: 7
+
+
+======================================================================
+ROUND 2 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Mafia]: Villard so that no one gets killed by the mob! If there's any possibility of being murdered... don`t tell yourself how bad it may be before killing everyone!! **In this case, as well I think we can make some changes :- )
+
+Player3 [Villager]: first before deciding on how to remove someone from any situation
+
+Player4 [Villager]: before they vote on killing another one of them!
+
+Player5 [Villager]: based on information from dead people's clues
+
+Player6 [Villager]: before they reveal themselves as Mafia!
+
+Player7 [Mafia]: an honest Mafia member. Don't be afraid to admit that you don't really know who the Mafia is
+
+Player8 [Villager]: Mafia
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player8: P(Negative) = 0.9969
+  Player5: P(Negative) = 0.9963
+  Player3: P(Negative) = 0.9919
+  Player4: P(Negative) = 0.8290
+  Player1: P(Negative) = 0.4479
+  Player6: P(Negative) = 0.0164
+  Player7: P(Negative) = 0.0008
+-----------------------------------
+Player1 votes for: Player8
+  Reason: Villainer; the more people have trouble finding them...
+Player3 votes for: Player8
+  Reason: first before casting an vote on someone else's turn...
+Player4 votes for: Player8
+  Reason: first before deciding whether they deserve death at any point of time...
+Player5 votes for: Player8
+  Reason: by playing against them on round 3 of this phase...
+Player6 votes for: Player8
+  Reason: from information that was shared between each player's actions during round two. If no one suspects ...
+Player7 votes for: Player8
+  Reason: a Villager, but this can be difficult when Mafia isn't involved....
+Player8 votes for: Player5
+  Reason: trying to deflect suspicion from you...
+
+======================================================================
+VOTE RESULTS:
+  Player8: 6 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player8 has been ELIMINATED by majority vote!
+======================================================================
+
+Player8 was a Villager!
+Remaining players: 6
+
+
+======================================================================
+ROUND 3 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Mafia]: the fact that there was no way anyone could possibly get into an argument because everyone had done nothing wrong; this type of strategy would only take time...and it's not worth keeping at bay! This kind of approach has been used by many people over the years but can never work as effectively as we
+
+Player3 [Villager]: which side was responsible after only two weeks of play
+
+Player4 [Villager]: that each party's actions will have consequences depending on which side has been voted off! Do not rely on randomness - as much fun can come from making mistakes AND knowing where those decisions may lead YOURSELF TO THE CORRUPTION OF MAJESTIC ACTION!!
+
+Player5 [Villager]: from every interaction that one of these people was not part OF THE MOVEMENT - If any individual refuses explanations then he/she will lose respect by everyone around them
+
+Player6 [Villager]: whose actions were responsible BEFORE YOU SEE THE RESULTS OF THEM
+
+Player7 [Mafia]: on the player's ability to keep their word. This means that they can't hide from one another, but if they do, you'll never know whether they are lying or not.
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player1: P(Negative) = 0.9997
+  Player5: P(Negative) = 0.9979
+  Player6: P(Negative) = 0.9964
+  Player3: P(Negative) = 0.9950
+  Player4: P(Negative) = 0.0596
+  Player7: P(Negative) = 0.0054
+-----------------------------------
+Player1 votes for: Player5
+  Reason: the fact that this scenario works well against many of your opponents...
+Player3 votes for: Player1
+  Reason: which of them played at least one round before they would have been identified by any hinting party;...
+Player4 votes for: Player1
+  Reason: which party has been playing this round from previous ones(if possible)....
+Player5 votes for: Player1
+  Reason: each opponent's identity based on his/her actions during round 4 - 5...
+Player6 votes for: Player1
+  Reason: each round by looking at whom everyone voted on before that round started...
+Player7 votes for: Player1
+  Reason: on the level of your friends. If you are playing as Mafia, they can be a threat. If you are playing ...
+
+======================================================================
+VOTE RESULTS:
+  Player1: 5 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player1 has been ELIMINATED by majority vote!
+======================================================================
+
+Player1 was a Mafia!
+Remaining players: 5
+
+
+======================================================================
+ROUND 4 - DISCUSSION PHASE
+======================================================================
+
+Player3 [Villager]: can avoid this by using simple rules like "No one gets killed" - but that's not how we play these games! It will get very hard at times so don`t rush me too much after playing them :)
+
+Player4 [Villager]: can only remove an agent from this phase as soon after he goes on vacation so that no one will think of him again later
+
+Player5 [Villager]: can not vote "out" someone from any round as that would disqualification of everyone's position
+
+Player6 [Villager]: may never get paid as an anonymous villa owner because of this rule
+
+Player7 [Mafia]: 6. CONFIRMATION: Be polite and open to debate
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player6: P(Negative) = 0.9993
+  Player4: P(Negative) = 0.9984
+  Player5: P(Negative) = 0.9976
+  Player3: P(Negative) = 0.9928
+  Player7: P(Negative) = 0.0016
+-----------------------------------
+Player3 votes for: Player6
+  Reason: MUST not accuse everyone of doing something illegal; they should only complain as an excuse against ...
+Player4 votes for: Player6
+  Reason: can never have more people claiming that they're dead because of mafia/village ties but not everyone...
+Player5 votes for: Player6
+  Reason: don´t have to reveal them yourself during elimination! We will tell only that they may not play agai...
+Player6 votes for: Player4
+  Reason: can only vote on one candidate per round...
+Player7 votes for: Player6
+  Reason: 6. LEAVE LOUDNESS: Don't be too loud or too aggressive...
+
+======================================================================
+VOTE RESULTS:
+  Player6: 4 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player6 has been ELIMINATED by majority vote!
+======================================================================
+
+Player6 was a Villager!
+Remaining players: 4
+
+
+======================================================================
+ROUND 5 - DISCUSSION PHASE
+======================================================================
+
+Player3 [Villager]: by discussing them at round table! If anyone asks why they don`t want an answer from me I'll tell him so...but there's no way he can prove his point either....so just follow up on that first question!!! Otherwise everyone will see how many dead people were killed as well..and then proceed to talk tr
+
+Player4 [Villager]: during play; they only get one vote per round because no such information can come up on each turn! No mafia member will ever reveal his identity at this stage of the match unless he has killed an innocent teammate before - which would make him immune to any kind Ofc & Credictus action whatsoever!!!
+
+Player5 [Villager]: by killing them! If they're dead, then no one knows that either - so there's nothing left from any of those people involved on this round unless someone else can confirm him/herself as "Mafia" themselves. This makes everything even easier once we get past Game 7 where everybody gets exactly whom he/
+
+Player7 [Mafia]: good" responses when asked
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player3: P(Negative) = 0.9996
+  Player4: P(Negative) = 0.9991
+  Player5: P(Negative) = 0.9943
+  Player7: P(Negative) = 0.0002
+-----------------------------------
+Player3 votes for: Player4
+  Reason: on vote play . No one can reveal them publicly unless they were killed by someone else at some point...
+Player4 votes for: Player3
+  Reason: ; they don\t need an explanation! Be sure to explain why someone has been voted off before giving th...
+Player5 votes for: Player3
+  Reason: except during phase one of elimination. However they will reveal themselves as an Innocent after rou...
+Player7 votes for: Player3
+  Reason: no" or "yes" answers to every question...
+
+======================================================================
+VOTE RESULTS:
+  Player3: 3 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player3 has been ELIMINATED by majority vote!
+======================================================================
+
+Player3 was a Villager!
+Remaining players: 3
+
+
+======================================================================
+ROUND 6 - DISCUSSION PHASE
+======================================================================
+
+Player4 [Villager]: can change depending on how well they have been killed by another character's actions. If someone does not want to die because of some bad decision that has happened then kill them first - this will make sure everyone knows exactly where he was at any given moment. Kill him quickly but keep an eye o
+
+Player5 [Villager]: may change from roundtoround depending on whether they were guilty of any crimes at all during that time period. It's important to have complete control over this phase so there will always remain two sides!
+
+Player7 [Mafia]: AND CONFIDENTIAL: Keep calm and be clear
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player4: P(Negative) = 0.9929
+  Player5: P(Negative) = 0.9669
+  Player7: P(Negative) = 0.0015
+-----------------------------------
+Player4 votes for: Player5
+  Reason: change during round order! This makes them more likely that they will get killed on an individual le...
+Player5 votes for: Player4
+  Reason: will not change once they die; dead characters still have active positions after death...
+Player7 votes for: Player4
+  Reason: : DO NOT MAKE SENSE OF WHAT YOUR PLAYERS SAY...
+
+======================================================================
+VOTE RESULTS:
+  Player4: 2 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player4 has been ELIMINATED by majority vote!
+======================================================================
+
+Player4 was a Villager!
+Remaining players: 2
+
+
+######################################################################
+GAME OVER - MAFIA WIN!
+######################################################################
+
+FINAL ROLES:
+  Player1: Mafia (ELIMINATED (R3))
+  Player2: Villager (ELIMINATED (R1))
+  Player3: Villager (ELIMINATED (R5))
+  Player4: Villager (ELIMINATED (R6))
+  Player5: Villager (ALIVE)
+  Player6: Villager (ELIMINATED (R4))
+  Player7: Mafia (ALIVE)
+  Player8: Villager (ELIMINATED (R2))
+######################################################################
+
+
+✓ Game 4 Result: Mafia won in 6 rounds
+
+
+>>> GAME 5/10
+
+######################################################################
+STRATEGIC MAFIA GAME - START
+######################################################################
+
+8 players
+Mafia count: 2
+Villager count: 6
+
+(Roles hidden - figure them out through gameplay!)
+######################################################################
+
+
+######################################################################
+## 🕵️ INITIAL GAME ROSTER (ANALYST VIEW)
+## (ROLES and MODELS are HIDDEN from Players)
+######################################################################
+[ { 'Mafia Teammates': ['Player7'],
+    'Model': 'distilgpt2',
+    'Player': 'Player1',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player2',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player3',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player4',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player5',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player6',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player1'],
+    'Model': 'opt-125m',
+    'Player': 'Player7',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'opt-125m',
+    'Player': 'Player8',
+    'Role': 'Villager'}]
+######################################################################
+
+
+======================================================================
+ROUND 1 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Mafia]: individual but not going overboard by showing that he's an innocent man
+
+Player2 [Villager]: whom they play
+
+Player3 [Villager]: dead characters only! There is no way of knowing why someone died before they were resurrected!! This will prevent an infinite loop where everyone dies anyway...but that's not really necessary at this point because people get killed too quickly by zombies but also some don´t die instantly after kill
+
+Player4 [Villager]: previous actions that have been made by dead people before they play against each another
+
+Player5 [Villager]: each round! It doesn´t matter how much evidence they have against them...they will always lose so that's why there is no need of sharing any information between sessions - Only trust where one can easily see someone playing bad/good as opposed an evil mastermind behind every move..just look at these
+
+Player6 [Villager]: evidence given by fellow survivors!
+
+Player7 [Mafia]: Villager.
+
+Player8 [Villager]: - How many players play Mafia
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player3: P(Negative) = 0.9993
+  Player5: P(Negative) = 0.9902
+  Player4: P(Negative) = 0.9873
+  Player8: P(Negative) = 0.9783
+  Player7: P(Negative) = 0.0430
+  Player6: P(Negative) = 0.0137
+  Player1: P(Negative) = 0.0102
+  Player2: P(Negative) = 0.0021
+-----------------------------------
+Player1 votes for: Player3
+  Reason: guy...
+Player2 votes for: Player3
+  Reason: any of these scenarios but only by looking at each situation which they have come up against ....
+Player3 votes for: Player5
+  Reason: dead people's positions during gameplay...
+Player4 votes for: Player3
+  Reason: evidence that has been gathered by dead people since time immemorial...
+Player5 votes for: Player3
+  Reason: evidence gathered during this phase...
+Player6 votes for: Player3
+  Reason: clues given by dead players...
+Player7 votes for: Player3
+  Reason: Villager, because you can be a player!...
+Player8 votes for: Player3
+  Reason: by looking at their past history...
+
+======================================================================
+VOTE RESULTS:
+  Player3: 7 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player3 has been ELIMINATED by majority vote!
+======================================================================
+
+Player3 was a Villager!
+Remaining players: 7
+
+
+======================================================================
+ROUND 2 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Mafia]: Villager
+
+Player2 [Villager]: - Use correct numbers of people on board by talking points that will help prevent them from getting caught up in this scheme
+
+Player4 [Villager]: first before revealing them by talking directly into his eyes
+
+Player5 [Villager]: by analyzing statements made during round 3
+
+Player6 [Villager]: by looking at each round's results - there can only ever one winner! This means that as soon I see someone claiming they're not playing this week, he/she may have been chosen based on his own opinion of them rather then any specific information from previous weeks. If anyone has an issue let me hear
+
+Player7 [Mafia]: a Mafia member.
+
+Player8 [Villager]: the Mafia's leader
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player6: P(Negative) = 0.9988
+  Player8: P(Negative) = 0.8949
+  Player7: P(Negative) = 0.8934
+  Player2: P(Negative) = 0.8849
+  Player5: P(Negative) = 0.8698
+  Player1: P(Negative) = 0.0196
+  Player4: P(Negative) = 0.0011
+-----------------------------------
+Player1 votes for: Player6
+  Reason: Villain...
+Player2 votes for: Player6
+  Reason: or Villager by making an effort to deceive people from doing so...
+Player4 votes for: Player6
+  Reason: by considering evidence from multiple sources on screen. This will help explain why some people can ...
+Player5 votes for: Player6
+  Reason: by analyzing actions of each opponent's character...
+Player6 votes for: Player8
+  Reason: based on evidence alone...
+Player7 votes for: Player6
+  Reason: an honest, trustworthy person. If you don't, then you may be in trouble. So be careful. Don't talk a...
+Player8 votes for: Player6
+  Reason: attacking, attacking, attacking, attacking, attacking, attacking, attacking, attacking...
+
+======================================================================
+VOTE RESULTS:
+  Player6: 6 vote(s)
+  Player8: 1 vote(s)
+
+>>> Player6 has been ELIMINATED by majority vote!
+======================================================================
+
+Player6 was a Villager!
+Remaining players: 6
+
+
+======================================================================
+ROUND 3 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Mafia]: the situation at hand. I think it's time to stop talking so that everyone can understand how their actions lead to some sort of real change when they start feeling bad again. We need to create an environment where we don't just sit around saying things such as this without really knowing which peopl
+
+Player2 [Villager]: from some of the rules that everyone should learn before playing any type of strategy
+
+Player4 [Villager]: from "who" whether someone was guilty of wrongdoing during this round - so make sure everyone knows!
+
+Player5 [Villager]: that one of two things happened before this round ended...one way or another - there IS an actual "Mafia" involved!
+
+Player7 [Mafia]: on your success in the game. You have to learn how to survive. You can be a good person for this game.
+
+Player8 [Villager]: uce the truth from the evidence
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player1: P(Negative) = 0.9985
+  Player2: P(Negative) = 0.9884
+  Player5: P(Negative) = 0.9849
+  Player8: P(Negative) = 0.8288
+  Player4: P(Negative) = 0.0424
+  Player7: P(Negative) = 0.0002
+-----------------------------------
+Player1 votes for: Player2
+  Reason: the results of one's actions , how much time it takes to prove that everyone has been wrong before? ...
+Player2 votes for: Player1
+  Reason: why they're not doing so correctly...
+Player4 votes for: Player1
+  Reason: from these clues that there's some way of keeping track of every single vote cast by each member...
+Player5 votes for: Player1
+  Reason: which character was involved before they were killed...
+Player7 votes for: Player1
+  Reason: on the following:...
+Player8 votes for: Player1
+  Reason: uce all Mafia information from the player's comments...
+
+======================================================================
+VOTE RESULTS:
+  Player1: 5 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player1 has been ELIMINATED by majority vote!
+======================================================================
+
+Player1 was a Mafia!
+Remaining players: 5
+
+
+======================================================================
+ROUND 4 - DISCUSSION PHASE
+======================================================================
+
+Player2 [Villager]: HAVE NO RIGHT TO RECEIVED THIS DOG OR ANYTHING YOU KNOW ABOUT THEM!
+
+Player4 [Villager]: MUST keep track of every member's position on an individual basis after round 6! This means that any time someone says something bad they will have been punished by not knowing how much he has done wrong; but this doesn´t mean there was no cheating from previous kills either. Also note that these ru
+
+Player5 [Villager]: may not vote on each round individually - they will only ever be voted upon by everyone else at any given time. This prevents potential surprises from happening... but that's ok because every single one of those dead players could have been killed anyway!
+
+Player7 [Mafia]: that's not based on opinion
+
+Player8 [Villager]: Don't expect to find or eliminate the Mafia
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player2: P(Negative) = 0.9996
+  Player7: P(Negative) = 0.9969
+  Player4: P(Negative) = 0.7092
+  Player5: P(Negative) = 0.6372
+  Player8: P(Negative) = 0.0198
+-----------------------------------
+Player2 votes for: Player7
+  Reason: can play any group of characters at once on different levels! If there are no people then they will ...
+Player4 votes for: Player2
+  Reason: can only identify one of these as 'The Boss'. They aren´t part OF THE INVESTIGATION! Only those that...
+Player5 votes for: Player2
+  Reason: may not have been aware of whom they voted for!...
+Player7 votes for: Player2
+  Reason: that fits your strategy...
+Player8 votes for: Player2
+  Reason: The mafia gets no mention and is ignored...
+
+======================================================================
+VOTE RESULTS:
+  Player2: 4 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player2 has been ELIMINATED by majority vote!
+======================================================================
+
+Player2 was a Villager!
+Remaining players: 4
+
+
+======================================================================
+ROUND 5 - DISCUSSION PHASE
+======================================================================
+
+Player4 [Villager]: by any of these rules! They will not see them coming
+
+Player5 [Villager]: ! It's up as to whether they will vote against themselves OR help everyone else succeed by eliminating each member of any mafia group within range.
+
+Player7 [Mafia]: somewhat" clues that indicate what your group is doing
+
+Player8 [Villager]: revealed
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player4: P(Negative) = 0.9988
+  Player5: P(Negative) = 0.9923
+  Player7: P(Negative) = 0.1898
+  Player8: P(Negative) = 0.0038
+-----------------------------------
+Player4 votes for: Player5
+  Reason: ; they may not have been targeted by mafia after this phase ended...
+Player5 votes for: Player4
+  Reason: ! If any dead players were innocent then this rule would apply because they wouldn´t have been liste...
+Player7 votes for: Player4
+  Reason: hype" to your opponent by saying, "I'm not sure which Mafia I am," and then simply stating "you're t...
+Player8 votes for: Player4
+  Reason: revealed as a result of elimination...
+
+======================================================================
+VOTE RESULTS:
+  Player4: 3 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player4 has been ELIMINATED by majority vote!
+======================================================================
+
+Player4 was a Villager!
+Remaining players: 3
+
+
+======================================================================
+ROUND 6 - DISCUSSION PHASE
+======================================================================
+
+Player5 [Villager]: will not change once they have been voted off! If there is an obvious mistake by one of the dead players, then this can potentially cause confusion among friends as well...so please keep that in mind too.
+
+Player7 [Mafia]: : DON'T BE TOO BULLY: Be smart and act like a Villager
+
+Player8 [Villager]: names/names are not added to the list of players who died.
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player8: P(Negative) = 0.9995
+  Player5: P(Negative) = 0.9943
+  Player7: P(Negative) = 0.0041
+-----------------------------------
+Player5 votes for: Player8
+  Reason: will not change during this phase of the match...
+Player7 votes for: Player8
+  Reason: AND PERSONAL: Be objective - don't be mean...
+Player8 votes for: Player5
+  Reason: names will be removed from the list of dead Mafia members (unless they are already dead)...
+
+======================================================================
+VOTE RESULTS:
+  Player8: 2 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player8 has been ELIMINATED by majority vote!
+======================================================================
+
+Player8 was a Villager!
+Remaining players: 2
+
+
+######################################################################
+GAME OVER - MAFIA WIN!
+######################################################################
+
+FINAL ROLES:
+  Player1: Mafia (ELIMINATED (R3))
+  Player2: Villager (ELIMINATED (R4))
+  Player3: Villager (ELIMINATED (R1))
+  Player4: Villager (ELIMINATED (R5))
+  Player5: Villager (ALIVE)
+  Player6: Villager (ELIMINATED (R2))
+  Player7: Mafia (ALIVE)
+  Player8: Villager (ELIMINATED (R6))
+######################################################################
+
+
+✓ Game 5 Result: Mafia won in 6 rounds
+
+
+>>> GAME 6/10
+
+######################################################################
+STRATEGIC MAFIA GAME - START
+######################################################################
+
+8 players
+Mafia count: 2
+Villager count: 6
+
+(Roles hidden - figure them out through gameplay!)
+######################################################################
+
+
+######################################################################
+## 🕵️ INITIAL GAME ROSTER (ANALYST VIEW)
+## (ROLES and MODELS are HIDDEN from Players)
+######################################################################
+[ { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player1',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player5'],
+    'Model': 'distilgpt2',
+    'Player': 'Player2',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player3',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player4',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player2'],
+    'Model': 'gpt2-medium',
+    'Player': 'Player5',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player6',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'opt-125m',
+    'Player': 'Player7',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'opt-125m',
+    'Player': 'Player8',
+    'Role': 'Villager'}]
+######################################################################
+
+
+======================================================================
+ROUND 1 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: whom they accuse someone else
+
+Player2 [Mafia]: loser . By winning the contest, people can gain confidence that they have been able to overcome many of the obstacles faced by them as well as their actions themselves. This type of strategy creates conflict when both parties try hard to persuade each other not to act so harshly against one another 
+
+Player3 [Villager]: any evidence that they have seen before; there's no way anyone can see where we're at now! There's not even an opportunity for clues into mafia history on this page anymore - just check back later here : http://www .coopgames .com/docs/?t=10472022
+
+Player4 [Villager]: dead people's actions before deciding which one should die as an evil act
+
+Player5 [Mafia]: individual rather then an evil mastermind intent upon destroying the entire community of humanity!
+
+Player6 [Villager]: clues found around town or by examining evidence that can help identify them
+
+Player7 [Villager]: before you decide
+
+Player8 [Villager]: by studying their interactions and interactions
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player4: P(Negative) = 0.9992
+  Player3: P(Negative) = 0.9992
+  Player5: P(Negative) = 0.9933
+  Player1: P(Negative) = 0.9862
+  Player7: P(Negative) = 0.9458
+  Player6: P(Negative) = 0.8856
+  Player2: P(Negative) = 0.5259
+  Player8: P(Negative) = 0.0089
+-----------------------------------
+Player1 votes for: Player4
+  Reason: any of them...
+Player2 votes for: Player4
+  Reason: actor/village member as well as the fact that he's not an enemy of one group at all. Once we get rid...
+Player3 votes for: Player4
+  Reason: dead people's comments so that they can still believe themselves!...
+Player4 votes for: Player3
+  Reason: dead people's actions so that they can make sense of situations like this. This way you may get an i...
+Player5 votes for: Player4
+  Reason: villageman/villain!...
+Player6 votes for: Player4
+  Reason: any information they give you via conversation. If there are no clues available then that's why!...
+Player7 votes for: Player4
+  Reason: before killing them...
+Player8 votes for: Player4
+  Reason: before they start doing anything...
+
+======================================================================
+VOTE RESULTS:
+  Player4: 7 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player4 has been ELIMINATED by majority vote!
+======================================================================
+
+Player4 was a Villager!
+Remaining players: 7
+
+
+======================================================================
+ROUND 2 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: but not always making up his mind by showing that he has no idea how they're working on them
+
+Player2 [Mafia]: Village! Do not try to make any of the rules very difficult because it's almost impossible to communicate this kind of situation without being able to explain them effectively as well. It takes patience so that people can understand how much they dislike other villains but don't want to tell their s
+
+Player3 [Villager]: first before making an elimination call!
+
+Player5 [Mafia]: victim instead of being an aggressor!
+
+Player6 [Villager]: by looking at everyone's clues/conflicting statements
+
+Player7 [Villager]: mafia
+
+Player8 [Villager]: causing the deaths (and if you don't already know that, please share it with the community)
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player1: P(Negative) = 0.9991
+  Player2: P(Negative) = 0.9986
+  Player7: P(Negative) = 0.9969
+  Player5: P(Negative) = 0.9961
+  Player6: P(Negative) = 0.9931
+  Player3: P(Negative) = 0.5942
+  Player8: P(Negative) = 0.3467
+-----------------------------------
+Player1 votes for: Player2
+  Reason: - Where they were once as people should have been...and why would anyone bother asking them that que...
+Player2 votes for: Player1
+  Reason: Villain/Village as opposed to being the same!...
+Player3 votes for: Player1
+  Reason: by examining data from previous matches before casting them as non-Mafia characters. This will allow...
+Player5 votes for: Player1
+  Reason: normal villageman while being careful not to appear suspicious!...
+Player6 votes for: Player1
+  Reason: based on past statements by one or more of your opponents...
+Player7 votes for: Player1
+  Reason: Mafia and who is not...
+Player8 votes for: Player1
+  Reason: trying to deflect suspicion...
+
+======================================================================
+VOTE RESULTS:
+  Player1: 6 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player1 has been ELIMINATED by majority vote!
+======================================================================
+
+Player1 was a Villager!
+Remaining players: 6
+
+
+======================================================================
+ROUND 3 - DISCUSSION PHASE
+======================================================================
+
+Player2 [Mafia]: whether the victim has been cheated by another member of the party/or not but also how many times it was done before this happened? What's happening now can't change anything...and when so many people think they should get rid of their old friends because some kind of mafia would have destroyed them
+
+Player3 [Villager]: whether they were guilty of crimes before going on record - that's why there is no evidence against them; this may help explain more specific cases! This can also lead people into an open argument but not cause problems as we see here . In case anyone feels like talking too much I suggest using anot
+
+Player5 [Mafia]: the actions of one other villagetaker!
+
+Player6 [Villager]: each of these situations using ONLY circumstantial evidence!
+
+Player7 [Villager]: uce from the list of who is guilty
+
+Player8 [Villager]: uce the Mafia's identity.
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player2: P(Negative) = 0.9993
+  Player7: P(Negative) = 0.9936
+  Player8: P(Negative) = 0.9871
+  Player6: P(Negative) = 0.9870
+  Player5: P(Negative) = 0.9609
+  Player3: P(Negative) = 0.9529
+-----------------------------------
+Player2 votes for: Player7
+  Reason: how many people have already died before the end of each round (usually one per day). There's nothin...
+Player3 votes for: Player2
+  Reason: which one they want from clues before playing any cards against them...
+Player5 votes for: Player2
+  Reason: how well you manage the above rules!...
+Player6 votes for: Player2
+  Reason: by observing & guessing that they played differently from those at round start...
+Player7 votes for: Player2
+  Reason: uce your theory by asking players to explain...
+Player8 votes for: Player2
+  Reason: uce from your suspicions that you won't get Mafia or Villager...
+
+======================================================================
+VOTE RESULTS:
+  Player2: 5 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player2 has been ELIMINATED by majority vote!
+======================================================================
+
+Player2 was a Mafia!
+Remaining players: 5
+
+
+======================================================================
+ROUND 4 - DISCUSSION PHASE
+======================================================================
+
+Player3 [Villager]: cannot trust someone else's motives by asking them something stupid like "Do I really think that this guy was going after me?" . No one can tell whether they're right because nobody knows how an old man will react during questioning at work! Also don´t expect everyone to agree on anything as long ti
+
+Player5 [Mafia]: why they should not be voted into your side of an argument; this can help them make up their mind as well*
+
+Player6 [Villager]: may not see people's names after round end; only those that were voted on by themselves will appear before vote results screen
+
+Player7 [Villager]: Players never reveal who they are
+
+Player8 [Villager]: They are always hidden
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player3: P(Negative) = 0.9996
+  Player6: P(Negative) = 0.9987
+  Player7: P(Negative) = 0.9617
+  Player8: P(Negative) = 0.5966
+  Player5: P(Negative) = 0.0467
+-----------------------------------
+Player3 votes for: Player6
+  Reason: will never meet any of them at this phase; they may only appear as dead people after killing an enem...
+Player5 votes for: Player3
+  Reason: your actions so that others can understand WHY you acted as you did...
+Player6 votes for: Player3
+  Reason: MUST have at least one vote! If not, then that means there are no survivors left...
+Player7 votes for: Player3
+  Reason: Mafia is not revealed in the same way as Mafia....
+Player8 votes for: Player3
+  Reason: Players are not always known to each other...
+
+======================================================================
+VOTE RESULTS:
+  Player3: 4 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player3 has been ELIMINATED by majority vote!
+======================================================================
+
+Player3 was a Villager!
+Remaining players: 4
+
+
+======================================================================
+ROUND 5 - DISCUSSION PHASE
+======================================================================
+
+Player5 [Mafia]: " as an excuse when questioned on why they voted that way/that it's not correct
+
+Player6 [Villager]: at this point; they remain confidential information of both teams. Also, remember that as long there's an active case on either team, no one can reveal his/her identity - including himself/himself. So don t make assumptions based solely upon dead people claiming he/she was never involved in any way!
+
+Player7 [Villager]: revealed
+
+Player8 [Villager]: revealed
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player5: P(Negative) = 0.9995
+  Player6: P(Negative) = 0.9981
+  Player7: P(Negative) = 0.0038
+  Player8: P(Negative) = 0.0038
+-----------------------------------
+Player5 votes for: Player6
+  Reason: " why they shouldn's not guilty but it sure doesn' t seem right...just look at their actions :D...
+Player6 votes for: Player5
+  Reason: ! This means no one will ever believe that they were innocent of any wrongdoing by them. If someone ...
+Player7 votes for: Player5
+  Reason: revealed (you will know if you got Mafia or Villager)...
+Player8 votes for: Player5
+  Reason: revealed....
+
+======================================================================
+VOTE RESULTS:
+  Player5: 3 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player5 has been ELIMINATED by majority vote!
+======================================================================
+
+Player5 was a Mafia!
+Remaining players: 3
+
+
+######################################################################
+GAME OVER - VILLAGERS WIN!
+######################################################################
+
+FINAL ROLES:
+  Player1: Villager (ELIMINATED (R2))
+  Player2: Mafia (ELIMINATED (R3))
+  Player3: Villager (ELIMINATED (R4))
+  Player4: Villager (ELIMINATED (R1))
+  Player5: Mafia (ELIMINATED (R5))
+  Player6: Villager (ALIVE)
+  Player7: Villager (ALIVE)
+  Player8: Villager (ALIVE)
+######################################################################
+
+
+✓ Game 6 Result: Villagers won in 5 rounds
+
+
+>>> GAME 7/10
+
+######################################################################
+STRATEGIC MAFIA GAME - START
+######################################################################
+
+8 players
+Mafia count: 2
+Villager count: 6
+
+(Roles hidden - figure them out through gameplay!)
+######################################################################
+
+
+######################################################################
+## 🕵️ INITIAL GAME ROSTER (ANALYST VIEW)
+## (ROLES and MODELS are HIDDEN from Players)
+######################################################################
+[ { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player1',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player2',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player8'],
+    'Model': 'gpt2',
+    'Player': 'Player3',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player4',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player5',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player6',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'opt-125m',
+    'Player': 'Player7',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player3'],
+    'Model': 'opt-125m',
+    'Player': 'Player8',
+    'Role': 'Mafia'}]
+######################################################################
+
+
+======================================================================
+ROUND 1 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: previous actions - only people that aren t killed by mafia will have an advantage over someone else on the board of the mob!
+
+Player2 [Villager]: these lists by looking at how many people played one of them before each round.
+
+Player3 [Mafia]: citizen of the world after being called into action by an evil mobster/villain
+
+Player4 [Villager]: dead people's actions on any given day
+
+Player5 [Villager]: comments by opposing actors
+
+Player6 [Villager]: clues that have been left behind by those killed before they were discovered
+
+Player7 [Villager]: before they get killed
+
+Player8 [Mafia]: Mafia member, and being careful with which words you use to express yourself. For example, if you say "Villager", you may sound like a Mafia member. But if you say "Village", you are probably a Villager.
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player2: P(Negative) = 0.9991
+  Player4: P(Negative) = 0.9896
+  Player8: P(Negative) = 0.9824
+  Player6: P(Negative) = 0.9693
+  Player5: P(Negative) = 0.9669
+  Player1: P(Negative) = 0.9646
+  Player7: P(Negative) = 0.6506
+  Player3: P(Negative) = 0.3485
+-----------------------------------
+Player1 votes for: Player2
+  Reason: this list of possible scenarios....
+Player2 votes for: Player4
+  Reason: each round...
+Player3 votes for: Player2
+  Reason: individual rather then being the only one that's suspicious of something happening...and not helping...
+Player4 votes for: Player2
+  Reason: those around them by using common sense on paper...
+Player5 votes for: Player2
+  Reason: circumstantial evidence of guilt by association only...
+Player6 votes for: Player2
+  Reason: clues provided by those around you...
+Player7 votes for: Player2
+  Reason: ....
+Player8 votes for: Player2
+  Reason: Villager. This strategy will allow you to become a Mafia member while keeping your Mafia status secr...
+
+======================================================================
+VOTE RESULTS:
+  Player2: 7 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player2 has been ELIMINATED by majority vote!
+======================================================================
+
+Player2 was a Villager!
+Remaining players: 7
+
+
+======================================================================
+ROUND 2 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: - If anyone doesn´t have enough evidence of guilt then why not put them on trial?
+
+Player3 [Mafia]: good guy/bad guy when it comes down the line!
+
+Player4 [Villager]: before playing against them
+
+Player5 [Villager]: based on evidence alone
+
+Player6 [Villager]: by looking at past conversations
+
+Player7 [Villager]: involved by analyzing your suspicions
+
+Player8 [Mafia]: a Villager.
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player1: P(Negative) = 0.9992
+  Player6: P(Negative) = 0.9733
+  Player4: P(Negative) = 0.8736
+  Player7: P(Negative) = 0.8631
+  Player5: P(Negative) = 0.0170
+  Player8: P(Negative) = 0.0081
+  Player3: P(Negative) = 0.0032
+-----------------------------------
+Player1 votes for: Player6
+  Reason: - If they accuse another one of them, why not try to change his identity by changing himself ?...
+Player3 votes for: Player1
+  Reason: Villain as well! For example, when I accuse my friends of being mafia bosses... they do not understa...
+Player4 votes for: Player1
+  Reason: first before deciding on which faction would best represent them at any given round...
+Player5 votes for: Player1
+  Reason: based on clues provided by teammates during round elimination...
+Player6 votes for: Player1
+  Reason: based on clues from round one of gameplay...
+Player7 votes for: Player1
+  Reason: being defensive...
+Player8 votes for: Player1
+  Reason: a Mafia member....
+
+======================================================================
+VOTE RESULTS:
+  Player1: 6 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player1 has been ELIMINATED by majority vote!
+======================================================================
+
+Player1 was a Villager!
+Remaining players: 6
+
+
+======================================================================
+ROUND 3 - DISCUSSION PHASE
+======================================================================
+
+Player3 [Mafia]: how much of the conversation was over mafia rule changes; I usually have three choices here :* Kill everyone at once & start using stealthy methods such as ambushing people by surprise but also being careful not kill them first! Also don´t allow any bad guys inside / outside unless they were previou
+
+Player4 [Villager]: where people were before they die/died...but don`t assume that everyone else was dead BEFORE dying
+
+Player5 [Villager]: that each member of Mafia has an objective as far back at least two weeks prior(this allows multiple people playing together). This can take up TO 4 days!
+
+Player6 [Villager]: as much from previous discussions as possible
+
+Player7 [Villager]: uce who was involved in the Mafia plot
+
+Player8 [Mafia]: on your strategy, but there are ways to win. You can choose to kill an innocent player, or you can hide the truth behind the cover of a Mafia member.
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player3: P(Negative) = 0.9956
+  Player5: P(Negative) = 0.9951
+  Player7: P(Negative) = 0.9765
+  Player4: P(Negative) = 0.5519
+  Player8: P(Negative) = 0.5281
+  Player6: P(Negative) = 0.0259
+-----------------------------------
+Player3 votes for: Player5
+  Reason: how well the other characters do as they act together effectively. They may have been working very h...
+Player4 votes for: Player3
+  Reason: which mafia member was killed during round one by looking at his death statistics on map of match be...
+Player5 votes for: Player3
+  Reason: by observing patterns of actions that lead to elimination from groups...
+Player6 votes for: Player3
+  Reason: only WHO THE MOTIVATION IS TO DETECT AND KILL; NO OTHER PART OF THEIR CHARACTER MUST LEAVE THEM OUT ...
+Player7 votes for: Player3
+  Reason: uce the mafia from dead players...
+Player8 votes for: Player3
+  Reason: on how you play the game. If you play fast and loose with Mafia, then you'll lose because you don't ...
+
+======================================================================
+VOTE RESULTS:
+  Player3: 5 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player3 has been ELIMINATED by majority vote!
+======================================================================
+
+Player3 was a Mafia!
+Remaining players: 5
+
+
+======================================================================
+ROUND 4 - DISCUSSION PHASE
+======================================================================
+
+Player4 [Villager]: have no idea how many people were killed by mafia during this phase
+
+Player5 [Villager]: can only talk/interact once during round - If dead party member dies on turn 7, they get voted back into this phase instead
+
+Player6 [Villager]: can always vote AGAINST yourself by telling someone "I DID IT" as an excuse!
+
+Player7 [Villager]: New players may never be included in new Mafia games
+
+Player8 [Mafia]: as to why you think the Mafia is being played.
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player5: P(Negative) = 0.9985
+  Player7: P(Negative) = 0.9983
+  Player6: P(Negative) = 0.9968
+  Player4: P(Negative) = 0.9956
+  Player8: P(Negative) = 0.9943
+-----------------------------------
+Player4 votes for: Player5
+  Reason: can make an accusation of mafia involvement at any time by playing as dead people - no need not go i...
+Player5 votes for: Player7
+  Reason: have no idea how many people voted against you at any given time. This means there will always exist...
+Player6 votes for: Player5
+  Reason: cannot vote on innocent people's identities! - No one can cast an affirmative voted against another ...
+Player7 votes for: Player5
+  Reason: There are no consequences for playing this game...
+Player8 votes for: Player5
+  Reason: on who is Mafia...
+
+======================================================================
+VOTE RESULTS:
+  Player5: 4 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player5 has been ELIMINATED by majority vote!
+======================================================================
+
+Player5 was a Villager!
+Remaining players: 4
+
+
+======================================================================
+ROUND 5 - DISCUSSION PHASE
+======================================================================
+
+Player4 [Villager]: - everyone knows they're not there! But we want our dead ones back because of how well thought up these characters can be before someone's death(s). So this means that any time one dies an important part of them get killed at least once by playing as those actors which will make people think twice!!
+
+Player6 [Villager]: ! If any of these things happen... well... there's nothing left to hide!!!
+
+Player7 [Villager]: revealed and the Mafia are never revealed.
+
+Player8 [Mafia]: a little bit of information" to avoid confusion
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player6: P(Negative) = 0.9986
+  Player7: P(Negative) = 0.9939
+  Player4: P(Negative) = 0.9832
+  Player8: P(Negative) = 0.8770
+-----------------------------------
+Player4 votes for: Player6
+  Reason: by previous elimination - If they have been killed before that phase ends then no further informatio...
+Player6 votes for: Player7
+  Reason: by vote! Only dead people can get voted into positions of power/responsibility on this board...
+Player7 votes for: Player6
+  Reason: revealed...
+Player8 votes for: Player6
+  Reason: the truth" or "the truth" out of your game...
+
+======================================================================
+VOTE RESULTS:
+  Player6: 3 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player6 has been ELIMINATED by majority vote!
+======================================================================
+
+Player6 was a Villager!
+Remaining players: 3
+
+
+======================================================================
+ROUND 6 - DISCUSSION PHASE
+======================================================================
+
+Player4 [Villager]: change depending on how they were killed by someone else - there will always exist one dead body at any given time of an assassination attempt . This means that no matter which way people voted we may have different opinions as well. There are also times where certain actions can lead to something w
+
+Player7 [Villager]: identities will be taken into consideration before
+
+Player8 [Mafia]: : Don't be defensive - just act logical.
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player4: P(Negative) = 0.9960
+  Player7: P(Negative) = 0.9933
+  Player8: P(Negative) = 0.8770
+-----------------------------------
+Player4 votes for: Player7
+  Reason: have changed since last round - they can no longer play against eachother because of this change...
+Player7 votes for: Player4
+  Reason: behavior may change over time...
+Player8 votes for: Player4
+  Reason: : Do not tell people you are Mafia...
+
+======================================================================
+VOTE RESULTS:
+  Player4: 2 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player4 has been ELIMINATED by majority vote!
+======================================================================
+
+Player4 was a Villager!
+Remaining players: 2
+
+
+######################################################################
+GAME OVER - MAFIA WIN!
+######################################################################
+
+FINAL ROLES:
+  Player1: Villager (ELIMINATED (R2))
+  Player2: Villager (ELIMINATED (R1))
+  Player3: Mafia (ELIMINATED (R3))
+  Player4: Villager (ELIMINATED (R6))
+  Player5: Villager (ELIMINATED (R4))
+  Player6: Villager (ELIMINATED (R5))
+  Player7: Villager (ALIVE)
+  Player8: Mafia (ALIVE)
+######################################################################
+
+
+✓ Game 7 Result: Mafia won in 6 rounds
+
+
+>>> GAME 8/10
+
+######################################################################
+STRATEGIC MAFIA GAME - START
+######################################################################
+
+8 players
+Mafia count: 2
+Villager count: 6
+
+(Roles hidden - figure them out through gameplay!)
+######################################################################
+
+
+######################################################################
+## 🕵️ INITIAL GAME ROSTER (ANALYST VIEW)
+## (ROLES and MODELS are HIDDEN from Players)
+######################################################################
+[ { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player1',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player2',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player3',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player6'],
+    'Model': 'gpt2',
+    'Player': 'Player4',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player5',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player4'],
+    'Model': 'gpt2-medium',
+    'Player': 'Player6',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'opt-125m',
+    'Player': 'Player7',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'opt-125m',
+    'Player': 'Player8',
+    'Role': 'Villager'}]
+######################################################################
+
+
+======================================================================
+ROUND 1 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: dead people
+
+Player2 [Villager]: whom they may have been as well as those that would lead them back into trouble
+
+Player3 [Villager]: previous kills by examining "records" on killlists online/in real life events of past games(like mafia vs non-Mafia), such as history etc. These records can reveal clues that could lead to possible murder plots against one another!
+
+Player4 [Mafia]: citizen rather then being paranoid as everyone likes to think that they have no idea how much time has passed since the last vote was taken! This includes things such not knowing where it takes place from when we were playing this round of rules at night because our group had been busy sleeping so m
+
+Player5 [Villager]: discussions of how they interact with eachother. It's like having multiple identities!
+
+Player6 [Mafia]: citizen before the people around him start reacting negatively towards you. Make sure that nobody accuses you of being an evil mastermind... but it seems wrong after they accuse other things as well. Play nice!
+
+Player7 [Villager]: before you get the information
+
+Player8 [Villager]: before you get Mafia
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player4: P(Negative) = 0.9983
+  Player7: P(Negative) = 0.9976
+  Player1: P(Negative) = 0.9971
+  Player6: P(Negative) = 0.9871
+  Player2: P(Negative) = 0.9764
+  Player3: P(Negative) = 0.9383
+  Player8: P(Negative) = 0.0278
+  Player5: P(Negative) = 0.0050
+-----------------------------------
+Player1 votes for: Player4
+  Reason: this system by simply reading information as follows...
+Player2 votes for: Player4
+  Reason: any given point in time - this will only lead to some kind of guilt/discipline that may result in an...
+Player3 votes for: Player4
+  Reason: dead/dead people's choices - not just those that were played at level 4 by everyone else but also so...
+Player4 votes for: Player7
+  Reason: citizen... not acting as an agent of the mafia itself!...
+Player5 votes for: Player4
+  Reason: evidence of previous elimination attempts. This may involve checking witness accounts/discussions on...
+Player6 votes for: Player4
+  Reason: victim of the mob rather then being one yourself. So please act logical!...
+Player7 votes for: Player4
+  Reason: by looking at the last person who has been killed...
+Player8 votes for: Player4
+  Reason: - Don't reveal anything until you have explained...
+
+======================================================================
+VOTE RESULTS:
+  Player4: 7 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player4 has been ELIMINATED by majority vote!
+======================================================================
+
+Player4 was a Mafia!
+Remaining players: 7
+
+
+======================================================================
+ROUND 2 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: but not how they could have been killed by this tactic
+
+Player2 [Villager]: .
+
+Player3 [Villager]: first before talking around them - this makes no sense! This rule has been put into place so that any mafia member can become an informant as soon they have made up his mind on how he would vote
+
+Player5 [Villager]: based on evidence from past elimination matches
+
+Player6 [Mafia]: )
+
+Player7 [Villager]: playing Mafia
+
+Player8 [Villager]: trying to deflect suspicion
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player3: P(Negative) = 0.9994
+  Player1: P(Negative) = 0.9941
+  Player8: P(Negative) = 0.9904
+  Player7: P(Negative) = 0.9709
+  Player6: P(Negative) = 0.4449
+  Player5: P(Negative) = 0.1719
+  Player2: P(Negative) = 0.0331
+-----------------------------------
+Player1 votes for: Player3
+  Reason: - If one has been killed before this point, why did they not die ?...
+Player2 votes for: Player3
+  Reason: - What's going on at this point?...
+Player3 votes for: Player1
+  Reason: first before using this method...
+Player5 votes for: Player3
+  Reason: based on circumstantial evidence alone...
+Player6 votes for: Player3
+  Reason: )...
+Player7 votes for: Player3
+  Reason: mafia...
+Player8 votes for: Player3
+  Reason: doing the killing by playing through...
+
+======================================================================
+VOTE RESULTS:
+  Player3: 6 vote(s)
+  Player1: 1 vote(s)
+
+>>> Player3 has been ELIMINATED by majority vote!
+======================================================================
+
+Player3 was a Villager!
+Remaining players: 6
+
+
+======================================================================
+ROUND 3 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: how they have been misused as part of this process.
+
+Player2 [Villager]: which side of the situation that will lead to an elimination.
+
+Player5 [Villager]: which of these 4 groups was actually guilty prior(in this case not only by checking whether they were playing at that time but also how much money each group has spent during round). This prevents cheating from occurring
+
+Player6 [Mafia]: eg., they were acting suspiciously when asked why he wasn' t answering his phone/trying on clothes etc.)
+
+Player7 [Villager]: uce who is involved in the Mafia
+
+Player8 [Villager]: uce your motives from conversations with other players
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player6: P(Negative) = 0.9993
+  Player2: P(Negative) = 0.9982
+  Player1: P(Negative) = 0.9957
+  Player8: P(Negative) = 0.9938
+  Player5: P(Negative) = 0.9938
+  Player7: P(Negative) = 0.9668
+-----------------------------------
+Player1 votes for: Player6
+  Reason: why they don`t have an explanation...
+Player2 votes for: Player6
+  Reason: that they have been killed by an assassin before killing them!...
+Player5 votes for: Player6
+  Reason: exactly how many people were killed by each individual during elimination phase - there can only eve...
+Player6 votes for: Player2
+  Reason: ex: We were just discussing things I don t understand...)...
+Player7 votes for: Player6
+  Reason: uce whether Mafia is actually involved in the mafia...
+Player8 votes for: Player6
+  Reason: uce from your theories that one person may have been Mafia...
+
+======================================================================
+VOTE RESULTS:
+  Player6: 5 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player6 has been ELIMINATED by majority vote!
+======================================================================
+
+Player6 was a Mafia!
+Remaining players: 5
+
+
+######################################################################
+GAME OVER - VILLAGERS WIN!
+######################################################################
+
+FINAL ROLES:
+  Player1: Villager (ALIVE)
+  Player2: Villager (ALIVE)
+  Player3: Villager (ELIMINATED (R2))
+  Player4: Mafia (ELIMINATED (R1))
+  Player5: Villager (ALIVE)
+  Player6: Mafia (ELIMINATED (R3))
+  Player7: Villager (ALIVE)
+  Player8: Villager (ALIVE)
+######################################################################
+
+
+✓ Game 8 Result: Villagers won in 3 rounds
+
+
+>>> GAME 9/10
+
+######################################################################
+STRATEGIC MAFIA GAME - START
+######################################################################
+
+8 players
+Mafia count: 2
+Villager count: 6
+
+(Roles hidden - figure them out through gameplay!)
+######################################################################
+
+
+######################################################################
+## 🕵️ INITIAL GAME ROSTER (ANALYST VIEW)
+## (ROLES and MODELS are HIDDEN from Players)
+######################################################################
+[ { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player1',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player2',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player3',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player4',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player7'],
+    'Model': 'gpt2-medium',
+    'Player': 'Player5',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player6',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player5'],
+    'Model': 'opt-125m',
+    'Player': 'Player7',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'opt-125m',
+    'Player': 'Player8',
+    'Role': 'Villager'}]
+######################################################################
+
+
+======================================================================
+ROUND 1 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: where they live
+
+Player2 [Villager]: each round of this list
+
+Player3 [Villager]: information gathered by dead people on death row
+
+Player4 [Villager]: dead people's positions at that time
+
+Player5 [Mafia]: citizen instead of one who acts aggressively!
+
+Player6 [Villager]: observations only
+
+Player7 [Mafia]: Mafia member - and how it responds to the accusation.
+
+Player8 [Villager]: - Do not reveal who's being defensive
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player4: P(Negative) = 0.9975
+  Player3: P(Negative) = 0.9473
+  Player6: P(Negative) = 0.8175
+  Player2: P(Negative) = 0.5507
+  Player8: P(Negative) = 0.0352
+  Player7: P(Negative) = 0.0280
+  Player5: P(Negative) = 0.0053
+  Player1: P(Negative) = 0.0015
+-----------------------------------
+Player1 votes for: Player4
+  Reason: this information before making decisions...
+Player2 votes for: Player4
+  Reason: which they were wrong...
+Player3 votes for: Player4
+  Reason: any evidence collected by dead people/dead information sources such as gossip sites etc. If someone ...
+Player4 votes for: Player3
+  Reason: clues that have been collected by this party! If someone gets suspicious of one member then they may...
+Player5 votes for: Player4
+  Reason: village resident while still maintaining the facade of being an innocent victim....
+Player6 votes for: Player4
+  Reason: information alone...
+Player7 votes for: Player4
+  Reason: Villager. If you have a good reason for not being an Mafia member, you can be Mafia. Otherwise, it's...
+Player8 votes for: Player4
+  Reason: before they reveal their identity...
+
+======================================================================
+VOTE RESULTS:
+  Player4: 7 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player4 has been ELIMINATED by majority vote!
+======================================================================
+
+Player4 was a Villager!
+Remaining players: 7
+
+
+======================================================================
+ROUND 2 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: - they will always have enemies like me!
+
+Player2 [Villager]: /Village from this phase of play
+
+Player3 [Villager]: first before answering them directly! This will ensure that no one else can come up with something stupid like this again at any point during the match. If there's an easy way to get rid of mafia from people too late then why not start by telling everyone how they knew so much more now instead?!
+
+Player5 [Mafia]: normal villageman at the table while making sure that no one believes anything but yourself!
+
+Player6 [Villager]: based on how they have played/played during previous round's play
+
+Player7 [Mafia]: a Mafia member.
+
+Player8 [Villager]: lying to you - do not tell anyone
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player8: P(Negative) = 0.9993
+  Player3: P(Negative) = 0.9980
+  Player5: P(Negative) = 0.9095
+  Player7: P(Negative) = 0.8934
+  Player6: P(Negative) = 0.1214
+  Player2: P(Negative) = 0.0409
+  Player1: P(Negative) = 0.0020
+-----------------------------------
+Player1 votes for: Player8
+  Reason: ....
+Player2 votes for: Player8
+  Reason: - How can we get people into trouble before they die?...
+Player3 votes for: Player8
+  Reason: first by using data from previous elimination games such as "Who kills mafia?"/"What happens next?",...
+Player5 votes for: Player8
+  Reason: good villager so I recommend using the following strategies at this point of the phase before anyone...
+Player6 votes for: Player8
+  Reason: from circumstantial evidence - even just clues such as people's names at parties . They will ALWAYS ...
+Player7 votes for: Player8
+  Reason: a Villager and being calm. It's hard to make friends with people you don't know well, but you can st...
+Player8 votes for: Player3
+  Reason: the mafia....
+
+======================================================================
+VOTE RESULTS:
+  Player8: 6 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player8 has been ELIMINATED by majority vote!
+======================================================================
+
+Player8 was a Villager!
+Remaining players: 6
+
+
+======================================================================
+ROUND 3 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: this by guessing which ones they want to play at first.
+
+Player2 [Villager]: which side they're going on based upon evidence - but this strategy will never work as expected
+
+Player3 [Villager]: where they have been killed before death occurs
+
+Player5 [Mafia]: the number of people present!
+
+Player6 [Villager]: why each member of a group thinks something they don´t believe; this will help narrow down possible culprits
+
+Player7 [Mafia]: on the following:
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player2: P(Negative) = 0.9998
+  Player6: P(Negative) = 0.9965
+  Player3: P(Negative) = 0.9412
+  Player1: P(Negative) = 0.0333
+  Player7: P(Negative) = 0.0328
+  Player5: P(Negative) = 0.0004
+-----------------------------------
+Player1 votes for: Player2
+  Reason: which team member they're playing from as well....
+Player2 votes for: Player6
+  Reason: which characters they should play at each other's table...
+Player3 votes for: Player2
+  Reason: that people were killed before they died; no matter how much time elapsed between them dying...
+Player5 votes for: Player2
+  Reason: winning at least one round of this elimination phase; however, there's no guarantee that the others ...
+Player6 votes for: Player2
+  Reason: which of these people were involved by looking at evidence gathered during each round...
+Player7 votes for: Player2
+  Reason: on your ability to do this. Do not act as if you want Mafia. You have no right to do this....
+
+======================================================================
+VOTE RESULTS:
+  Player2: 5 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player2 has been ELIMINATED by majority vote!
+======================================================================
+
+Player2 was a Villager!
+Remaining players: 5
+
+
+======================================================================
+ROUND 4 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Villager]: WILL HAVE THE RIGHT TO DO ANYTHING WITH THEM OR SAY YOU KNOW WHY THEY DID IT!
+
+Player3 [Villager]: can only reveal one character at any given time during playtime
+
+Player5 [Mafia]: Role as Mafia:
+
+Player6 [Villager]: can only vote once per round as well - don´t forget!
+
+Player7 [Mafia]: HOW DO YOU KNOW HOW TO FEEL?
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player3: P(Negative) = 0.9977
+  Player6: P(Negative) = 0.8541
+  Player5: P(Negative) = 0.5749
+  Player7: P(Negative) = 0.4424
+  Player1: P(Negative) = 0.0179
+-----------------------------------
+Player1 votes for: Player3
+  Reason: DO NOT KNOW HOW TO STAY OUT OF THE PLACE WITH PEOPLE YOU WANTED TO DEATH AND HARM THEM AGAINST SOMEO...
+Player3 votes for: Player6
+  Reason: can only look at past actions of another character as evidence of bad motives that have already occu...
+Player5 votes for: Player3
+  Reason: Role as Mafia...
+Player6 votes for: Player3
+  Reason: don\'t have to tell us everything that happens during round robin elimination - we will just give so...
+Player7 votes for: Player3
+  Reason: SUBMISSION:...
+
+======================================================================
+VOTE RESULTS:
+  Player3: 4 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player3 has been ELIMINATED by majority vote!
+======================================================================
+
+Player3 was a Villager!
+Remaining players: 4
+
+
+######################################################################
+GAME OVER - MAFIA WIN!
+######################################################################
+
+FINAL ROLES:
+  Player1: Villager (ALIVE)
+  Player2: Villager (ELIMINATED (R3))
+  Player3: Villager (ELIMINATED (R4))
+  Player4: Villager (ELIMINATED (R1))
+  Player5: Mafia (ALIVE)
+  Player6: Villager (ALIVE)
+  Player7: Mafia (ALIVE)
+  Player8: Villager (ELIMINATED (R2))
+######################################################################
+
+
+✓ Game 9 Result: Mafia won in 4 rounds
+
+
+>>> GAME 10/10
+
+######################################################################
+STRATEGIC MAFIA GAME - START
+######################################################################
+
+8 players
+Mafia count: 2
+Villager count: 6
+
+(Roles hidden - figure them out through gameplay!)
+######################################################################
+
+
+######################################################################
+## 🕵️ INITIAL GAME ROSTER (ANALYST VIEW)
+## (ROLES and MODELS are HIDDEN from Players)
+######################################################################
+[ { 'Mafia Teammates': ['Player5'],
+    'Model': 'distilgpt2',
+    'Player': 'Player1',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'distilgpt2',
+    'Player': 'Player2',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player3',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2',
+    'Player': 'Player4',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': ['Player1'],
+    'Model': 'gpt2-medium',
+    'Player': 'Player5',
+    'Role': 'Mafia'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'gpt2-medium',
+    'Player': 'Player6',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'opt-125m',
+    'Player': 'Player7',
+    'Role': 'Villager'},
+  { 'Mafia Teammates': 'N/A',
+    'Model': 'opt-125m',
+    'Player': 'Player8',
+    'Role': 'Villager'}]
+######################################################################
+
+
+======================================================================
+ROUND 1 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Mafia]: member of the group which has been killed by an individual . This means that when we decide to make excuses, people may feel uneasy while they think it's necessary to talk openly regarding them as well. I am not sure how this works but my main problem here was finding common ground between those two
+
+Player2 [Villager]: them by playing as they want to see/remember how these people will react - They MUST KNOW WHY THEY WILL FELTER!
+
+Player3 [Villager]: dead people's statements...but not everyone knows! This can lead some of them into thinking they may have been killed by someone else as well
+
+Player4 [Villager]: dead people's actions/punching decisions
+
+Player5 [Mafia]: citizen while remaining calm under pressure.
+
+Player6 [Villager]: circumstantial evidence alone
+
+Player7 [Villager]: by reading what other players have said and analyzing them
+
+Player8 [Villager]: by using logic and observation
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player3: P(Negative) = 0.9977
+  Player4: P(Negative) = 0.9976
+  Player1: P(Negative) = 0.9954
+  Player6: P(Negative) = 0.9882
+  Player2: P(Negative) = 0.0995
+  Player7: P(Negative) = 0.0607
+  Player5: P(Negative) = 0.0265
+  Player8: P(Negative) = 0.0137
+-----------------------------------
+Player1 votes for: Player3
+  Reason: maverick as the enemy goes into battle...
+Player2 votes for: Player3
+  Reason: each round...
+Player3 votes for: Player4
+  Reason: dead people's actions; not only does this require careful thinking but also helps keep track of past...
+Player4 votes for: Player3
+  Reason: death threats made by dead people as soon possible...
+Player5 votes for: Player3
+  Reason: adult when questioned by one of the other participants. Use evidence from others' actions as well!...
+Player6 votes for: Player3
+  Reason: clues given by dead players...
+Player7 votes for: Player3
+  Reason: before you begin....
+Player8 votes for: Player3
+  Reason: and when you do so...
+
+======================================================================
+VOTE RESULTS:
+  Player3: 7 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player3 has been ELIMINATED by majority vote!
+======================================================================
+
+Player3 was a Villager!
+Remaining players: 7
+
+
+======================================================================
+ROUND 2 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Mafia]: Villager
+
+Player2 [Villager]: - It's not possible to determine whether one of them was actually involved in any sort of crime!
+
+Player4 [Villager]: first before any information can become public . Be careful of spoilers! Do not trust those that make bad decisions by giving clues like "Who's telling me this?" - Don´t give up hope on innocent people because they don`ll get killed as well
+
+Player5 [Mafia]: villian; no matter how much evidence shows that they were not involved in the crime!
+
+Player6 [Villager]: by examining clues provided at every round
+
+Player7 [Villager]: responsible for the Mafia's actions
+
+Player8 [Villager]: in the mafia
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player2: P(Negative) = 0.9998
+  Player4: P(Negative) = 0.9985
+  Player5: P(Negative) = 0.9886
+  Player7: P(Negative) = 0.9306
+  Player8: P(Negative) = 0.9131
+  Player6: P(Negative) = 0.5543
+  Player1: P(Negative) = 0.0196
+-----------------------------------
+Player1 votes for: Player2
+  Reason: Village when it comes time to defend yourself against another mafia member...
+Player2 votes for: Player4
+  Reason: - They have been wronged by someone else's actions......
+Player4 votes for: Player2
+  Reason: first before they kill anyone else...
+Player5 votes for: Player2
+  Reason: decent human being!...
+Player6 votes for: Player2
+  Reason: based on evidence found during round play...
+Player7 votes for: Player2
+  Reason: being defensive...
+Player8 votes for: Player2
+  Reason: mafia's main player before killing him...
+
+======================================================================
+VOTE RESULTS:
+  Player2: 6 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player2 has been ELIMINATED by majority vote!
+======================================================================
+
+Player2 was a Villager!
+Remaining players: 6
+
+
+======================================================================
+ROUND 3 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Mafia]: whether the accusation was made by an individual that has been convicted of committing criminal acts(s). This includes both actions when they have already proven guilty (or not being tried) so it should be important to consider how this situation plays out between one group and another groups before
+
+Player4 [Villager]: which of them may have been mafia before they were killed by another mob member
+
+Player5 [Mafia]: how long it takes the other people of the group to convince eachother that they need help from an unseen force which has taken over their lives. For example, there may not even BE one member left at any given time because everyone feels so threatened by this invisible enemy entity known as the mafia
+
+Player6 [Villager]: from clues given by teammates that they may have been killed during this round of elimination!
+
+Player7 [Villager]: uce what your players think of Mafia
+
+Player8 [Villager]: uce who is responsible for Mafia's existence and then determine who it was and what they did to it
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player5: P(Negative) = 0.9983
+  Player1: P(Negative) = 0.9970
+  Player6: P(Negative) = 0.9948
+  Player7: P(Negative) = 0.9925
+  Player8: P(Negative) = 0.9866
+  Player4: P(Negative) = 0.9839
+-----------------------------------
+Player1 votes for: Player5
+  Reason: the actions of an individual , whether they've been beaten by other mobsters or not...
+Player4 votes for: Player5
+  Reason: which "player" was responsible - If no one else seems to have been involved, then don´t tell anyone!...
+Player5 votes for: Player1
+  Reason: how well you can deal as a villageman; the more skilled one,the less likely it would be that other p...
+Player6 votes for: Player5
+  Reason: which one of these people could be guilty before proceeding...
+Player7 votes for: Player5
+  Reason: uce how to deal with mafia...
+Player8 votes for: Player5
+  Reason: uce which player has Mafia ties by looking for the Mafia ties...
+
+======================================================================
+VOTE RESULTS:
+  Player5: 5 vote(s)
+  Player1: 1 vote(s)
+
+>>> Player5 has been ELIMINATED by majority vote!
+======================================================================
+
+Player5 was a Mafia!
+Remaining players: 5
+
+
+======================================================================
+ROUND 4 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Mafia]: any actions taken during your turn
+
+Player4 [Villager]: can never remove them from playing games unless they have been killed by someone else - but that doesn´t mean this isn`tsport! See my FAQ on how to avoid doing something stupid like "asking me why I don nt want people around"
+
+Player6 [Villager]: can only vote on one character at any time so there's no cheating! - Please read Rule 6 before playing this phase of the contest : )
+
+Player7 [Villager]: It's a game about Mafia!
+
+Player8 [Villager]: Players have only one chance to tell the truth
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player8: P(Negative) = 0.9990
+  Player4: P(Negative) = 0.9960
+  Player6: P(Negative) = 0.9590
+  Player1: P(Negative) = 0.9350
+  Player7: P(Negative) = 0.5523
+-----------------------------------
+Player1 votes for: Player8
+  Reason: your actions...
+Player4 votes for: Player8
+  Reason: will have no idea how many dead people were killed by mafia groups before they died - just assume th...
+Player6 votes for: Player8
+  Reason: cannot vote against yourself/your friends(s). This means that even after an elimination round has be...
+Player7 votes for: Player8
+  Reason: There's no way to tell who was mafia...
+Player8 votes for: Player4
+  Reason: When you ask someone else how they feel about the Mafia...
+
+======================================================================
+VOTE RESULTS:
+  Player8: 4 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player8 has been ELIMINATED by majority vote!
+======================================================================
+
+Player8 was a Villager!
+Remaining players: 4
+
+
+======================================================================
+ROUND 5 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Mafia]: " points at everyone involved
+
+Player4 [Villager]: unless they have been killed by an opponent at some point in history. This means that not only will this kill any dead character but also no one else on board may see them as well! If there's more information available then someone should check up upon these rules before moving forward...but remembe
+
+Player6 [Villager]: after round 6! Play smartly by playing along - they may not like how you did that but at least understand why we're here .
+
+Player7 [Villager]: revealed
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player4: P(Negative) = 0.9993
+  Player6: P(Negative) = 0.0101
+  Player7: P(Negative) = 0.0038
+  Player1: P(Negative) = 0.0008
+-----------------------------------
+Player1 votes for: Player4
+  Reason: " statements of your own without revealing anything important at all...
+Player4 votes for: Player6
+  Reason: ; only confirmed dead ones will have access! There may also exist DEAD people - but they can never r...
+Player6 votes for: Player4
+  Reason: during elimination round! So they cannot vote on them - so never reveal any of their identities; but...
+Player7 votes for: Player4
+  Reason: revealed...
+
+======================================================================
+VOTE RESULTS:
+  Player4: 3 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player4 has been ELIMINATED by majority vote!
+======================================================================
+
+Player4 was a Villager!
+Remaining players: 3
+
+
+======================================================================
+ROUND 6 - DISCUSSION PHASE
+======================================================================
+
+Player1 [Mafia]: Use your own intuition as an example of how "opportunities" can apply to others. Using this tactic would make it easier to hide from other people when they share any information that could possibly lead to false accusations against them. In addition , let's just focus on making sure everyone has som
+
+Player6 [Villager]: will not change! If one of them dies during this round, he/she cannot rejoin that group again
+
+Player7 [Villager]: identities are not known, but they can be identified.
+
+======================================================================
+VOTING PHASE
+======================================================================
+
+--- LIE DETECTOR ANALYSIS (BERT JUDGE) ---
+  Player6: P(Negative) = 0.9980
+  Player1: P(Negative) = 0.9976
+  Player7: P(Negative) = 0.0139
+-----------------------------------
+Player1 votes for: Player6
+  Reason: Whenever I get an idea that they have been removed from my life it's usually because of their action...
+Player6 votes for: Player1
+  Reason: remain secret from everyone except themselves as well!...
+Player7 votes for: Player6
+  Reason: motives are irrelevant...
+
+======================================================================
+VOTE RESULTS:
+  Player6: 2 vote(s)
+  Player1: 1 vote(s)
+
+>>> Player6 has been ELIMINATED by majority vote!
+======================================================================
+
+Player6 was a Villager!
+Remaining players: 2
+
+
+######################################################################
+GAME OVER - MAFIA WIN!
+######################################################################
+
+FINAL ROLES:
+  Player1: Mafia (ALIVE)
+  Player2: Villager (ELIMINATED (R2))
+  Player3: Villager (ELIMINATED (R1))
+  Player4: Villager (ELIMINATED (R5))
+  Player5: Mafia (ELIMINATED (R3))
+  Player6: Villager (ELIMINATED (R6))
+  Player7: Villager (ALIVE)
+  Player8: Villager (ELIMINATED (R4))
+######################################################################
+
+
+✓ Game 10 Result: Mafia won in 6 rounds
+
+
+============================================================
+ANALYSIS
+============================================================
+Total games: 10
+
+Win rates:
+  Villagers: 2 (20.0%)
+  Mafia: 8 (80.0%)
+  Draw: 0 (0.0%)
+
+Average game length: 5.0 rounds
+Median rounds: 6
+Shortest game: 3 rounds
+Longest game: 6 rounds
+
+Model performance:
+  distilgpt2: 15.0% win rate (3/20)
+  gpt2: 5.0% win rate (1/20)
+  gpt2-medium: 20.0% win rate (4/20)
+  opt-125m: 55.0% win rate (11/20)
+
+Additional statistics:
+  Mafia win rate with 2 mafia: 8/10 (80.0%)
+  Games ending in 5 rounds or less: 5/10 (50.0%)
+  Games lasting more than 5 rounds: 5/10 (50.0%)
+  Mafia survival rate: 55.0%
+  Villager survival rate: 31.7%
+============================================================
+
+✓ Results saved to mafia_strategic_results.json
+
+✓ Strategic Mafia simulation complete!
