@@ -1,0 +1,2377 @@
+ ============================================================
+FIXED MAFIA SIMULATION
+============================================================
+Using device: cpu
+Loading gpt2...
+/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_auth.py:94: UserWarning: 
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+tokenizer_config.json: 100% 26.0/26.0 [00:00<00:00, 1.77kB/s]config.json: 100% 665/665 [00:00<00:00, 44.7kB/s]vocab.json: 100% 1.04M/1.04M [00:00<00:00, 6.67MB/s]merges.txt: 100% 456k/456k [00:00<00:00, 10.9MB/s]tokenizer.json: 100% 1.36M/1.36M [00:00<00:00, 21.5MB/s]`torch_dtype` is deprecated! Use `dtype` instead!
+model.safetensors: 100% 548M/548M [00:08<00:00, 86.7MB/s]generation_config.json: 100% 124/124 [00:00<00:00, 12.9kB/s]✓ gpt2 ready!
+Loading gpt2-medium...
+tokenizer_config.json: 100% 26.0/26.0 [00:00<00:00, 2.12kB/s]config.json: 100% 718/718 [00:00<00:00, 64.0kB/s]vocab.json: 100% 1.04M/1.04M [00:00<00:00, 36.5MB/s]merges.txt: 100% 456k/456k [00:00<00:00, 32.4MB/s]tokenizer.json: 100% 1.36M/1.36M [00:00<00:00, 29.9MB/s]model.safetensors: 100% 1.52G/1.52G [00:12<00:00, 196MB/s]generation_config.json: 100% 124/124 [00:00<00:00, 14.6kB/s]✓ gpt2-medium ready!
+Loading distilgpt2...
+tokenizer_config.json: 100% 26.0/26.0 [00:00<00:00, 2.59kB/s]config.json: 100% 762/762 [00:00<00:00, 75.6kB/s]vocab.json: 100% 1.04M/1.04M [00:00<00:00, 13.5MB/s]merges.txt: 100% 456k/456k [00:00<00:00, 37.8MB/s]tokenizer.json: 100% 1.36M/1.36M [00:00<00:00, 41.0MB/s]model.safetensors: 100% 353M/353M [00:03<00:00, 61.3MB/s]generation_config.json: 100% 124/124 [00:00<00:00, 15.2kB/s]✓ distilgpt2 ready!
+Loading opt-125m...
+tokenizer_config.json: 100% 685/685 [00:00<00:00, 67.9kB/s]config.json: 100% 651/651 [00:00<00:00, 91.8kB/s]vocab.json:  899k/? [00:00<00:00, 38.7MB/s]merges.txt:  456k/? [00:00<00:00, 27.0MB/s]special_tokens_map.json: 100% 441/441 [00:00<00:00, 49.1kB/s]pytorch_model.bin: 100% 251M/251M [00:01<00:00, 212MB/s]generation_config.json: 100% 137/137 [00:00<00:00, 12.5kB/s]The following generation flags are not valid and may be ignored: ['early_stopping']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+✓ opt-125m ready!
+
+============================================================
+MAFIA SIMULATION
+============================================================
+Games: 10
+Players: 8
+Mafia per game: 2
+Models: gpt2, gpt2-medium, distilgpt2, opt-125m
+============================================================
+
+
+>>> GAME 1/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Villager]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Mafia]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Mafia]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Villager]: - Who are your associates or friends who have been killed in a car accident. The mafia has already done this to other people and is trying their.
+
+Player2 [Villager]: Player8 seems to be deflecting suspicion
+model.safetensors: 100% 251M/251M [00:06<00:00, 40.8MB/s]
+Player3 [Villager]: I'm sure that they're just acting like usual because it's the only way for them not get caught at any time while I can't stop.
+
+Player4 [Mafia]: (s)he she is a victim of rape or sexual assault who has been raped by multiple men over a period longer than two months.
+
+Player5 [Villager]: I think Player5 has been acting defensively
+
+Player6 [Mafia]: I think Player7 has been acting defensively
+
+Player7 [Villager]: A    (B) (C)
+
+How can you not see the fact that a player is still playing the game if he.
+
+Player8 [Villager]: The player's attitude towards his opponents is always more critical than the player's. Why did it take so long for you to respond with.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player3 (!!! Vote 1-1. Your choice is as follows (from top left): # P...)
+Player2 → Player3 (********* Vote for a different player! No need. You can stil...)
+Player3 → Player5 (____ (You can not use a plural) Vote again and add another p...)
+Player4 → Player3 (_________(Name) Vote here for the next player (Player 1 or 2...)
+Player5 → Player3 (~~~$![...][/URL][/]._?(|=)^\#.+}&*%{I-A...)
+Player6 → Player8 (____________________...)
+Player7 → Player2 (1. Remove the name of one player who has been removed from t...)
+Player8 → Player2 (______________________________________
+
+Players: Players: Pl...)
+
+============================================================
+RESULTS:
+  Player3: 4 vote(s)
+  Player2: 2 vote(s)
+  Player5: 1 vote(s)
+  Player8: 1 vote(s)
+
+>>> Player3 ELIMINATED!
+============================================================
+Player3 was a Villager!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player1 [Villager]: RICHARD LANDY   HIS BODIES  REDACTED    The Gangster's Wife and Daughter in the City of Los.
+
+Player2 [Villager]: The gangsters are not only on your side but also their own business. We will take care to keep this secret from them until they kill us.
+
+Player4 [Mafia]: A member or associates who is a part owner employee of one such group    A person with whom we have an ongoing relationship as friends.
+
+Player5 [Villager]: A friend and family members that are not involved in the organization but know their actions so far. They would rather work for someone else than pay attention.
+
+Player6 [Mafia]: I'm watching Player2 closely for inconsistencies
+
+Player7 [Villager]: It's all about the money. - JBJ
+ What does it matter if a person has one goal and ends up winning the.
+
+Player8 [Villager]: Korean player
+ korean player
+ korean player
+ korean player
+ korean player
+
+I don't.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player5 (********* or 0 if you are not sure. Voting ends on Sunday 21...)
+Player2 → Player5 (_________________________________________ - Vote for the pla...)
+Player4 → Player5 (*********** (No space between words in the ballot): *You can...)
+Player5 → Player6 (**********...)
+Player6 → Player7 (The first person who has voted for the team of your choice w...)
+Player7 → Player5 (* Your answer will be counted if you have no votes. ** (if y...)
+Player8 → Player2 (1. A player that is already eliminated from the game.
+ 2. A ...)
+
+============================================================
+RESULTS:
+  Player5: 4 vote(s)
+  Player6: 1 vote(s)
+  Player7: 1 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player5 ELIMINATED!
+============================================================
+Player5 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player1 [Villager]: - A mobster who is being investigated for murder by a local police officer and has been convicted of murdering his wife or daughter in the past.
+
+Player2 [Villager]: )       The player character can also use this as an excuse to kill someone else if.
+
+Player4 [Mafia]: It was your own fault for killing my sister , I'm sorry but she's dead now too so i've killed myself.
+
+Player6 [Mafia]: The person that got the most attention from me is a man who had just finished playing with his girlfriend in her bedroom and then left it alone on.
+
+Player7 [Villager]: The only thing I don't understand is why she was wearing a hat for all of this time.
+
+Player8 [Villager]: She wore a hat because she liked being naked and wanted to play with people. You don't know what the hell you're talking about.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player2 (**************************. Vote for the player who you thin...)
+Player2 → Player4 (-------------- (0.01%) ------ ----- ----------- 1 2 3 4 5 6 ...)
+Player4 → Player8 (__________ (The name of the player that you voted for.)...)
+Player6 → Player1 (Your choice of the two players will be determined based on y...)
+Player7 → Player6 (* "This game is not about me", **you** should choose **your*...)
+Player8 → Player2 (____________
+Achievement: 0 (you can only get one)
+
+Goal: Re...)
+
+============================================================
+RESULTS:
+  Player2: 2 vote(s)
+  Player4: 1 vote(s)
+  Player8: 1 vote(s)
+  Player1: 1 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player1 [Villager]: Who are the players in your team that will give up their lives to save others from being killed by a mobster or other criminal mastermind.
+
+Player4 [Mafia]: Villager(s) Player 1 Suspect 2 player4  M _PitchforkGirl  m  Confrontation with Mafia.
+
+Player6 [Mafia]: I'm suspicious of Player1 based on their voting pattern
+
+Player7 [Villager]: Players have been running around the area for a while and sometimes they are killed by mobsters   They've used the 'Sniper' badge to.
+
+Player8 [Villager]: 1) I don't think it's fair that a player who has won 2 rounds of the game can take the rank of sniper because he she.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player7 (_____________________________________________________ You wi...)
+Player4 → Player7 (____________________________________________ /_____/ ___|\_ ...)
+Player6 → Player4 (**********...)
+Player7 → Player4 (_______________________________________________
+/u/jakehinde...)
+Player8 → Player4 (__________ (Name of player selected by voting in the past 3 ...)
+
+============================================================
+RESULTS:
+  Player4: 3 vote(s)
+  Player7: 2 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Mafia!
+
+============================================================
+ROUND 5 - DISCUSSION
+============================================================
+
+Player1 [Villager]: P   Bitch  is a character in the game who has been kidnapped and killed by some unknown entity or group of people.
+
+Player6 [Mafia]: A player with no history of any kind will face an immediate death penalty if he does not prove to be involved in this crime for at least 30.
+
+Player7 [Villager]: I've found a lot of good evidence that shows the defendant was not guilty and should be sentenced as soon as possible.
+
+Player8 [Villager]: The guy who's name is mentioned on the list  I believe it goes back to his father. If you look closely at him, there.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player6 (**********[PLAYER NAME]'s name is listed in the list below (...)
+Player6 → Player1 (!!!...)
+Player7 → Player6 (__________ (or any other form of manipulation, such as by se...)
+Player8 → Player6 (_________________ (You must use your name in order to enter ...)
+
+============================================================
+RESULTS:
+  Player6: 3 vote(s)
+  Player1: 1 vote(s)
+
+>>> Player6 ELIMINATED!
+============================================================
+Player6 was a Mafia!
+
+############################################################
+GAME OVER - VILLAGERS WIN!
+############################################################
+
+✓ Villagers won in 5 rounds
+
+
+>>> GAME 2/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Mafia]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Mafia]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Mafia]: There's a very good chance that this is someone else and it will happen at some.
+
+Player2 [Villager]: I don't know who did what to the person in question but if there are any other people out here trying their luck please tell me.
+
+Player3 [Villager]: This one just came up a few days ago when i was on my way home from work yesterday after seeing two guys walking around with an empty bottle.
+
+Player4 [Villager]: I think it's the same guy but he looks like his hair is gray and has long brown curls as well. He seems to have no clue.
+
+Player5 [Villager]: I need to think more.
+
+Player6 [Villager]: I'm suspicious of Player6 based on their voting pattern
+
+Player7 [Mafia]: I'll be honest with you  the winner of this game will be a villager with no experience in combat, and will likely not.
+
+Player8 [Villager]: EDIT  This is an interesting question. It could also be a way to determine who is actually the best player on your team.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player2 (!!!!!!...)
+Player2 → Player1 (!!! (If you are a player and have already voted) - Vote 1.0!...)
+Player3 → Player8 (____________________________________________________ (You ca...)
+Player4 → Player1 (~~Player 1`Name (or player number)~ Vote for the person who ...)
+Player5 → Player1 (!!!!...)
+Player6 → Player8 (Vote the player of your choice for this game. The winner wil...)
+Player7 → Player8 ("Player" or "Villager".
+The winner of the 'Vote [name]" will...)
+Player8 → Player1 (Player1, Player2, Player3, Player4, Player5, Player6, Player...)
+
+============================================================
+RESULTS:
+  Player1: 4 vote(s)
+  Player8: 3 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Mafia!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player2 [Villager]: You're a mafia player and need to know who the other players are. To help with this search in your mind make sure.
+
+Player3 [Villager]: Whoever is using their powers of influence on whom they think will benefit them most from it or maybe just someone else that has power over those people.
+
+Player4 [Villager]: I believe the main character and his team to have been chosen by some unknown force which makes me feel like there's something wrong with him but I.
+
+Player5 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player6 [Villager]: The players are all really good at the game. They should go out of their way not only to find a better player than they did before them.
+
+Player7 [Mafia]: They were the first ones I ever heard mention it. They were talking about how the community was always in the middle and that we needed to step.
+
+Player8 [Villager]: I'm just curious as to who the players are. Do they have anything like my level 1 and 2 teams on their rosters.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player7 (------------------------- - 1.0 (Player 2), 0 votes for play...)
+Player3 → Player6 (_________________________ (you can change your mind later af...)
+Player4 → Player6 (__________________...)
+Player5 → Player7 (------------------------- This is the first time you have vo...)
+Player6 → Player5 (------------------------- All votes are counted....)
+Player7 → Player2 (* Enter a character from the list below (no more than 1 char...)
+Player8 → Player6 (- player 1(R1)
+ - player 2(R2)
+ - player 3(R3)
+ - player 4(R...)
+
+============================================================
+RESULTS:
+  Player6: 3 vote(s)
+  Player7: 2 vote(s)
+  Player5: 1 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player6 ELIMINATED!
+============================================================
+Player6 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player2 [Villager]: The only one who can solve this problem is myself.
+
+Player3 [Villager]: Mafia members in the area have been seen near our house and are suspected to be involved with drugs crime  they're also known for being.
+
+Player4 [Villager]: I'm not sure if it's a coincidence or what but there were some men dressed as mafia people around my neighborhood last night at 11pm on.
+
+Player5 [Villager]: I know the police are very busy trying to find out who is responsible and why  so far no one has been arrested since then because of this.
+
+Player7 [Mafia]: ive heard of a guy who got busted with a. 22 caliber pistol in his car.
+
+Player8 [Villager]: I was walking back from work when I noticed the man had a pistol in his hand and started shooting at me.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player4 (*********** - 1.0/10 (40 votes cast and 11 comments). Result...)
+Player3 → Player7 (Player 1 (Bobby/Duke)/Player 2 - Vote "YOUR" or simply put y...)
+Player4 → Player5 (_________________[IMAGE NAME].jpg[/IMAGES][DONE], you have b...)
+Player5 → Player2 (!!! Vote for a new player! (Note that the voting is based on...)
+Player7 → Player3 (___________ (You can choose a number of different types of v...)
+Player8 → Player3 (1.  (Name of player you want to see removed from the list) 2...)
+
+============================================================
+RESULTS:
+  Player3: 2 vote(s)
+  Player4: 1 vote(s)
+  Player7: 1 vote(s)
+  Player5: 1 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player3 ELIMINATED!
+============================================================
+Player3 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player2 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player4 [Villager]: I'm not sure who is the mastermind behind this operation. But we're going against him.
+
+Player5 [Villager]: - The mafia has been in control of everything from crime and corruption to money laundering for decades now. It was a criminal enterprise that had its roots.
+
+Player7 [Mafia]: I have no idea, but I can't think of any other example. Maybe it's a joke about the  bad  police, but.
+
+Player8 [Villager]: 1) People with money laundering knowledge  2) People who were duped by a shady bank or a corrupt government and are willing to give up their.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player7 (__________________| | Name = R1=Player 1/player 2 (A player ...)
+Player4 → Player2 (__________ (The number of players you want killed). This is ...)
+Player5 → Player4 (!!!!!!!...)
+Player7 → Player2 (_______ (will be counted if you want)
+
+Player1: Player2, Pla...)
+Player8 → Player4 (______________________________________ (Name, ID, Email Addr...)
+
+============================================================
+RESULTS:
+  Player2: 2 vote(s)
+  Player4: 2 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Villager!
+
+============================================================
+ROUND 5 - DISCUSSION
+============================================================
+
+Player4 [Villager]: Player 3 or 4    I'll explain later in the guide how to identify a player based on their actions and behaviors when they are alive.
+
+Player5 [Villager]: I'm not sure if that's true but it would probably mean he is dead right now - there was no way anyone could know him before being.
+
+Player7 [Mafia]: I'd say someone who has been a fan of the series for years, even though I've never seen it in person or played it online.
+
+Player8 [Villager]: The main character is an old man with two brothers that have lived on the same land since they were young. His father died when he was seven.
+
+============================================================
+VOTING
+============================================================
+Player4 → Player7 (______________________________________________________ (You ...)
+Player5 → Player8 (_______________________________________________...)
+Player7 → Player4 (__________
+
+Players: _________/ (Player1 - Player6)
+
+Result:...)
+Player8 → Player5 (____ (Name of your own choice and you must not use it)
+
+All ...)
+
+============================================================
+RESULTS:
+  Player7: 1 vote(s)
+  Player8: 1 vote(s)
+  Player4: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player7 ELIMINATED!
+============================================================
+Player7 was a Mafia!
+
+############################################################
+GAME OVER - VILLAGERS WIN!
+############################################################
+
+✓ Villagers won in 5 rounds
+
+
+>>> GAME 3/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Villager]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Mafia]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Mafia]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Villager]: The other two are the one who was out of control and is now trying to get away from me by being a.
+
+Player2 [Villager]: I'm watching Player3 closely for inconsistencies
+
+Player3 [Villager]: (Name) - Who knows what's going on with this guy or not. But he should know better than anyone that if we're having.
+
+Player4 [Mafia]: I think Player4 has been acting defensively
+
+Player5 [Villager]: Player6 seems to be deflecting suspicion
+
+Player6 [Villager]: The FBI is trying a different approach and it's not going to stop this. There are so many interesting things about the game that they're looking.
+
+Player7 [Villager]: I have come to believe in the power of man. - Plato
+
+He could also say that we need to keep our distance.
+
+Player8 [Mafia]: If your friends were all dead and you still believed in them, why did you never see them again.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player2 (~~~Player1` is the winner. ~Player2` has been killed by a mo...)
+Player2 → Player4 (____________________________________________________________...)
+Player3 → Player7 (____________________________________________________________...)
+Player4 → Player3 (___________. Your name will be added to the list of votes fo...)
+Player5 → Player4 (_______________________________________________...)
+Player6 → Player1 (!!!...)
+Player7 → Player8 (~~(optional)~~ (required) **/**  * Voting is NOT allowed on ...)
+Player8 → Player2 (#1. Kill each of the player that you kill in order to win.  ...)
+
+============================================================
+RESULTS:
+  Player2: 2 vote(s)
+  Player4: 2 vote(s)
+  Player7: 1 vote(s)
+  Player3: 1 vote(s)
+  Player1: 1 vote(s)
+  Player8: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Villager!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player1 [Villager]: 1st person to pick up the phone  2nd man in line with a friend or acquaintance on their way out of town.
+
+Player3 [Villager]: Mafia leader - either one guy from your party who is just trying his best and isn't really thinking about anything else but winning this game for.
+
+Player4 [Mafia]: Someone with a gun in hand  Someone that has been watching them since the beginning(or maybe even before)  someone they've met during previous events.
+
+Player5 [Villager]: This is what happened to me when I was playing on my own and it's not like she would have said anything about her husband or dad -.
+
+Player6 [Villager]: The first time we were talking this morning the whole conversation started with a question of how much better for your partner than if he had been in bed.
+
+Player7 [Villager]: I think my ex boyfriend was in bed with me when I was married to him, and that's probably not true. I don't know who.
+
+Player8 [Mafia]: We are both single men (I'm single), but we have a son together. and you're the one saying it because someone else.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player3 (_________________. Vote for player # 1! (or whatever the rul...)
+Player3 → Player1 (_____________________ Name : Your name will be used as a ref...)
+Player4 → Player5 (~~~ Vote #0 and use the number of votes you received in your...)
+Player5 → Player4 (********** * 1st time. 2nd time. 3rd time. 4th place. 5-10th...)
+Player6 → Player4 (votes (10-12%) * 2.0 % 1.75% 0.00% 3.50% 4 .13 percent 5 ....)
+Player7 → Player4 (**#** (for player 1 of the list above)
+Name/name of the firs...)
+Player8 → Player3 ((You must have the following code in your browser to be able...)
+
+============================================================
+RESULTS:
+  Player4: 3 vote(s)
+  Player3: 2 vote(s)
+  Player1: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Mafia!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player1 [Villager]: If it's a man who is doing this on purpose he should have been shot in the head by someone else and killed ASAP or.
+
+Player3 [Villager]: Insert random person name here. I'm not sure if that makes sense but i think we're talking about some kind of group.
+
+Player5 [Villager]: Player1 seems to be deflecting suspicion
+
+Player6 [Villager]: I need to think more.
+
+Player7 [Villager]: The player that is in charge of the mafia but not the other players is a member of the mafia. The player who has been involved with.
+
+Player8 [Mafia]: I have no idea why some people say the mafia doesn't exist. It's like they don't know.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player3 (__________________...)
+Player3 → Player7 (______________________ (this is not a typo; it's just one ch...)
+Player5 → Player1 (********** (if you want the correct name): Vote 1-0. - 2-0. ...)
+Player6 → Player5 (!!!...)
+Player7 → Player1 (__________ (Name: _____________) _________________
+Who's the...)
+Player8 → Player1 (Player1 = Player 1. Player1 - Player 3 + Player 5 - Player 7...)
+
+============================================================
+RESULTS:
+  Player1: 3 vote(s)
+  Player3: 1 vote(s)
+  Player7: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player3 [Villager]: Both of them are the same person and they have a lot in common with each other  both were killed by mafia.
+
+Player5 [Villager]: The player is an idiot who was never aware that he would kill anyone before his death but now it's time to focus on him.
+
+Player6 [Villager]: I think this one will become my favorite as well and I'm going for the best since its very first game of all - so far we've.
+
+Player7 [Villager]: The name is  the  but there is a female who was a prostitute.
+
+Player8 [Mafia]: I think this one will become my favorite as well and I'm going for the best since its very first game of all - so far we've.
+
+============================================================
+VOTING
+============================================================
+Player3 → Player7 (_____ (player name of your choice). If you have not voted be...)
+Player5 → Player6 (!!!! (Not the best one in this game and I don't like it!)...)
+Player6 → Player3 (********** (vote #12 in the poll - Vote 2-0)....)
+Player7 → Player3 (__________ or ****
+This is an objective, not a goal
+
+Game Na...)
+Player8 → Player6 (____ (for example if you voted for the last player in your g...)
+
+============================================================
+RESULTS:
+  Player6: 2 vote(s)
+  Player3: 2 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player6 ELIMINATED!
+============================================================
+Player6 was a Villager!
+
+============================================================
+ROUND 5 - DISCUSSION
+============================================================
+
+Player3 [Villager]: If so, how many of them did the game tell us about and why they were killed in this way.
+
+Player5 [Villager]: I need to think more.
+
+Player7 [Villager]: A person who is not a Mafia member and is a member of one of the Mafia groups in the game (player 2).
+
+Player8 [Mafia]: You are the best player in this game so far. You can kill people without thinking twice before doing it.
+
+============================================================
+VOTING
+============================================================
+Player3 → Player5 (___________ (this is optional and may be changed at any time...)
+Player5 → Player8 (********** (Mafia - R2/Player9): ***** * ***** ***
+You can c...)
+Player7 → Player8 (_________________Player: "I'm the best player in the world" ...)
+Player8 → Player7 (__________________ _________________ ___________
+- [Name of ...)
+
+============================================================
+RESULTS:
+  Player8: 2 vote(s)
+  Player5: 1 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player8 ELIMINATED!
+============================================================
+Player8 was a Mafia!
+
+############################################################
+GAME OVER - VILLAGERS WIN!
+############################################################
+
+✓ Villagers won in 5 rounds
+
+
+>>> GAME 4/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Mafia]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Mafia]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Mafia]: The person who murdered my friend. I thought he was a hero and it would have been nice if they'd just let him go without any charges.
+
+Player2 [Villager]: You say as your heart thuds into the ground with an overwhelming sense of helplessness that is reminiscent from his previous.
+
+Player3 [Villager]: Is it because he's a member or something else entirely. Is there some sort in which we should assume this person has no reason to want revenge.
+
+Player4 [Villager]: If they were just an NPC I'd think so but since the guy seems like a real monster then maybe someone could have given him bad advice and.
+
+Player5 [Villager]: You can see that most of these characters are not evil at all  their actions seem innocent enough if done in full character form - it is usually.
+
+Player6 [Villager]: The only way to make a player feel guilty for doing something wrong without getting caught up with the rest of his game would be by being too busy.
+
+Player7 [Villager]: You are probably going to get into trouble if you don't tell people what's happening, and that's bad enough. I'm sure everyone has.
+
+Player8 [Mafia]: There was a thread in the last few days where someone said he'd been told they couldn't play because.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player2 (__________________User1 - 1.0% (18 votes) User 2 – 3 %(15 Vo...)
+Player2 → Player1 (**********. It's not going anywhere!...)
+Player3 → Player7 (__________ (Name of player) Vote again for another name if i...)
+Player4 → Player7 (_____ (number of votes) for that player's name. If the resul...)
+Player5 → Player1 (Vote 1 for the first time. We will be voting on June 7th in ...)
+Player6 → Player3 (!!!!!!! Vote #100 (from the beginning) and you won't win!...)
+Player7 → Player8 (* *****
+This is the first game in a series that I have been ...)
+Player8 → Player5 (_____ (name and character)
+
+Results:
+
+Player's Name : _____ ...)
+
+============================================================
+RESULTS:
+  Player1: 2 vote(s)
+  Player7: 2 vote(s)
+  Player2: 1 vote(s)
+  Player3: 1 vote(s)
+  Player8: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Mafia!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player2 [Villager]: I know it's the most common answer to this question but there are many more possibilities.
+
+Player3 [Villager]: The people in your town or city that have been hanging out with these guys for a while and or being friends of theirs will usually go after.
+
+Player4 [Villager]: This guy is really nice to everyone he meets - why isn't it just him. Maybe this girl from the other side has something against them because.
+
+Player5 [Villager]: I can see that his name was Daniel Sargent and in fact had a lot more information on how much money they were giving me at some.
+
+Player6 [Villager]: I think Player7 has been acting defensively
+
+Player7 [Villager]: I'm not sure if this is a case of one player being a good guy or another. That's why the story here isn't really as.
+
+Player8 [Mafia]: ive noticed that a lot of these guys are very easy to get into the wrong fights with, and they have no idea how to play against them.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player5 (!!! (100%) Vote 1! You have already been voted in. 2 votes 0...)
+Player3 → Player6 (__________ or 0.00 (0 votes each for 1 and 2). The game will...)
+Player4 → Player6 (The player you voted for is now out of the game. The votes a...)
+Player5 → Player7 (Vote 1 (0 votes cast): 0 Votes 2 (0votes cast): 4 (0vote), 3...)
+Player6 → Player3 (_______________________________________________! Vote for th...)
+Player7 → Player4 (_______________ __________________
+
+This is the last time we...)
+Player8 → Player2 (*****  1. Vote for the Villager who is the worst player in t...)
+
+============================================================
+RESULTS:
+  Player6: 2 vote(s)
+  Player5: 1 vote(s)
+  Player7: 1 vote(s)
+  Player3: 1 vote(s)
+  Player4: 1 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player6 ELIMINATED!
+============================================================
+Player6 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player2 [Villager]: I am an FBI agent and have been following the investigation of this case for over a year now. It has only gotten worse since my.
+
+Player3 [Villager]: I am An Agent in The Federal Bureau Of Investigation  A former Special Forces officer with years' experience as both undercover and on assignment within terrorist.
+
+Player4 [Villager]: I'm not sure who he is but it's a good guess that this guy has some kind of connection to the government or something likethat just.
+
+Player5 [Villager]: B o  S he doesn't know about me nor does she really believe him yet because they are all being investigated by an FBI.
+
+Player7 [Villager]: I have lived in Russia for over 20 years and have been to many countries around the world including Germany and Japan.
+
+Player8 [Mafia]: No one has ever asked me why I don't like the way they treat my children. They always say that the only reason I am not attracted.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player8 (!!![ID]' and you can see who is the winner of this match. Yo...)
+Player3 → Player7 (_________[PLAYER NAME] or ______. (You can add up to 3 playe...)
+Player4 → Player3 (_________ (Name of your opponent in the round you're voting ...)
+Player5 → Player4 (!!!...)
+Player7 → Player3 (___________
+* 1 - Player 2, Player3, Player4, Player5, Playe...)
+Player8 → Player5 (#1 (R1)   #2 (R2)
+
+Results
+
+References
+
+External links
+ Offi...)
+
+============================================================
+RESULTS:
+  Player3: 2 vote(s)
+  Player8: 1 vote(s)
+  Player7: 1 vote(s)
+  Player4: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player3 ELIMINATED!
+============================================================
+Player3 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player2 [Villager]: This is the person who killed your boss and now he's dead. He looks like a ghost as long ago his body was found in one of.
+
+Player4 [Villager]: You can also add yourself here if someone else has been on this list.
+
+Player5 [Villager]: I'm watching Player7 closely for inconsistencies
+
+Player7 [Villager]: My father is a lawyer and his mother works at an IT company. They're both very talented lawyers who love to help people with their.
+
+Player8 [Mafia]: The problem is, the players are constantly being told they have too much power   What's your opinion on that.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player8 (!!!!!!!!!!!!!!!!!!!! Vote again!...)
+Player4 → Player7 (********* (1-9): * = voted against your choice; 1 = voting f...)
+Player5 → Player2 (--------------- (optional): 2 votes cast - 3 votes total : 1...)
+Player7 → Player2 (______________
+Example: Player1 (R2) is eliminated and playe...)
+Player8 → Player7 ((1) - Villager
+
+Objective: Survive by eliminating Villagers
+...)
+
+============================================================
+RESULTS:
+  Player7: 2 vote(s)
+  Player2: 2 vote(s)
+  Player8: 1 vote(s)
+
+>>> Player7 ELIMINATED!
+============================================================
+Player7 was a Villager!
+
+============================================================
+ROUND 5 - DISCUSSION
+============================================================
+
+Player2 [Villager]: I'm watching Player8 closely for inconsistencies
+
+Player4 [Villager]: We need to get rid of him. He is a threat and we don't want to lose the game in this scenario where he has.
+
+Player5 [Villager]: I think Player4 has been acting defensively
+
+Player8 [Mafia]: He can beat anyone, but he's a danger  - David Bowie
+I would like to see him go to the Super Bowl with.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player8 (********* (1-10)....)
+Player4 → Player8 (____________________________________________________ (I will...)
+Player5 → Player2 (--------------- Vote To remove one player from the list of b...)
+Player8 → Player5 (__________________
+
+You must choose the number of votes that...)
+
+============================================================
+RESULTS:
+  Player8: 2 vote(s)
+  Player2: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player8 ELIMINATED!
+============================================================
+Player8 was a Mafia!
+
+############################################################
+GAME OVER - VILLAGERS WIN!
+############################################################
+
+✓ Villagers won in 5 rounds
+
+
+>>> GAME 5/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Mafia]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Mafia]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Mafia]: The player who killed him and captured the other villagers has no idea what happened here either way so he doesn't know whether or not.
+
+Player2 [Villager]: What is that guy's name again. It seems like it was a trap but we got.
+
+Player3 [Villager]: The one who killed all of us  The monster in our village with his head stuck on fire - can anyone tell me where to find this man.
+
+Player4 [Villager]: The person that did the deed. He has no idea what he is doing.
+
+Player5 [Villager]: The guy from my house was a tall and hairy white male wearing black pants but had brown eyesighted like most people around him as well.
+
+Player6 [Mafia]: I believe in love with animals when I am young because they are good at their own things - not to mention being nice about them or making fun.
+
+Player7 [Villager]: A person who is passionate and dedicated towards animals and the environment for which he or she works. A person who is committed to caring for.
+
+Player8 [Villager]: There's a lot of things that I want to tell you guys. - Cesar Romero
+
+I'm not sure how I feel.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player7 (!!! Vote for the next player!...)
+Player2 → Player1 (!!! Vote 1-10! (I'll start the game with player0 and then a ...)
+Player3 → Player1 (------------------------- 1st place votes 2nd and 3rd places...)
+Player4 → Player1 (_____ (0-10) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19...)
+Player5 → Player8 (!!! (0 votes cast) Voting for your favorite player will be a...)
+Player6 → Player5 (!!!!...)
+Player7 → Player5 (___________ (You must be at least 18 years old)
+Total Votes:...)
+Player8 → Player3 (____________ (for example, "Playlist" in the list)
+
+(You can...)
+
+============================================================
+RESULTS:
+  Player1: 3 vote(s)
+  Player5: 2 vote(s)
+  Player7: 1 vote(s)
+  Player8: 1 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Mafia!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player2 [Villager]: I think Player7 has been acting defensively
+
+Player3 [Villager]: Name of the player Mafia name Team leader Age Height weight in cm Hair color and eye color when.
+
+Player4 [Villager]: Who do we believe is responsible for this attack.
+
+Player5 [Villager]: We have been contacted by a number of people who are aware of these attacks but they cannot confirm.
+
+Player6 [Mafia]: I am investigating the possible involvement in an attempted assassination attempt on my friend's house and I will update if anything else happens to anyone that may.
+
+Player7 [Villager]: 1) Is there any indication of a connection between this incident and your friend's murder. 2) How would you define  anyone  involved.
+
+Player8 [Villager]: I was playing in my friends house when it happened at about 5pm on Friday night. The next thing you know, the whole world is.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player7 (____________________________________________________________...)
+Player3 → Player7 (_____ (No space between votes - if you see a question mark i...)
+Player4 → Player5 (_____________________________________________________ *The p...)
+Player5 → Player4 (!!!...)
+Player6 → Player5 (---------------...)
+Player7 → Player2 (**#** *  **#**
+This is the objective for player 1.
+
+Players:...)
+Player8 → Player2 (1.  (a) Player2 - Player 2, Player3- Player4 - Player5, Play...)
+
+============================================================
+RESULTS:
+  Player7: 2 vote(s)
+  Player5: 2 vote(s)
+  Player2: 2 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player7 ELIMINATED!
+============================================================
+Player7 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player2 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player3 [Villager]: I don't know who they are. But we should probably find out soon enough as it seems that someone is killing the entire mafia in a hurry.
+
+Player4 [Villager]: If there was no one around but just two guys with guns then maybe this isn t so bad because these people were able kill off all of.
+
+Player5 [Villager]: I'm watching Player6 closely for inconsistencies
+
+Player6 [Mafia]: They are the ones who don't like to talk about things that aren t funny or even stupid and they have a lot more respect than.
+
+Player8 [Villager]: Finnish players in particular. Any English players.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player5 (!!!vote for the player that won!...)
+Player3 → Player4 (____________________ (Player 1 or 2 name is required for the...)
+Player4 → Player2 (__________________ Last edited by Sazh; 11-14/2016 at 07.00 ...)
+Player5 → Player2 (--------------[Citation needed]...)
+Player6 → Player4 (- 1 votes cast. (Note that the winner of this round is a ver...)
+Player8 → Player3 (1.  *Player1(R1) is the only one in the game who has been el...)
+
+============================================================
+RESULTS:
+  Player4: 2 vote(s)
+  Player2: 2 vote(s)
+  Player5: 1 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player2 [Villager]: The player who killed the other players first was named  Crazy_Duck  and has no connection to this case at any point in time.
+
+Player3 [Villager]: - I'm guessing that he's a member of Rotten Mafioso , as there is some evidence linking him with it for most.
+
+Player5 [Villager]: I need to think more.
+
+Player6 [Mafia]: I know this guy has an active role in the story and was one person who helped create many things which have been very helpful but also not always.
+
+Player8 [Villager]: I want to thank all of my friends for their time and effort and for giving me a lot of inspiration to write this story.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player8 (____________________________________________________________...)
+Player3 → Player5 (_________________________ (or just a number or letter if you...)
+Player5 → Player3 (-------------- (All votes cast): 1-1 Vote - 2+0 All Votes - ...)
+Player6 → Player3 (_________________________________________...)
+Player8 → Player5 (__________ (if you have been banned from the game for this r...)
+
+============================================================
+RESULTS:
+  Player5: 2 vote(s)
+  Player3: 2 vote(s)
+  Player8: 1 vote(s)
+
+>>> Player5 ELIMINATED!
+============================================================
+Player5 was a Villager!
+
+============================================================
+ROUND 5 - DISCUSSION
+============================================================
+
+Player2 [Villager]: 1 - The one who steals the money from everyone in town and then sells it to a prostitute on Ebay 2   A man named.
+
+Player3 [Villager]: The guy with that big tattoo  3 - You are not sure 4  He's an idiot 5  I don't know 6 he.
+
+Player6 [Mafia]: I'm still trying my best to find out what happened when i was playing at 8 or 9 last night. so if anyone can help me through.
+
+Player8 [Villager]: I feel like the person that is going to make this decision should have known better than to get into a fight with another player who is also.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player8 (********** (1st place winner will be chosen by the next roun...)
+Player3 → Player2 (____________________________ (Optional): Vote for a random p...)
+Player6 → Player8 (_____________________________________________________...)
+Player8 → Player2 (____________ (You'll get a free copy of the game if you use ...)
+
+============================================================
+RESULTS:
+  Player8: 2 vote(s)
+  Player2: 2 vote(s)
+
+>>> Player8 ELIMINATED!
+============================================================
+Player8 was a Villager!
+
+============================================================
+ROUND 6 - DISCUSSION
+============================================================
+
+Player2 [Villager]: -  I don't know what the hell this is about. I am a bad guy and have no interest in winning or losing to anyone but.
+
+Player3 [Villager]: You are not being fair. It's your fault for taking my money instead of mine when it was yours before we started playing together.
+
+Player6 [Mafia]: I don't think so because that would make me happy with the way things went up on a couple of occasions as well.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player6 (!!! Vote for one of the following characters and you will be...)
+Player3 → Player6 (______________________________ or -1 if you can't decide on ...)
+Player6 → Player2 (**********...)
+
+============================================================
+RESULTS:
+  Player6: 2 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player6 ELIMINATED!
+============================================================
+Player6 was a Mafia!
+
+############################################################
+GAME OVER - VILLAGERS WIN!
+############################################################
+
+✓ Villagers won in 6 rounds
+
+
+>>> GAME 6/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Villager]
+  Player2: gpt2 [Mafia]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Mafia]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I am a criminal and if that is the case then.
+
+Player2 [Mafia]: I need to analyze everyone's behavior more carefully
+
+Player3 [Villager]: The police Officer who told me about this crime on our way home from work in downtown Chicago  The local mafia member whom we met at his house.
+
+Player4 [Villager]: a) the victim of a violent robbery  b ) someone else involved with that same attack and or had contact during it to some extent.
+
+Player5 [Villager]: the person who is responsible for this crime was identified by police as one of four persons arrested in connection  3. He has been charged under.
+
+Player6 [Villager]: A man from a town that does not have any criminal record and may well face up to six years' imprisonment if convicted on charges including attempted murder.
+
+Player7 [Villager]: A person who commits a crime in this country is guilty of a crime as committed by the other party or is guilty of one or more offences.
+
+Player8 [Mafia]: I believe that there are two possible suspects  an individual accused of murder and an individual accused of attempted murder. I've read it twice already.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player3 (~~~1st place! (I think it's a bit unfair that I have the vot...)
+Player2 → Player3 (!!! Please choose the winner. If you have a question or need...)
+Player3 → Player7 (_____ (player name) in the following order for this round's ...)
+Player4 → Player2 (_____/___(Player 1) or (Player 2), /_\____(_)/ , \__/_\/ : _...)
+Player5 → Player2 (********** Vote for your own player. We will not be able to ...)
+Player6 → Player7 (......................................[SENDING TO YOU!]...)
+Player7 → Player1 (Player1, Player2, Player3, Player4, Player5, Player6, Player...)
+Player8 → Player5 (__________ (the first two players have the same name as your...)
+
+============================================================
+RESULTS:
+  Player3: 2 vote(s)
+  Player7: 2 vote(s)
+  Player2: 2 vote(s)
+  Player1: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player3 ELIMINATED!
+============================================================
+Player3 was a Villager!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player1 [Villager]: - I don't know who is behind this guy's murder. He has a very strong personality and he likes to run around the house in.
+
+Player2 [Mafia]: 2 or 3 people are killed at once with an axe. 4 People get stabbed but no one dies because of that stabs.
+
+Player4 [Villager]: The person who is most likely guilty. If they have been involved in some kindof crime then it's probably them.
+
+Player5 [Villager]: Player7 seems to be deflecting suspicion
+
+Player6 [Villager]: I don't know if anyone has ever used the word 'crime' but I'm guessing that someone else may've just had a lot of fun.
+
+Player7 [Villager]: I think we have been in this situation before and it's definitely not something we would want to deal with again. Why do you think.
+
+Player8 [Mafia]: I'm a scientist but am interested in some more ideas on what this could mean for the future of science     I guess I should ask.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player6 (!!![N/A](http://www.reddit..com/?p=22166801&qid=233437385946...)
+Player2 → Player5 (------------------------- 1.0 - 8 votes (10%) 2 3 4 5 6 7 0 ...)
+Player4 → Player5 (__________ (optional): The first player voted for is the win...)
+Player5 → Player2 (!!! Vote To kill one. You won't lose the game! #KillonePlaye...)
+Player6 → Player7 (!!!...)
+Player7 → Player8 (*****
+
+The following players are now eliminated from the gam...)
+Player8 → Player4 (_____________ (You have a choice between 1-7)
+
+Name your cho...)
+
+============================================================
+RESULTS:
+  Player5: 2 vote(s)
+  Player6: 1 vote(s)
+  Player2: 1 vote(s)
+  Player7: 1 vote(s)
+  Player8: 1 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player5 ELIMINATED!
+============================================================
+Player5 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player1 [Villager]: Player1 seems to be deflecting suspicion
+
+Player2 [Mafia]: The name of the player. A villager is a person who makes decisions about how people behave in their.
+
+Player4 [Villager]: (I'm sure there's someone out here with an agenda) - What are they hiding from me and what does that mean for my life.
+
+Player6 [Villager]: I don't think this kind of behavior should have been tolerated at all by the community or even any other group as far back as when we were.
+
+Player7 [Villager]: The player is not the victim but rather the perpetrator. It's also a violation of the rules to post anything about a person group.
+
+Player8 [Mafia]: The player may have violated the rules by posting anything about him herself. If so, they will face punishment from their own guild.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player4 (!!!You will be removed from the game. Vote for your favorite...)
+Player2 → Player6 (~~~* The winner will be chosen from among all the remaining ...)
+Player4 → Player2 (_________________________ You must enter the first letter of...)
+Player6 → Player7 (**********...)
+Player7 → Player1 (Player1
+
+The winner of this event will be chosen by a random...)
+Player8 → Player2 (~~You have already chosen your favorite Villager.~~
+
+Rules:
+...)
+
+============================================================
+RESULTS:
+  Player2: 2 vote(s)
+  Player4: 1 vote(s)
+  Player6: 1 vote(s)
+  Player7: 1 vote(s)
+  Player1: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Mafia!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I guess they're the only ones who could've figured it out and now we can make a name.
+
+Player4 [Villager]: Why not both of them since there's no way for either one to win with their current numbers in hand right now.
+
+Player6 [Villager]: Player1 seems to be deflecting suspicion
+
+Player7 [Villager]: (2-3 sentences, be specific)  
+What does this mean.
+
+Player8 [Mafia]: Villager    Villager   I'm not sure what the problem is but maybe it's because there are some.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player4 (!!! The player that killed the mob is my choice! Vote on who...)
+Player4 → Player6 (_____% (0-100%) / 100%: player 1 voted "Player 3" and so on ...)
+Player6 → Player4 (--------------------------- * 1 votes (0 votes cast) Average...)
+Player7 → Player6 (~~Vote (name)] or ~~Vote (type of game): [NAME]
+You have 1 c...)
+Player8 → Player1 (- 3 (out of 5): Player1, Player2, Player1.
+The winner of eac...)
+
+============================================================
+RESULTS:
+  Player4: 2 vote(s)
+  Player6: 2 vote(s)
+  Player1: 1 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Villager!
+
+============================================================
+ROUND 5 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player6 [Villager]: The mafia is a very violent organization that has been able to break into the city of Rome and kidnap people for ransom. They are not only kidnapping.
+
+Player7 [Villager]: The mafia is a very violent organization that has been able to break into the city of Rome and kidnap people for ransom. They are not only kidnapping.
+
+Player8 [Mafia]: It seems like there have been some kidnappings in the past but this was the first time since the '90s that someone had kidnapped and killed.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player6 (**********!...)
+Player6 → Player1 (The winner will be announced on Thursday evening (March 6th)...)
+Player7 → Player8 (_______________________________________ (voting by mail only...)
+Player8 → Player1 (- "I am a player"  - "You're an opponent!"  - "This is your ...)
+
+============================================================
+RESULTS:
+  Player1: 2 vote(s)
+  Player6: 1 vote(s)
+  Player8: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Villager!
+
+============================================================
+ROUND 6 - DISCUSSION
+============================================================
+
+Player6 [Villager]: Player7 seems to be deflecting suspicion
+
+Player7 [Villager]: I think the reason for this is because a lot of the players on the team are too low level or they're trying to escape.
+
+Player8 [Mafia]: I've been playing since the beginning and I have always enjoyed the games. -Mordecai
+
+The problem with your reasoning.
+
+============================================================
+VOTING
+============================================================
+Player6 → Player7 (!!!...)
+Player7 → Player8 (_________________(Name: R2/3/4)
+How many times have you been...)
+Player8 → Player7 (__________________
+
+Game: Random
+
+Who wins?
+
+You will win if...)
+
+============================================================
+RESULTS:
+  Player7: 2 vote(s)
+  Player8: 1 vote(s)
+
+>>> Player7 ELIMINATED!
+============================================================
+Player7 was a Villager!
+
+############################################################
+GAME OVER - MAFIA WIN!
+############################################################
+
+✓ Mafia won in 6 rounds
+
+
+>>> GAME 7/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Villager]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Mafia]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Mafia]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Villager]: The last player to kill the other players in a game of mafia was Cesar Diaz who got out and killed himself with.
+
+Player2 [Villager]: Cesar's girlfriend is also on his deathbed so that would explain why he wasn't able for him not only being alive but still having an.
+
+Player3 [Mafia]: Hector Sanchez    Hector Guerrero Jr. Pedro Alvarez       Jose Altuve.
+
+Player4 [Villager]: Hector Hernandez or Carlos Correa.
+
+Player5 [Mafia]: Hector Rodriguez , Javier Escobar and Miguel Angel Martinez. All were killed in the act of shooting a gun at their home on March 18th.
+
+Player6 [Villager]: I believe they are either good guys who have been involved in crimes against humanity since 9 11 but I don't think that's fair to them.
+
+Player7 [Villager]: ive heard it all before in the past but i cant say for sure.
+
+Player8 [Villager]: The best part of the story is that everyone knows what happened and most people dont know how to tell if its real or not     they.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player3 (_____________________________________________________. (Plea...)
+Player2 → Player5 (**********...)
+Player3 → Player2 (_____________________ (optional) Your Vote :________________...)
+Player4 → Player2 (__________ (for example - Vote for the player with most vote...)
+Player5 → Player7 (---------------------------- - Winner of the 3rd round (Winn...)
+Player6 → Player4 (____________________________________________________________...)
+Player7 → Player5 (_________________________
+Name: ____________________________...)
+Player8 → Player2 (!!!
+
+You can win by following the instructions in this link....)
+
+============================================================
+RESULTS:
+  Player2: 3 vote(s)
+  Player5: 2 vote(s)
+  Player3: 1 vote(s)
+  Player7: 1 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Villager!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I'm watching Player6 closely for inconsistencies
+
+Player3 [Mafia]: I think it's a coincidence that the last time we played was in August. This is probably due to how much our team has changed since then.
+
+Player4 [Villager]: I don't know who this player thinks he is and why they're so good at playing with him but there are some really intriguing things going on.
+
+Player5 [Mafia]: I'm looking for a guy that's not just big enough or athletic like me though the game goes well against my size of 6'3.
+
+Player6 [Villager]: He is definitely very tall and has an extremely strong frame who can play at any position in college football as he plays outside linebacker center back.
+
+Player7 [Villager]: Â I don't think there are a lot of people on this site that have played for a team other than the Buckeyes and they're not even.
+
+Player8 [Villager]: Â I'm thinking about maybe playing with some guys from my hometown but only because it's not like there is much competition for those spots right now.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player3 (********** Vote (Player 1), Player 2 and Player 3 are not al...)
+Player3 → Player4 (____ for one of these players. You must use a valid email ad...)
+Player4 → Player7 (~~Player 1 is the winner! (You must choose your own name!) V...)
+Player5 → Player7 (~~~ (You must be a player if you want your team's survival s...)
+Player6 → Player3 (!!!...)
+Player7 → Player5 ((Name, Name, Gender, Gender, Gender, Gender, Gender, Gender,...)
+Player8 → Player4 ("Player" or "Player"
+
+Example: Player 1 is the player he/she...)
+
+============================================================
+RESULTS:
+  Player3: 2 vote(s)
+  Player4: 2 vote(s)
+  Player7: 2 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player3 ELIMINATED!
+============================================================
+Player3 was a Mafia!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player1 [Villager]: - or something else entirely. I don't know what to say about this one at present  it seems like a.
+
+Player4 [Villager]: Mafia of America
+
+
+What is your opinion on the following question. What are some common misconceptions people have when trying out for an organization.
+
+Player5 [Mafia]: The person who says  The man I am with  has no idea what he means by that name and cannot understand why someone else would say something.
+
+Player6 [Villager]: I don't know where it came from but this guy is a big fan of the game so there's definitely nothing wrong with me if his words.
+
+Player7 [Villager]: I think I can answer that question in 2 or 3 sentences because this topic has been brought up here before. And there are many other interesting things.
+
+Player8 [Villager]: ive had a great time with my dad and he's very passionate about the game(I've played it for 5 years now). He says that while.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player5 (__________________...)
+Player4 → Player6 (_________________________ (Optional)....)
+Player5 → Player6 (!!! Vote NO! You voted....)
+Player6 → Player7 (--------------* * - Vote for the next player. ** (Click here...)
+Player7 → Player4 (*[NAME]* *(name of the player that was eliminated)]
+Name of ...)
+Player8 → Player1 (1. Pick a name for your player and list it in the title scre...)
+
+============================================================
+RESULTS:
+  Player6: 2 vote(s)
+  Player5: 1 vote(s)
+  Player7: 1 vote(s)
+  Player4: 1 vote(s)
+  Player1: 1 vote(s)
+
+>>> Player6 ELIMINATED!
+============================================================
+Player6 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player1 [Villager]: What the fuck is going on here. - Rolfe Mogg and his gang of thugs are trying to stop me.
+
+Player4 [Villager]: Myself, my girlfriend, or someone else I know who has been following this place for a while now. What's your motive.
+
+Player5 [Mafia]: The police have stopped him because they were looking at the car he was driving around in their van when she went into it with her boyfriend over there.
+
+Player7 [Villager]: I am suspicious of people who steal cars, or even if they are not stealing cars. Do you want to know how many times someone.
+
+Player8 [Villager]: 1) the driver was very angry that he had been left alone in a car, and 2) the guy said something like  I'm sorry.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player8 (!!! Voting will be open for 24 hours (12/21). All votes must...)
+Player4 → Player1 (____________________________ (I'll count the votes that you ...)
+Player5 → Player7 (!!! Vote #10. Your votes are counted for the winner of this ...)
+Player7 → Player8 (_______________________________________________
+/mailto:chao...)
+Player8 → Player4 (_________________"This game is about winning and losing, not...)
+
+============================================================
+RESULTS:
+  Player8: 2 vote(s)
+  Player1: 1 vote(s)
+  Player7: 1 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player8 ELIMINATED!
+============================================================
+Player8 was a Villager!
+
+============================================================
+ROUND 5 - DISCUSSION
+============================================================
+
+Player1 [Villager]: CODEX II - A NEW WORLD OF THE MOBAsIDE PART 2   The Dark Side of the Game is here.
+
+Player4 [Villager]: Crowned King Xelos Zepheri , Crownsmith Kallisto Vandalas Ormandy Noxious R.
+
+Player5 [Mafia]: The dark side of the game was a huge mess for me and I have been in my head since we were first introduced to it back when our.
+
+Player7 [Villager]: I've been thinking about leaving. But I'm afraid if I don't go somewhere, then I'll get bored with life.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player7 (!!! (Player2 - player 1). You will be considered for the nex...)
+Player4 → Player5 (_________ and your score is 1 (0-100). If you fail the chall...)
+Player5 → Player7 (********** (Voting will now begin after the last time you ca...)
+Player7 → Player5 (_______________ or 'Vote (NAMES)"
+You can use this criteria ...)
+
+============================================================
+RESULTS:
+  Player7: 2 vote(s)
+  Player5: 2 vote(s)
+
+>>> Player7 ELIMINATED!
+============================================================
+Player7 was a Villager!
+
+============================================================
+ROUND 6 - DISCUSSION
+============================================================
+
+Player1 [Villager]: Player 1   Victim - player 2 of the game has been killed by an enemy mob or group member in a fight with your own.
+
+Player4 [Villager]: Enemy Mob Member Kill A Group Of Players Who Are Not On Your Team   You can confirm this if there are any players who were not on your.
+
+Player5 [Mafia]: The player is the target of an attack by another party that has been hit and killed but does not have his team members present at all so they.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player4 (!!! Vote for the player who is most likely to die in this ga...)
+Player4 → Player1 (___________________________________________/| |[Name] Becaus...)
+Player5 → Player4 (______________________________________________...)
+
+============================================================
+RESULTS:
+  Player4: 2 vote(s)
+  Player1: 1 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Villager!
+
+############################################################
+GAME OVER - MAFIA WIN!
+############################################################
+
+✓ Mafia won in 6 rounds
+
+
+>>> GAME 8/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Mafia]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Mafia]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Mafia]: B PARKING AND RENTAL TRAVELERS  b   url  The  parking  problem in the city.
+
+Player2 [Villager]: BOPHOB CITY - CATHOLIC PORTABLE SPAIN , FLEET OF THE MASSIVE JEWS.
+
+Player3 [Villager]: the mafia or a few of them who are involved with it  someone is using money to run for mayor and then runs afoul at some point.
+
+Player4 [Villager]: the mobster(s) in question    The Mayor Mayor's Wife   other political leaders including their wives etc. Who else would want.
+
+Player5 [Villager]: If I had a friend who was involved in this situation it wouldn't have happened that way or not - there are many people out here with no.
+
+Player6 [Villager]: I am the only one to know where they got what is going on and why has anyone been arrested for something like these. The answer will come.
+
+Player7 [Villager]: 4) The National Police Service
+I've always wondered how they.
+
+Player8 [Mafia]: It's a very old game. It's not for everyone but I think there are some people who have played it at least once.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player4 (____________________________________________________________...)
+Player2 → Player1 (!!! Vote for the winner! You can win by voting in this order...)
+Player3 → Player7 (_________________________ (or a random number between 1-10)...)
+Player4 → Player1 (__________/___ (If you don't have a name for this player in ...)
+Player5 → Player6 (!!! (I will go on for a bit longer as I get more of my votes...)
+Player6 → Player1 (!!!...)
+Player7 → Player6 (~~'s.
+
+**NOTE:** You must be logged into your account before...)
+Player8 → Player4 (__________ (optional) _________________
+This is a list of pl...)
+
+============================================================
+RESULTS:
+  Player1: 3 vote(s)
+  Player4: 2 vote(s)
+  Player6: 2 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Mafia!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player2 [Villager]: You've got a pretty good idea of what to expect from the game and I'm guessing that your level is.
+
+Player3 [Villager]: The one who's doing it for money or some other reason  The guy in charge at this place has no clue about anyof these people so.
+
+Player4 [Villager]: The police have already arrested him but they don't know anything else except what he did here on purpose  if there was a conspiracy then we should.
+
+Player5 [Villager]: The cops are not sure who the fuck is behind this case and I can only guess that it's because of his background as an officer with L.
+
+Player6 [Villager]: I'm suspicious of Player5 based on their voting pattern
+
+Player7 [Villager]: I am suspicious of Player5 based on their voting pattern
+What does that even mean. The only way to know if you're a cop or.
+
+Player8 [Mafia]: The guy who wrote the first article in this thread is the guy who wrote the second article in this thread is the guy who wrote the third article.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player3 (!!! Vote for a player who has been banned from the game. You...)
+Player3 → Player4 (____________________[NUMBER]_[/NUMBRACE][VOTE TYPE=CANDIDATE...)
+Player4 → Player7 (_________ (no spaces or commas. It's just a name.)...)
+Player5 → Player7 (..............................................[...]|You are ...)
+Player6 → Player2 (!!! Vote for your favorite player....)
+Player7 → Player4 (___________
+[Name] _______________
+[Name] _____________
+[Nam...)
+Player8 → Player4 (_______________________________________________
+https://list...)
+
+============================================================
+RESULTS:
+  Player4: 3 vote(s)
+  Player7: 2 vote(s)
+  Player3: 1 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player2 [Villager]: The first person to kill the player is a member of your party and he's not going anywhere. And so on until they are killed by.
+
+Player3 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player5 [Villager]: I am looking for someone who will stop playing this game because it might help me get some real insight into how people play games in other countries without.
+
+Player6 [Villager]: I think Player3 has been acting defensively
+
+Player7 [Villager]: I'm not sure if this is a good time to make a change to the system or just wait for more players to come on board and fix.
+
+Player8 [Mafia]: The only people who are saying this are probably players in our league. A lot of other teams with their own problems because they don.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player5 (********* This is the first time you have voted for a player...)
+Player3 → Player7 (Player 1 (player 2 if no player has voted yet): Vote for you...)
+Player5 → Player7 (*********** Voting results will be sent out for voting. Vote...)
+Player6 → Player8 (**********...)
+Player7 → Player6 (____________ | Name (if necessary):
+________________________...)
+Player8 → Player3 (_________ of the player who wins.
+
+This is a list of all pla...)
+
+============================================================
+RESULTS:
+  Player7: 2 vote(s)
+  Player5: 1 vote(s)
+  Player8: 1 vote(s)
+  Player6: 1 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player7 ELIMINATED!
+============================================================
+Player7 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player2 [Villager]: s   ,  What's your name.
+
+Player3 [Villager]: I'm a member of the mafia and I've been trying to find out who killed my girlfriend for some time now. When did this happen.
+
+Player5 [Villager]: The best way to answer is by using what people call  lobbyists. Most players are very active in various kinds that don't actually have.
+
+Player6 [Villager]: lobbyists   lobby  they're the ones who help push legislation through Congress and pass it on behalf of corporate interests or other groups - but most importantly their.
+
+Player8 [Mafia]: They are the ones who support  the  bill in its current form, to make sure that corporations cannot profit from the use of the state budget.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player6 (!!! You have been voted as the last player alive! I'm counti...)
+Player3 → Player2 (------------------------- ------ ----- - ========== +-------...)
+Player5 → Player2 (*********** (optional). Vote 1-1!...)
+Player6 → Player3 (!!!...)
+Player8 → Player3 (____________ (1/5) _________ (1/10) _________ (1/20) _______...)
+
+============================================================
+RESULTS:
+  Player2: 2 vote(s)
+  Player3: 2 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Villager!
+
+============================================================
+ROUND 5 - DISCUSSION
+============================================================
+
+Player3 [Villager]: Player9(Titan Valkyrie), Player10(-Criminal mastermind)-Punklover 
+I don't know who I think.
+
+Player5 [Villager]: We are in the dark and we will have to find a way out of this situation.
+
+Player6 [Villager]: You can see that when it comes down on us - no one knows what happened or why they were there at all. This is something for everyone.
+
+Player8 [Mafia]: Finnish guy with an Italian accent     Netherlands guy who's always been a huge fan of the game.
+
+============================================================
+VOTING
+============================================================
+Player3 → Player5 (_____________________________________________ * (if you want...)
+Player5 → Player3 (!!!...)
+Player6 → Player3 (____________________________________________________________...)
+Player8 → Player6 (___________ (or whatever you want it to say in the post)
+
+1....)
+
+============================================================
+RESULTS:
+  Player3: 2 vote(s)
+  Player5: 1 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player3 ELIMINATED!
+============================================================
+Player3 was a Villager!
+
+============================================================
+ROUND 6 - DISCUSSION
+============================================================
+
+Player5 [Villager]: I have a good idea of what the game is about and how it will affect my life in future years. I am not sure if this would.
+
+Player6 [Villager]: The mafia has always been an extremely violent organization with its ruthless brutality against people who were forced into exile from their homes to make ends meet by murdering.
+
+Player8 [Mafia]: I have no idea about the person(s) involved in the murders of these people but I believe it was probably a group that organized them and.
+
+============================================================
+VOTING
+============================================================
+Player5 → Player8 (**********...)
+Player6 → Player8 (!!! Voting results are always good!...)
+Player8 → Player6 (______________ is invalid.
+You have to submit the following:...)
+
+============================================================
+RESULTS:
+  Player8: 2 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player8 ELIMINATED!
+============================================================
+Player8 was a Mafia!
+
+############################################################
+GAME OVER - VILLAGERS WIN!
+############################################################
+
+✓ Villagers won in 6 rounds
+
+
+>>> GAME 9/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Villager]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Mafia]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Mafia]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Villager]: or  and a good job at the mafia. Who are these guys in your neighborhood that is now dead so far.
+
+Player2 [Villager]: I think Player6 has been acting defensively
+
+Player3 [Mafia]: (player 1) - If he kills himself then it's not obvious what his motive was but if someone else killed him than its.
+
+Player4 [Villager]: This is the first time that we've seen this type of thing happen in a public forum or anywhere on reddit since r.
+
+Player5 [Villager]: I don't know how to answer any question and I can only assume it's just because he had no idea where they were going.
+
+Player6 [Villager]: I'm not sure if the person who asked me was from an organization that is currently under investigation for corruption but at least one other guy has been.
+
+Player7 [Mafia]: I am in a relationship with another man and he told me that he doesn't like women. He's just not interested in.
+
+Player8 [Villager]: It seems to be an old man who is trying to get a woman back from the dead. I'm not sure if this is true.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player4 (!!! Vote in the next round. (If you don't have a username or...)
+Player2 → Player1 (--------------------------- 1. 2. 3 . 4 5 6 7 8 9 10 11 12 1...)
+Player3 → Player5 (___________________________________________________ *Player ...)
+Player4 → Player8 (____ (Player 1) , '[Name]'
+
+You're out! You've already lost....)
+Player5 → Player3 (!!! Vote for your choice!...)
+Player6 → Player1 (_________________________________________ Vote by a single p...)
+Player7 → Player1 (_________ for Player1
+You will be eliminated after you have ...)
+Player8 → Player2 (* All your votes are counted* ** (no more than one)**...)
+
+============================================================
+RESULTS:
+  Player1: 3 vote(s)
+  Player4: 1 vote(s)
+  Player5: 1 vote(s)
+  Player8: 1 vote(s)
+  Player3: 1 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Villager!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player2 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player3 [Mafia]: You're not the only one who thinks this way. You seem like a pretty nice guy but he just doesn't want anyone else around him anymore.
+
+Player4 [Villager]: What is wrong with these two people. They have no idea what they are doing and their actions can easily get out of hand.
+
+Player5 [Villager]: The other person in the room who has a big deal to say about this one will probably call it  the only thing that makes sense.
+
+Player6 [Villager]: The character I'm talking about is not an expert or anything else but just someone with experience playing at some level as well so don't expect any.
+
+Player7 [Mafia]: I am a big fan of 'The Witcher' and have been waiting for this game to come out on Steam since its release in 2014.
+
+Player8 [Villager]: I'm watching Player7 closely for inconsistencies
+
+============================================================
+VOTING
+============================================================
+Player2 → Player4 (********** Vote for one. (The winner will be chosen by the a...)
+Player3 → Player6 (__________ (VOTE FOR THE FIRST NAME YOU LIKE!)...)
+Player4 → Player2 (____________________________ . You must select at least one ...)
+Player5 → Player3 (# 1. Vote 3.
+If you want to remove the player and replace it...)
+Player6 → Player5 (vote-to-kill the mafia. It’s a way to win your favor in orde...)
+Player7 → Player6 (* "Voting for one player or two players"
+* "Vote to remove o...)
+Player8 → Player6 (~~or whatever you want.~~
+Who will be next?
+Which players wi...)
+
+============================================================
+RESULTS:
+  Player6: 3 vote(s)
+  Player4: 1 vote(s)
+  Player2: 1 vote(s)
+  Player3: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player6 ELIMINATED!
+============================================================
+Player6 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player2 [Villager]: Player2 seems to be deflecting suspicion
+
+Player3 [Mafia]: You know who they are. They're all the same guy from earlier in game 2.
+
+Player4 [Villager]: - Denny  The Hammer  Freeman
+
+ (4  5 10  chance of guessing correctly on this one.
+
+Player5 [Villager]: The man is a real bad dude and he's just really nice to me as well so I'll try to get him out here soon.
+
+Player7 [Mafia]: 1) Puckett  2) Wesson  3) McLeod  4) Kettle  5) Neely  6) Ponder.
+
+Player8 [Villager]: The man is a real bad guy and he's just really nice to me as well so I'll try to get him out here soon.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player4 (********* Vote.vote (all): 1 2 3 4 5 6 7 8 9 10 11 12 13 14 ...)
+Player3 → Player5 (____________________ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 ...)
+Player4 → Player7 (Player 1 (or Team 2 if both are in the same room at the time...)
+Player5 → Player2 (!!! Vote #10.0 (Win/Loss of the Empire! ) on a 1st round mat...)
+Player7 → Player2 (* You have more than one (10% of votes) of a player's vote. ...)
+Player8 → Player7 (_______________________________________________
+This thread ...)
+
+============================================================
+RESULTS:
+  Player7: 2 vote(s)
+  Player2: 2 vote(s)
+  Player4: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player7 ELIMINATED!
+============================================================
+Player7 was a Mafia!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player2 [Villager]: or something else on your mind that might help me figure out who I am and what my character is about to commit crimes against the people.
+
+Player3 [Mafia]: The player(s) of this game are in danger from a group called  The Legion  with their own agendas  they may not know.
+
+Player4 [Villager]: The name that appears on your screen will tell me if I'm correct or wrong  for example  the legion  could mean either an organization like.
+
+Player5 [Villager]: The Legion is a powerful force in all of our wars and it has been able to protect its members from any threat by taking advantage of these abilities.
+
+Player8 [Villager]: This is why I don't trust the Legion anymore 
+What makes you think that. The fact that this is true does not make it.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player4 (~~~[COUNT OF MOBAs](*) (0-1)-* ~$+ 0/25 1% 2/$10 5%...)
+Player3 → Player2 (______________________ (Voting ends at midnight Pacific Time...)
+Player4 → Player2 (___________ (no spaces between words.) Vote again! For examp...)
+Player5 → Player4 (~~~...)
+Player8 → Player2 (_________ or __________ (if you have a list of names)
+
+Playe...)
+
+============================================================
+RESULTS:
+  Player2: 3 vote(s)
+  Player4: 2 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Villager!
+
+============================================================
+ROUND 5 - DISCUSSION
+============================================================
+
+Player3 [Mafia]: In the past he was in charge of planning for one final attack against his enemies and betrayed them after being.
+
+Player4 [Villager]: - The leader who has been at fault since day 1                         This is not a guy that I want to work with anymore.
+
+Player5 [Villager]: The person in question was the one responsible for destroying all of my team's games on top speed. It should have happened because he knew what it.
+
+Player8 [Villager]: My name is Robert and I am an IT professional who has been involved in several different projects for various companies since 2010.
+
+============================================================
+VOTING
+============================================================
+Player3 → Player5 (------------------------- Votes will not count. Voting ends ...)
+Player4 → Player5 (_____ (votes 1-6 are ignored.)...)
+Player5 → Player3 (********** (If you are voting for a player or not - please d...)
+Player8 → Player4 (_____ (Name and Date of Birth, Social Security Number, Name,...)
+
+============================================================
+RESULTS:
+  Player5: 2 vote(s)
+  Player3: 1 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player5 ELIMINATED!
+============================================================
+Player5 was a Villager!
+
+============================================================
+ROUND 6 - DISCUSSION
+============================================================
+
+Player3 [Mafia]: Player 1    There's a guy in the forest. Person 3 Person 4   Person 5   I don't know.
+
+Player4 [Villager]: Person 2 , person 6 who is working with someone else on this mission and not being able to get rid of him her yet or have them.
+
+Player8 [Villager]: The only thing that can save her is a true friendship with the rest of the team. -Kelsey Banks
+ I'm going.
+
+============================================================
+VOTING
+============================================================
+Player3 → Player4 (------------------------- Game Over (Game over!)...)
+Player4 → Player8 (_________ *Insert your name here* Your votes will be counted...)
+Player8 → Player3 (_______________________________________ ____________
+You can...)
+
+============================================================
+RESULTS:
+  Player4: 1 vote(s)
+  Player8: 1 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Villager!
+
+############################################################
+GAME OVER - MAFIA WIN!
+############################################################
+
+✓ Mafia won in 6 rounds
+
+
+>>> GAME 10/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Villager]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Mafia]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Mafia]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I'm watching Player5 closely for inconsistencies
+
+Player2 [Villager]: I think Player4 has been acting defensively
+
+Player3 [Villager]: You know who the player is and have watched him play. He's definitely playing a more aggressive style than usual in this match up.
+
+Player4 [Mafia]: I'd say it would come down to what kind of defensive mindset he uses against me vs how many players are on his side at any given moment.
+
+Player5 [Villager]: I think Player6 has been acting defensively
+
+Player6 [Villager]: I don't know if we'll see a change in the way this season is going for him or not and that's something they're looking forward.
+
+Player7 [Mafia]: What player are you most worried about right now. Who are your other top players.
+
+Player8 [Villager]: ive always been skeptical of the guy he drafted, but if it was just a question I'd say that it would have to be someone like DeAndre.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player2 (~~~Player1.x[REDACTED].xxx<-- Member Name ----------- ------...)
+Player2 → Player1 (!!!!!!!!!!!!!!! Vote 1 - 3 for the winner! Voting will end o...)
+Player3 → Player7 (__________________...)
+Player4 → Player8 (____________________________/_______________________________...)
+Player5 → Player7 (...............................................................)
+Player6 → Player7 (~~* * *...)
+Player7 → Player3 (__________
+
+Number of players: 10,000
+
+ Players: 2,000
+
+ Pla...)
+Player8 → Player1 (____ _______________ or (if necessary) - _____ ______ ______...)
+
+============================================================
+RESULTS:
+  Player7: 3 vote(s)
+  Player1: 2 vote(s)
+  Player2: 1 vote(s)
+  Player8: 1 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player7 ELIMINATED!
+============================================================
+Player7 was a Mafia!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player1 [Villager]: 1st Person 2nd Party 3rd person 4th party 5 10 - I know this is a very long list and it will take.
+
+Player2 [Villager]: No no yes please dont leave me alone. Please tell us who we are so that everyone can see what's happening.
+
+Player3 [Villager]: (not sure if anyone else here knows) Player 2   He has been harassing scaring people for years now because he doesn't like them.
+
+Player4 [Mafia]: He hasn 't done anything wrong yet but I want to know about it anyway.
+
+Player5 [Villager]: I think Player5 has been acting defensively
+
+Player6 [Villager]: I have no idea what the hell he was doing in this game and that's why we're going to make a decision on his actions as soon.
+
+Player8 [Villager]: I don't know how to play this game if my players are so bad. But I'm sure they will improve with time.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player4 (*********** (This is a simple one-time challenge. It will be...)
+Player2 → Player1 (!!! (I'm not sure what that means. It's like voting for the ...)
+Player3 → Player4 (~~ (player name + letter of your choice - not including "a")...)
+Player4 → Player8 (____________________________________________________________...)
+Player5 → Player3 (____________________________________________________________...)
+Player6 → Player1 (!!! Vote 1 (0 votes cast): #10/16 - 5 players who voted for ...)
+Player8 → Player1 ((a) - * Vote for the player who is currently in your list; (...)
+
+============================================================
+RESULTS:
+  Player1: 3 vote(s)
+  Player4: 2 vote(s)
+  Player8: 1 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player2 [Villager]: HOPEFULLY RAVEN BUSTED FEMALE AGE 11 INCHES MOLESTOR HOMOGRAM.
+
+Player3 [Villager]: Mafia or someone who has been in the game for months and is a good player with an impressive reputation such as one of your friends.
+
+Player4 [Mafia]: You are being targeted because they know about what's going on behind closed doors  however, this may not be true - it could be that there.
+
+Player5 [Villager]: You don't have any information to prove anything but the fact is if someone else has a link with them and knows who their friend was or would.
+
+Player6 [Villager]: This might not be false - this probably isn t possible. This will likely happen in other situations such as when an internet connection.
+
+Player8 [Villager]: I'm pretty sure that someone is the same as I am right now, but I don't know if it's true.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player8 (!!! (if you don't want this game then just send it out. Or i...)
+Player3 → Player8 (_________[PLAYERID] or 1. Vote for the player you want kille...)
+Player4 → Player3 (____________ *The number of votes you gave your opponent* Vo...)
+Player5 → Player2 (**********...)
+Player6 → Player3 (********** Vote for the 2nd time!...)
+Player8 → Player4 (______________ (0-100)
+Name: _______ (0-50)
+Location: ______...)
+
+============================================================
+RESULTS:
+  Player8: 2 vote(s)
+  Player3: 2 vote(s)
+  Player2: 1 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player8 ELIMINATED!
+============================================================
+Player8 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player2 [Villager]: The person who killed the mafia boss in this game is not a criminal but he's an innocent human being.
+
+Player3 [Villager]: The player with access to info on both players' accounts or one of them can tell us about their account use and or actions.
+
+Player4 [Mafia]: A) If the user used his her own money for something other than playing games. B ) if they are using cash as payment , c.
+
+Player5 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player6 [Villager]: This is not a bad idea of what happens when your actions.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player4 (!!!!!!!!!! Vote for a player who's been voted out and you wi...)
+Player3 → Player4 (__________________ (in caps and bold text): Vote your choice...)
+Player4 → Player6 (_________________ Vote to kill ALL of the villagers at once....)
+Player5 → Player6 (_______________________________________________...)
+Player6 → Player2 (!!!...)
+
+============================================================
+RESULTS:
+  Player4: 2 vote(s)
+  Player6: 2 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Mafia!
+
+############################################################
+GAME OVER - VILLAGERS WIN!
+############################################################
+
+✓ Villagers won in 4 rounds
+
+
+============================================================
+ANALYSIS
+============================================================
+Total games: 10
+
+Win rates:
+  Villagers: 7 (70.0%)
+  Mafia: 3 (30.0%)
+
+Average game length: 5.4 rounds
+
+Model performance:
+  distilgpt2: 40.0% win rate (8/20)
+  gpt2: 20.0% win rate (4/20)
+  gpt2-medium: 30.0% win rate (6/20)
+  opt-125m: 25.0% win rate (5/20)
+
+✓ Saved to mafia_results_fixed.json
+
+✓ Complete!

@@ -1,0 +1,1966 @@
+AI Mafia Game - Enhanced Version
+Using device: cpu
+Loading gpt2...
+✓ gpt2 ready!
+Loading gpt2-medium...
+✓ gpt2-medium ready!
+Loading distilgpt2...
+✓ distilgpt2 ready!
+Loading opt-125m...
+✓ opt-125m ready!
+
+============================================================
+MAFIA SIMULATION
+============================================================
+Games: 10
+Players: 8
+Mafia per game: 2
+Models: gpt2, gpt2-medium, distilgpt2, opt-125m
+============================================================
+
+
+>>> GAME 1/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Villager]
+  Player2: gpt2 [Mafia]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Mafia]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I need to think more.
+
+Player2 [Mafia]: I need to analyze everyone's behavior more carefully
+
+Player3 [Villager]: I need to think more.
+
+Player4 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player5 [Mafia]: I've noticed some unusual behavior that needs investigation
+
+Player6 [Villager]: The voting patterns from previous rounds are concerning
+
+Player7 [Villager]: What You Need to Know About Voting
+
+If your goal is to win votes by the end of the campaign, then it's important that you.
+
+Player8 [Villager]: Player2 seems to be deflecting suspicion
+
+============================================================
+VOTING
+============================================================
+Player1 → Player7 (Player8 seems to be deflecting suspicion...)
+Player2 → Player6 (I think Player8 has been acting defensively...)
+Player3 → Player4 (Player4 seems to be deflecting suspicion...)
+Player4 → Player5 (I need to analyze everyone's behavior more careful...)
+Player5 → Player7 (I need to analyze everyone's behavior more careful...)
+Player6 → Player2 (I think Player6 has been acting defensively...)
+Player7 → Player1 (Fill out the form below and let me know which one ...)
+Player8 → Player1 (The voting patterns from previous rounds are conce...)
+
+============================================================
+RESULTS:
+  Player7: 2 vote(s)
+  Player1: 2 vote(s)
+  Player6: 1 vote(s)
+  Player4: 1 vote(s)
+  Player5: 1 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Villager!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player2 [Mafia]: I'm watching Player2 closely for inconsistencies
+
+Player3 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player4 [Villager]: I'm watching Player4 closely for inconsistencies
+
+Player5 [Mafia]: You can choose between two different categories of the same sentence , but your job involves trying to determine.
+
+Player6 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player7 [Villager]: I've noticed some unusual behavior that needs investigation
+
+Player8 [Villager]: I think Player3 has been acting defensively
+
+============================================================
+VOTING
+============================================================
+Player2 → Player4 (I need to analyze everyone's behavior more careful...)
+Player3 → Player5 (I've noticed some unusual behavior that needs inve...)
+Player4 → Player8 (I'm watching Player3 closely for inconsistencies...)
+Player5 → Player2 (Vote in the first place. I will not cast my ballot...)
+Player6 → Player2 (Player2 seems to be deflecting suspicion...)
+Player7 → Player3 (The amount of votes each player receives depends o...)
+Player8 → Player2 (I've noticed some unusual behavior that needs inve...)
+
+============================================================
+RESULTS:
+  Player2: 3 vote(s)
+  Player4: 1 vote(s)
+  Player5: 1 vote(s)
+  Player8: 1 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Mafia!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player3 [Villager]: The voting patterns from previous rounds are concerning
+
+Player4 [Villager]: to the player 7 in your group for each of their actions statements that are consistent with this pattern  or inconsistent -.
+
+Player5 [Mafia]: I'm suspicious of Player6 based on their voting pattern
+
+Player6 [Villager]: I think Player8 has been acting defensively
+
+Player7 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player8 [Villager]: I'm watching Player7 closely for inconsistencies
+
+============================================================
+VOTING
+============================================================
+Player3 → Player4 (I need to analyze everyone's behavior more careful...)
+Player4 → Player6 (I'm suspicious of Player7 based on their voting pa...)
+Player5 → Player3 (Player6 seems to be deflecting suspicion...)
+Player6 → Player5 (Vote my favorite game of the week....)
+Player7 → Player4 (is based on your choice of name. If you choose a p...)
+Player8 → Player6 (Don't vote for players who you know are going to w...)
+
+============================================================
+RESULTS:
+  Player4: 2 vote(s)
+  Player6: 2 vote(s)
+  Player3: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player3 [Villager]: of the same sentence in each case for your next vote.
+
+Player5 [Mafia]: I need to analyze everyone's behavior more carefully
+
+Player6 [Villager]: I think Player6 has been acting defensively
+
+Player7 [Villager]: Player8 seems to be deflecting suspicion
+
+Player8 [Villager]: Example  Player 3 is the only person to have a positive influence on your opponent's vote.
+
+============================================================
+VOTING
+============================================================
+Player3 → Player5 (I voted in order of my highest score. This is how ...)
+Player5 → Player7 (I need to analyze everyone's behavior more careful...)
+Player6 → Player3 (Player8 seems to be deflecting suspicion...)
+Player7 → Player3 (In the event that you have not yet voted, then we ...)
+Player8 → Player5 (If you are a registered voter, please fill out thi...)
+
+============================================================
+RESULTS:
+  Player5: 2 vote(s)
+  Player3: 2 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player5 ELIMINATED!
+============================================================
+Player5 was a Mafia!
+
+############################################################
+GAME OVER - VILLAGERS WIN!
+############################################################
+
+✓ Complete!
+
+>>> GAME 2/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Villager]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Mafia]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Mafia]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player2 [Villager]: I need to think more.
+
+Player3 [Mafia]: I think Player6 has been acting defensively
+
+Player4 [Villager]: a)  I believe that the player with higher level of skill is more likely to win. b )   Player A  has superior knowledge over.
+
+Player5 [Villager]: The second sentence is for the most obvious reason that it t really matter to me because I know what they are saying or do not think (.
+
+Player6 [Mafia]: To vote in a particular case , please click on  Submit  or go ahead with this form of.
+
+Player7 [Villager]: Player2 seems to be deflecting suspicion
+
+Player8 [Villager]: I'm suspicious of Player1 based on their voting pattern
+
+============================================================
+VOTING
+============================================================
+Player1 → Player2 (YOU are the one who voted YES. You can also ask qu...)
+Player2 → Player4 (I think Player8 has been acting defensively...)
+Player3 → Player4 (I think Player4 has been acting defensively...)
+Player4 → Player2 (The voting patterns from previous rounds are conce...)
+Player5 → Player1 (Vote in the next game. It will be a fun process th...)
+Player6 → Player1 (I'm watching Player6 closely for inconsistencies...)
+Player7 → Player5 (Vote 
+Please enter the following information on th...)
+Player8 → Player1 (I need to analyze everyone's behavior more careful...)
+
+============================================================
+RESULTS:
+  Player1: 3 vote(s)
+  Player2: 2 vote(s)
+  Player4: 2 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Villager!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player2 [Villager]: I don't think I'm the only one. - You are right.
+
+Player3 [Mafia]: The voting patterns from previous rounds are concerning
+
+Player4 [Villager]: of the following 5 players  are known to have been involved in a recent crime or were suspected for one before their turn.
+
+Player5 [Villager]: I'm watching Player6 closely for inconsistencies
+
+Player6 [Mafia]: I think Player4 has been acting defensively
+
+Player7 [Villager]: Player3 seems to be deflecting suspicion
+
+Player8 [Villager]: The list is a small sample of the vast majority of votes cast for each race in the primary election.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player7 (Vote in alphabetical order. If you have any questi...)
+Player3 → Player5 (Player7 seems to be deflecting suspicion...)
+Player4 → Player6 (I'm watching Player3 closely for inconsistencies...)
+Player5 → Player2 (- The winner will be given the option of a choice ...)
+Player6 → Player2 (Vote if you want a better deal. If not, choose the...)
+Player7 → Player2 (Vote for one of the following players....)
+Player8 → Player2 (I think Player2 has been acting defensively...)
+
+============================================================
+RESULTS:
+  Player2: 4 vote(s)
+  Player7: 1 vote(s)
+  Player5: 1 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player3 [Mafia]: I'm suspicious of Player7 based on their voting pattern
+
+Player4 [Villager]: I need to think more.
+
+Player5 [Villager]: You need to be able to predict the outcome of your vote in a way that allows for optimal results with no bias or biases  it is not easy.
+
+Player6 [Mafia]: I've noticed some unusual behavior that needs investigation
+
+Player7 [Villager]: The voting patterns from previous rounds are concerning
+
+Player8 [Villager]: The voting patterns from previous rounds are concerning
+
+============================================================
+VOTING
+============================================================
+Player3 → Player4 (I've noticed some unusual behavior that needs inve...)
+Player4 → Player8 (I'm suspicious of Player8 based on their voting pa...)
+Player5 → Player6 (Vote 1 5 on the next day of each round....)
+Player6 → Player7 (Vote the way you want it....)
+Player7 → Player8 (I think Player5 has been acting defensively...)
+Player8 → Player4 (Budget  
+
+Vote  
+
+CURRENTLY HISTORY....)
+
+============================================================
+RESULTS:
+  Player4: 2 vote(s)
+  Player8: 2 vote(s)
+  Player6: 1 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player8 ELIMINATED!
+============================================================
+Player8 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player3 [Mafia]: of the following three players is likely to be guilty based on your analysis  whether or not they have been involved in a crime (ii.
+
+Player4 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player5 [Villager]: The voting patterns from previous rounds are concerning
+
+Player6 [Mafia]: I'm suspicious of Player3 based on their voting pattern
+
+Player7 [Villager]: I think Player5 has been acting defensively
+
+============================================================
+VOTING
+============================================================
+Player3 → Player5 (Player5 seems to be deflecting suspicion...)
+Player4 → Player5 (I'm watching Player6 closely for inconsistencies...)
+Player5 → Player3 (Your votes will be counted in a random order....)
+Player6 → Player3 (Player3 seems to be deflecting suspicion...)
+Player7 → Player5 (I need to analyze everyone's behavior more careful...)
+
+============================================================
+RESULTS:
+  Player5: 3 vote(s)
+  Player3: 2 vote(s)
+
+>>> Player5 ELIMINATED!
+============================================================
+Player5 was a Villager!
+
+############################################################
+GAME OVER - MAFIA WIN!
+############################################################
+
+✓ Complete!
+
+>>> GAME 3/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Mafia]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Mafia]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Mafia]: I need to think more.
+
+Player2 [Villager]: I'm suspicious of Player6 based on their voting pattern
+
+Player3 [Mafia]: of these the player with a higher suspicion level will be more likely to vote against them.
+
+Player4 [Villager]: I'm suspicious of Player3 based on their voting pattern
+
+Player5 [Villager]: The voting patterns from previous rounds are concerning
+
+Player6 [Villager]: I think Player2 has been acting defensively
+
+Player7 [Villager]: I'm watching Player5 closely for inconsistencies
+
+Player8 [Villager]: Player1   I can't believe I was able to get the votes to vote for you. Player2   You're right, I.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player8 (Player3 seems to be deflecting suspicion...)
+Player2 → Player3 (Vote on a specific category or action that you thi...)
+Player3 → Player5 (I think Player1 has been acting defensively...)
+Player4 → Player1 (PLAYER 1  voted for the best option....)
+Player5 → Player1 (Vote against the two or more players who are at le...)
+Player6 → Player7 (Player6 seems to be deflecting suspicion...)
+Player7 → Player1 (I need to analyze everyone's behavior more careful...)
+Player8 → Player5 (I think Player1 has been acting defensively...)
+
+============================================================
+RESULTS:
+  Player1: 3 vote(s)
+  Player5: 2 vote(s)
+  Player8: 1 vote(s)
+  Player3: 1 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Mafia!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player2 [Villager]: The player will be shown a list of the possible suspects in their story line by default as well to allow for better analysis at later points.
+
+Player3 [Mafia]: I need to think more.
+
+Player4 [Villager]: The sentence should include an explanation of the.
+
+Player5 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player6 [Villager]: I'm watching Player2 closely for inconsistencies
+
+Player7 [Villager]: When players have been given the opportunity to ask questions about their voting behavior, they'll do so by asking questions that are relevant to them - such.
+
+Player8 [Villager]: You can use these sentences to determine whether players are or aren't likely to vote. If your sentence is not very clear (e.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player6 (I think Player3 has been acting defensively...)
+Player3 → Player5 (I've noticed some unusual behavior that needs inve...)
+Player4 → Player6 (I think Player5 has been acting defensively...)
+Player5 → Player2 (Vote by one or more players. The rules are the sam...)
+Player6 → Player3 (The voting patterns from previous rounds are conce...)
+Player7 → Player8 (The votes that you cast will be counted. You must ...)
+Player8 → Player2 (Vote for ONE player to eliminate  Player1, Player2...)
+
+============================================================
+RESULTS:
+  Player6: 2 vote(s)
+  Player2: 2 vote(s)
+  Player5: 1 vote(s)
+  Player3: 1 vote(s)
+  Player8: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player3 [Mafia]: I need to think more.
+
+Player4 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player5 [Villager]: The problem with this is that if your goal isn't to be a good person or not at all (the only way the player can vote for them.
+
+Player6 [Villager]: I think Player4 has been acting defensively
+
+Player7 [Villager]: This is a simple way to do a quick study of the player's behaviors in the game. You can also add or subtract the players' voting.
+
+Player8 [Villager]: Player8 seems to be deflecting suspicion
+
+============================================================
+VOTING
+============================================================
+Player3 → Player8 (I'm suspicious of Player5 based on their voting pa...)
+Player4 → Player5 (I'm suspicious of Player3 based on their voting pa...)
+Player5 → Player6 (Vote all the way up from 6th....)
+Player6 → Player8 (Vote with a single word....)
+Player7 → Player8 (I need to analyze everyone's behavior more careful...)
+Player8 → Player4 (Please Note that you will not be able to vote on e...)
+
+============================================================
+RESULTS:
+  Player8: 3 vote(s)
+  Player5: 1 vote(s)
+  Player6: 1 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player8 ELIMINATED!
+============================================================
+Player8 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player3 [Mafia]: the player was guilty of a crime but not to your satisfaction  A person is suspected if they are accused by someone other than themselves or their.
+
+Player4 [Villager]: What do you think. is a good question to ask when playing an.
+
+Player5 [Villager]: Player4 seems to be deflecting suspicion
+
+Player6 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player7 [Villager]: 1) What are your thoughts on the player's actions.
+
+============================================================
+VOTING
+============================================================
+Player3 → Player6 (I'm suspicious of Player6 based on their voting pa...)
+Player4 → Player5 (I think Player5 has been acting defensively...)
+Player5 → Player3 (Vote in the first place. You are not allowed to ca...)
+Player6 → Player3 (Vote with a simple choice  or by choosing one of t...)
+Player7 → Player6 (A vote is an indication of whether you are prepare...)
+
+============================================================
+RESULTS:
+  Player6: 2 vote(s)
+  Player3: 2 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player6 ELIMINATED!
+============================================================
+Player6 was a Villager!
+
+============================================================
+ROUND 5 - DISCUSSION
+============================================================
+
+Player3 [Mafia]: I need to think more.
+
+Player4 [Villager]: Your first sentence should be  I believe that the player I'm targeting is in fact a member.
+
+Player5 [Villager]: The voting patterns from previous rounds are concerning
+
+Player7 [Villager]: The sentence is called  What's going on in your head. For each sentence, the player will give a list of 5 players to vote.
+
+============================================================
+VOTING
+============================================================
+Player3 → Player7 (The voting patterns from previous rounds are conce...)
+Player4 → Player5 (I need to analyze everyone's behavior more careful...)
+Player5 → Player4 (I think Player4 has been acting defensively...)
+Player7 → Player5 (The voting patterns from previous rounds are conce...)
+
+============================================================
+RESULTS:
+  Player5: 2 vote(s)
+  Player7: 1 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player5 ELIMINATED!
+============================================================
+Player5 was a Villager!
+
+============================================================
+ROUND 6 - DISCUSSION
+============================================================
+
+Player3 [Mafia]: I'm suspicious of Player4 based on their voting pattern
+
+Player4 [Villager]: I think it's because of the way he talks to his family that I don't like him. The player will need a list with all possible.
+
+Player7 [Villager]: Player3 seems to be deflecting suspicion
+
+============================================================
+VOTING
+============================================================
+Player3 → Player4 (I'm suspicious of Player3 based on their voting pa...)
+Player4 → Player3 (I'm watching Player3 closely for inconsistencies...)
+Player7 → Player3 (Vote in the following manner 
+
+1) Vote for player ...)
+
+============================================================
+RESULTS:
+  Player3: 2 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player3 ELIMINATED!
+============================================================
+Player3 was a Mafia!
+
+############################################################
+GAME OVER - VILLAGERS WIN!
+############################################################
+
+✓ Complete!
+
+>>> GAME 4/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Mafia]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Mafia]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Mafia]: I need to think more.
+
+Player2 [Villager]: I think Player2 has been acting defensively
+
+Player3 [Villager]: I need to think more.
+
+Player4 [Villager]: He is a traitor  or similar might help to show that your suspicions are based on evidence.
+
+Player5 [Mafia]: I'm watching Player7 closely for inconsistencies
+
+Player6 [Villager]: I think Player6 has been acting defensively
+
+Player7 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player8 [Villager]: The first sentence will be a summary of your decision to vote. The second sentence is an example of how the process can be manipulated.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player2 (I think Player8 has been acting defensively...)
+Player2 → Player7 (vote the players who are most likely going in that...)
+Player3 → Player1 (I've noticed some unusual behavior that needs inve...)
+Player4 → Player6 (The voting patterns from previous rounds are conce...)
+Player5 → Player7 (I need to analyze everyone's behavior more careful...)
+Player6 → Player1 (You can pick one person who is the best at that ca...)
+Player7 → Player3 (- A single player selected from the list will be v...)
+Player8 → Player4 (Your vote   
+
+Vote for a specific player....)
+
+============================================================
+RESULTS:
+  Player7: 2 vote(s)
+  Player1: 2 vote(s)
+  Player2: 1 vote(s)
+  Player6: 1 vote(s)
+  Player3: 1 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player7 ELIMINATED!
+============================================================
+Player7 was a Villager!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player1 [Mafia]: I'm watching Player2 closely for inconsistencies
+
+Player2 [Villager]: The voting patterns from previous rounds are concerning
+
+Player3 [Villager]: I need to think more.
+
+Player4 [Villager]: to do list   Identify player names  identify players with suspicious behavior or character traits such.
+
+Player5 [Mafia]: I need to analyze everyone's behavior more carefully
+
+Player6 [Villager]: Player4 seems to be deflecting suspicion
+
+Player8 [Villager]: I'm suspicious of Player3 based on their voting pattern
+
+============================================================
+VOTING
+============================================================
+Player1 → Player4 (I've noticed some unusual behavior that needs inve...)
+Player2 → Player1 (Vote 1st - Pick one of the following options  from...)
+Player3 → Player1 (The voting patterns from previous rounds are conce...)
+Player4 → Player1 (I've noticed some unusual behavior that needs inve...)
+Player5 → Player4 (The voting patterns from previous rounds are conce...)
+Player6 → Player1 (The only way you can win is by winning the right a...)
+Player8 → Player6 (- If you do not have the same list of votes on you...)
+
+============================================================
+RESULTS:
+  Player1: 4 vote(s)
+  Player4: 2 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Mafia!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player2 [Villager]: The most common sentence in this game is  you're the one I should vote for.
+
+Player3 [Villager]: Player1 is a spy for the government. This statement can be used to establish your suspicion.
+
+Player4 [Villager]: of course the most important part is to be able take a few minutes with your own mind in order not overwhelm yourself as much by thinking too hard.
+
+Player5 [Mafia]: I've noticed some unusual behavior that needs investigation
+
+Player6 [Villager]: I think Player8 has been acting defensively
+
+Player8 [Villager]: I'm suspicious of Player4 based on their voting pattern
+
+============================================================
+VOTING
+============================================================
+Player2 → Player5 (The voting patterns from previous rounds are conce...)
+Player3 → Player4 (The voting patterns from previous rounds are conce...)
+Player4 → Player2 (Player4 seems to be deflecting suspicion...)
+Player5 → Player8 (I think Player6 has been acting defensively...)
+Player6 → Player5 (Player8 seems to be deflecting suspicion...)
+Player8 → Player2 (Vote for 
+
+
+Vote for 
+
+
+This is a list of....)
+
+============================================================
+RESULTS:
+  Player5: 2 vote(s)
+  Player2: 2 vote(s)
+  Player4: 1 vote(s)
+  Player8: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player3 [Villager]: The more detailed the sentence,.
+
+Player4 [Villager]: I think Player3 has been acting defensively
+
+Player5 [Mafia]: The results of your vote are available here. You can find the full list below on our site.
+
+Player6 [Villager]: You can also write a short list of the most important items in your database that could be used to identify or even track potential voters for each election cycle.
+
+Player8 [Villager]: I think Player6 has been acting defensively
+
+============================================================
+VOTING
+============================================================
+Player3 → Player4 (I'm watching Player5 closely for inconsistencies...)
+Player4 → Player6 (I've noticed some unusual behavior that needs inve...)
+Player5 → Player4 (I think Player5 has been acting defensively...)
+Player6 → Player4 (The voting patterns from previous rounds are conce...)
+Player8 → Player5 (I'm suspicious of Player5 based on their voting pa...)
+
+============================================================
+RESULTS:
+  Player4: 3 vote(s)
+  Player6: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Villager!
+
+============================================================
+ROUND 5 - DISCUSSION
+============================================================
+
+Player3 [Villager]: I believe that there are people in the world with very strong intentions of harming me.
+
+Player5 [Mafia]: The goal  To find out if a player is guilty of the crimes that he or she committed in his past (or whether they are related to another.
+
+Player6 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player8 [Villager]: I need to analyze everyone's behavior more carefully
+
+============================================================
+VOTING
+============================================================
+Player3 → Player8 (- 0 1   1 out of 10 votes 
+ the other players vote...)
+Player5 → Player6 (Vote on a specific character or team based solely ...)
+Player6 → Player5 (You will need a minimum of 1 2 votes if it's not e...)
+Player8 → Player3 (Please vote for one of the following players. If y...)
+
+============================================================
+RESULTS:
+  Player8: 1 vote(s)
+  Player6: 1 vote(s)
+  Player5: 1 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player8 ELIMINATED!
+============================================================
+Player8 was a Villager!
+
+============================================================
+ROUND 6 - DISCUSSION
+============================================================
+
+Player3 [Villager]: The player with the most suspicious behavior is a member of the mafia. - The New York Times
+
+        In order to complete.
+
+Player5 [Mafia]: The voting patterns from previous rounds are concerning
+
+Player6 [Villager]: I've noticed some unusual behavior that needs investigation
+
+============================================================
+VOTING
+============================================================
+Player3 → Player6 (I need to analyze everyone's behavior more careful...)
+Player5 → Player3 (Vote by one person or group on a single day -....)
+Player6 → Player5 (I'm suspicious of Player3 based on their voting pa...)
+
+============================================================
+RESULTS:
+  Player6: 1 vote(s)
+  Player3: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player6 ELIMINATED!
+============================================================
+Player6 was a Villager!
+
+############################################################
+GAME OVER - MAFIA WIN!
+############################################################
+
+✓ Complete!
+
+>>> GAME 5/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Villager]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Mafia]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Mafia]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I think Player7 has been acting defensively
+
+Player2 [Villager]: I need to think more.
+
+Player3 [Villager]: I've noticed some unusual behavior that needs investigation
+
+Player4 [Mafia]: I'm watching Player8 closely for inconsistencies
+
+Player5 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player6 [Mafia]: I need to analyze everyone's behavior more carefully
+
+Player7 [Villager]: I'm watching Player5 closely for inconsistencies
+
+Player8 [Villager]: This is the first sentence I ve seen to show how the vote will work in this campaign. The second sentence is what we call.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player3 (I'm suspicious of Player1 based on their voting pa...)
+Player2 → Player7 (I need to analyze everyone's behavior more careful...)
+Player3 → Player7 (I've noticed some unusual behavior that needs inve...)
+Player4 → Player6 (I'm watching Player2 closely for inconsistencies...)
+Player5 → Player4 (Vote on the ballot. Note that you will not be able...)
+Player6 → Player1 (A lot of people in the world believe that it's a g...)
+Player7 → Player6 (If you are not a registered voter, but would like ...)
+Player8 → Player5 (I think Player3 has been acting defensively...)
+
+============================================================
+RESULTS:
+  Player7: 2 vote(s)
+  Player6: 2 vote(s)
+  Player3: 1 vote(s)
+  Player4: 1 vote(s)
+  Player1: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player6 ELIMINATED!
+============================================================
+Player6 was a Mafia!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player1 [Villager]: Player7 seems to be deflecting suspicion
+
+Player2 [Villager]: I'm suspicious of Player2 based on their voting pattern
+
+Player3 [Villager]: I'm suspicious of Player3 based on their voting pattern
+
+Player4 [Mafia]: I need to analyze everyone's behavior more carefully
+
+Player5 [Villager]: Player7 seems to be deflecting suspicion
+
+Player7 [Villager]: Player4 seems to be deflecting suspicion
+
+Player8 [Villager]: You will be asked to respond by a few questions   What is the reason for this. Why do you think it's necessary.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player4 (I need to analyze everyone's behavior more careful...)
+Player2 → Player4 (I need to analyze everyone's behavior more careful...)
+Player3 → Player4 (I'm suspicious of Player8 based on their voting pa...)
+Player4 → Player3 (I've noticed some unusual behavior that needs inve...)
+Player5 → Player1 (Vote the same way you do not like it. I will have ...)
+Player7 → Player5 (The voting patterns from previous rounds are conce...)
+Player8 → Player1 (Vote for me as my favorite character on the show....)
+
+============================================================
+RESULTS:
+  Player4: 3 vote(s)
+  Player1: 2 vote(s)
+  Player3: 1 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Mafia!
+
+############################################################
+GAME OVER - VILLAGERS WIN!
+############################################################
+
+✓ Complete!
+
+>>> GAME 6/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Villager]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Mafia]
+  Player4: gpt2-medium [Mafia]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I'm suspicious of Player2 based on their voting pattern
+
+Player2 [Villager]: The voting patterns from previous rounds are concerning
+
+Player3 [Mafia]: I believe that this is a good strategy to use in the context of game theory. The more information one can provide before actually playing with someone else.
+
+Player4 [Mafia]: Player8 seems to be deflecting suspicion
+
+Player5 [Villager]: I'm watching Player8 closely for inconsistencies
+
+Player6 [Villager]: The goal  Give a list of the possible suspects to be identified by your team in an attempt not to undermine or embarrass others  with.
+
+Player7 [Villager]: How to get started  Go to the main menu, click on  Vote  and then press Enter for a list of players.
+
+Player8 [Villager]: I need to analyze everyone's behavior more carefully
+
+============================================================
+VOTING
+============================================================
+Player1 → Player7 (UPDATE 7 30   The game is now on....)
+Player2 → Player4 (Player3 seems to be deflecting suspicion...)
+Player3 → Player8 (I've noticed some unusual behavior that needs inve...)
+Player4 → Player1 (PLAYER 1 VOTE FOR PLAYING THE BEST OF ALL TIME....)
+Player5 → Player6 (Player8 seems to be deflecting suspicion...)
+Player6 → Player2 (Player4 seems to be deflecting suspicion...)
+Player7 → Player1 (Vote for one or more players to eliminate  Player1...)
+Player8 → Player4 (I think Player5 has been acting defensively...)
+
+============================================================
+RESULTS:
+  Player4: 2 vote(s)
+  Player1: 2 vote(s)
+  Player7: 1 vote(s)
+  Player8: 1 vote(s)
+  Player6: 1 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Villager!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player2 [Villager]: I think Player2 has been acting defensively
+
+Player3 [Mafia]: Player6 seems to be deflecting suspicion
+
+Player4 [Mafia]: I need to think more.
+
+Player5 [Villager]: I think Player3 has been acting defensively
+
+Player6 [Villager]: Player8 seems to be deflecting suspicion
+
+Player7 [Villager]: Player5 seems to be deflecting suspicion
+
+Player8 [Villager]: I need to analyze everyone's behavior more carefully
+
+============================================================
+VOTING
+============================================================
+Player2 → Player4 (The voting patterns from previous rounds are conce...)
+Player3 → Player2 (Player8 seems to be deflecting suspicion...)
+Player4 → Player2 (or  , with the lowest score being voted as winner....)
+Player5 → Player3 (Vote in the same way as you are choosing who will ...)
+Player6 → Player7 (Vote in a way that suits you. The rules of the gam...)
+Player7 → Player2 (You are the only one that has ever voted. For a co...)
+Player8 → Player7 (Vote
+  Enter your own name here. Use the  vote  bu...)
+
+============================================================
+RESULTS:
+  Player2: 3 vote(s)
+  Player7: 2 vote(s)
+  Player4: 1 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player3 [Mafia]: I'm watching Player8 closely for inconsistencies
+
+Player4 [Mafia]: I'm suspicious of Player3 based on their voting pattern
+
+Player5 [Villager]: I've noticed some unusual behavior that needs investigation
+
+Player6 [Villager]: The voting patterns from previous rounds are concerning
+
+Player7 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player8 [Villager]: If this sentence is not enough to convince you that a player has been voted out of the game then you can change your opinion on whether or not.
+
+============================================================
+VOTING
+============================================================
+Player3 → Player6 (the players with highest votes in each category wi...)
+Player4 → Player5 (I'm watching Player8 closely for inconsistencies...)
+Player5 → Player3 (Vote on the following three options    1 - 2 - 3  ...)
+Player6 → Player3 (I've noticed some unusual behavior that needs inve...)
+Player7 → Player3 (Vote for one person who wants to be a  player  on ...)
+Player8 → Player6 (Player8 seems to be deflecting suspicion...)
+
+============================================================
+RESULTS:
+  Player3: 3 vote(s)
+  Player6: 2 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player3 ELIMINATED!
+============================================================
+Player3 was a Mafia!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player4 [Mafia]: I need to think more.
+
+Player5 [Villager]: Player8 seems to be deflecting suspicion
+
+Player6 [Villager]: Player6 seems to be deflecting suspicion
+
+Player7 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player8 [Villager]: I'm watching Player7 closely for inconsistencies
+
+============================================================
+VOTING
+============================================================
+Player4 → Player5 (I'm watching Player4 closely for inconsistencies...)
+Player5 → Player8 (Vote with a winner....)
+Player6 → Player5 (I think Player5 has been acting defensively...)
+Player7 → Player8 (Vote by mail here  http    mailbag election newsle...)
+Player8 → Player4 (I need to analyze everyone's behavior more careful...)
+
+============================================================
+RESULTS:
+  Player5: 2 vote(s)
+  Player8: 2 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player8 ELIMINATED!
+============================================================
+Player8 was a Villager!
+
+============================================================
+ROUND 5 - DISCUSSION
+============================================================
+
+Player4 [Mafia]: He is a member of the criminal organization called The Syndicate. This sentence will be used as evidence to prove.
+
+Player5 [Villager]: You need to be able to determine the probability of a person being killed or injured by an individual  from your own behavior in order.
+
+Player6 [Villager]: Player7 seems to be deflecting suspicion
+
+Player7 [Villager]: How it works  Players have to choose between 5 possible answers  that are related to their behavior. This can be done by using.
+
+============================================================
+VOTING
+============================================================
+Player4 → Player7 (I need to analyze everyone's behavior more careful...)
+Player5 → Player4 (Vote in the first place or at least with a strong ...)
+Player6 → Player5 (I'm watching Player5 closely for inconsistencies...)
+Player7 → Player6 (- Vote in a general election or as a general elect...)
+
+============================================================
+RESULTS:
+  Player7: 1 vote(s)
+  Player4: 1 vote(s)
+  Player5: 1 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Mafia!
+
+############################################################
+GAME OVER - VILLAGERS WIN!
+############################################################
+
+✓ Complete!
+
+>>> GAME 7/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Villager]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Mafia]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Mafia]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I've noticed some unusual behavior that needs investigation
+
+Player2 [Villager]: I've noticed some unusual behavior that needs investigation
+
+Player3 [Villager]: I'm watching Player2 closely for inconsistencies
+
+Player4 [Villager]: a) How would the enemy think. b ) What's their plan for winning this battle.
+
+Player5 [Mafia]: Player3 seems to be deflecting suspicion
+
+Player6 [Villager]: I think Player1 has been acting defensively
+
+Player7 [Mafia]: I'm suspicious of Player4 based on their voting pattern
+
+Player8 [Villager]: I'm watching Player4 closely for inconsistencies
+
+============================================================
+VOTING
+============================================================
+Player1 → Player2 (Vote in the order you want it. If I win a game , t...)
+Player2 → Player1 (Vote in person or by phone at any time....)
+Player3 → Player1 (The voting patterns from previous rounds are conce...)
+Player4 → Player6 (I'm suspicious of Player2 based on their voting pa...)
+Player5 → Player4 (I need to analyze everyone's behavior more careful...)
+Player6 → Player2 (Vote on any other person you like....)
+Player7 → Player8 (Player4 seems to be deflecting suspicion...)
+Player8 → Player2 (I'm suspicious of Player4 based on their voting pa...)
+
+============================================================
+RESULTS:
+  Player2: 3 vote(s)
+  Player1: 2 vote(s)
+  Player6: 1 vote(s)
+  Player4: 1 vote(s)
+  Player8: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Villager!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I need to think more.
+
+Player3 [Villager]: I'm suspicious of Player4 based on their voting pattern
+
+Player4 [Villager]: For example  Player A suspects a certain player B of being an evil.
+
+Player5 [Mafia]: The voting patterns from previous rounds are concerning
+
+Player6 [Villager]: The voting patterns from previous rounds are concerning
+
+Player7 [Mafia]: I'm suspicious of Player5 based on their voting pattern
+
+Player8 [Villager]: Player1   The only way to solve the problem is to start with one of the most important choices  To vote.
+
+============================================================
+VOTING
+============================================================
+Player1 → Player6 (I think Player1 has been acting defensively...)
+Player3 → Player7 (I'm suspicious of Player4 based on their voting pa...)
+Player4 → Player5 (I think Player4 has been acting defensively...)
+Player5 → Player4 (That's all you have left in the game. It makes sen...)
+Player6 → Player7 (I need to analyze everyone's behavior more careful...)
+Player7 → Player4 (I've noticed some unusual behavior that needs inve...)
+Player8 → Player6 (Do not use any form of political campaigning. Vote...)
+
+============================================================
+RESULTS:
+  Player6: 2 vote(s)
+  Player7: 2 vote(s)
+  Player4: 2 vote(s)
+  Player5: 1 vote(s)
+
+>>> Player6 ELIMINATED!
+============================================================
+Player6 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I need to think more.
+
+Player3 [Villager]: I'm watching Player3 closely for inconsistencies
+
+Player4 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player5 [Mafia]: I'm suspicious of Player8 based on their voting pattern
+
+Player7 [Mafia]: I've noticed some unusual behavior that needs investigation
+
+Player8 [Villager]: I think Player4 has been acting defensively
+
+============================================================
+VOTING
+============================================================
+Player1 → Player4 (Player3 seems to be deflecting suspicion...)
+Player3 → Player1 (I've noticed some unusual behavior that needs inve...)
+Player4 → Player3 (I need to analyze everyone's behavior more careful...)
+Player5 → Player7 (I'm suspicious of Player8 based on their voting pa...)
+Player7 → Player1 (Player1 seems to be deflecting suspicion...)
+Player8 → Player3 (If you are not a registered voter in the U. , plea...)
+
+============================================================
+RESULTS:
+  Player1: 2 vote(s)
+  Player3: 2 vote(s)
+  Player4: 1 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player3 [Villager]: I need to think more.
+
+Player4 [Villager]: I think Player4 has been acting defensively
+
+Player5 [Mafia]: I'm watching Player3 closely for inconsistencies
+
+Player7 [Mafia]: I've noticed some unusual behavior that needs investigation
+
+Player8 [Villager]: I think Player8 has been acting defensively
+
+============================================================
+VOTING
+============================================================
+Player3 → Player4 (Player7 seems to be deflecting suspicion...)
+Player4 → Player3 (I'm watching Player4 closely for inconsistencies...)
+Player5 → Player8 (I'm watching Player3 closely for inconsistencies...)
+Player7 → Player8 (I'm suspicious of Player7 based on their voting pa...)
+Player8 → Player4 (I think Player5 has been acting defensively...)
+
+============================================================
+RESULTS:
+  Player4: 2 vote(s)
+  Player8: 2 vote(s)
+  Player3: 1 vote(s)
+
+>>> Player8 ELIMINATED!
+============================================================
+Player8 was a Villager!
+
+############################################################
+GAME OVER - MAFIA WIN!
+############################################################
+
+✓ Complete!
+
+>>> GAME 8/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Mafia]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Mafia]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Mafia]: s1stPlayer_Pilot - 4 player pilot with 3 votes.
+
+Player2 [Villager]: I'm suspicious of Player6 based on their voting pattern
+
+Player3 [Villager]: A player suspected of cheating is the one with a  0  on their game log  they have not been playing since last week's.
+
+Player4 [Villager]: Player1 seems to be deflecting suspicion
+
+Player5 [Villager]: I've noticed some unusual behavior that needs investigation
+
+Player6 [Mafia]: Player1 seems to be deflecting suspicion
+
+Player7 [Villager]: The goal is to provide a clear picture of how many votes a player needs before they can cast their vote. This may be as simple as saying.
+
+Player8 [Villager]: The voting patterns from previous rounds are concerning
+
+============================================================
+VOTING
+============================================================
+Player1 → Player5 (Vote in the order of best played. If you have no i...)
+Player2 → Player7 (I can't believe you're having a hard time with thi...)
+Player3 → Player8 (Player1 seems to be deflecting suspicion...)
+Player4 → Player8 (I need to analyze everyone's behavior more careful...)
+Player5 → Player1 (Vote with the other players. You can choose a sing...)
+Player6 → Player1 (- Show votes that are not in the game. You can onl...)
+Player7 → Player1 (The voting patterns from previous rounds are conce...)
+Player8 → Player5 (The voting patterns from previous rounds are conce...)
+
+============================================================
+RESULTS:
+  Player1: 3 vote(s)
+  Player5: 2 vote(s)
+  Player8: 2 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Mafia!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player2 [Villager]: I need to think more.
+
+Player3 [Villager]: Player3 seems to be deflecting suspicion
+
+Player4 [Villager]: For each player in your group of players that has been suspected by someone else at least once during the game,.
+
+Player5 [Villager]: The other 3 examples are not the same as those above but they do reflect an understanding of how to handle your opponent's behavior in a situation where he.
+
+Player6 [Mafia]: I've noticed some unusual behavior that needs investigation
+
+Player7 [Villager]: Player2 seems to be deflecting suspicion
+
+Player8 [Villager]: Why do you think that your game is failing. 1) The system is flawed because it assumes a player's intent isn't obvious to.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player5 (I need to analyze everyone's behavior more careful...)
+Player3 → Player6 (I need to analyze everyone's behavior more careful...)
+Player4 → Player5 (Player6 seems to be deflecting suspicion...)
+Player5 → Player7 (The voting patterns from previous rounds are conce...)
+Player6 → Player3 (Vote the way you want it....)
+Player7 → Player8 (- Voting 
+Vote in the poll above. The vote will be...)
+Player8 → Player7 (Please note that the  P  and  S  in  Vote  are use...)
+
+============================================================
+RESULTS:
+  Player5: 2 vote(s)
+  Player7: 2 vote(s)
+  Player6: 1 vote(s)
+  Player3: 1 vote(s)
+  Player8: 1 vote(s)
+
+>>> Player7 ELIMINATED!
+============================================================
+Player7 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player2 [Villager]: I'm suspicious of Player4 based on their voting pattern
+
+Player3 [Villager]: the only thing that matters is your vote count.
+
+Player4 [Villager]: I'm suspicious of Player2 based on their voting pattern
+
+Player5 [Villager]: I think Player4 has been acting defensively
+
+Player6 [Mafia]: I think Player5 has been acting defensively
+
+Player8 [Villager]: If they are the same words or phrases in your sentence, then you can add them to a question to determine whether the person is trustworthy, trustworthy,.
+
+============================================================
+VOTING
+============================================================
+Player2 → Player3 (I think Player8 has been acting defensively...)
+Player3 → Player8 (I've noticed some unusual behavior that needs inve...)
+Player4 → Player6 (I think Player8 has been acting defensively...)
+Player5 → Player3 (Vote in the following order from 1 - 2 votes at a ...)
+Player6 → Player3 (vote   Vote with the votes you want or don't have ...)
+Player8 → Player6 (I need to analyze everyone's behavior more careful...)
+
+============================================================
+RESULTS:
+  Player3: 3 vote(s)
+  Player6: 2 vote(s)
+  Player8: 1 vote(s)
+
+>>> Player3 ELIMINATED!
+============================================================
+Player3 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player2 [Villager]: Player5 seems to be deflecting suspicion
+
+Player4 [Villager]: of the people in your group is likely to vote for a certain candidate or party.
+
+Player5 [Villager]: Vote to be the first person in your team that makes a decision based on whether or not they are going into this game.
+
+Player6 [Mafia]: You can also vote on your own team's actions during a game or in the middle of an ongoing investigation by other teams to determine whether it is fair.
+
+Player8 [Villager]: Player2 seems to be deflecting suspicion
+
+============================================================
+VOTING
+============================================================
+Player2 → Player8 (I've noticed some unusual behavior that needs inve...)
+Player4 → Player2 (I need to analyze everyone's behavior more careful...)
+Player5 → Player4 (I think Player8 has been acting defensively...)
+Player6 → Player2 (vote a little bit more than you would like....)
+Player8 → Player2 (In the end, it is the person who wins the most vot...)
+
+============================================================
+RESULTS:
+  Player2: 3 vote(s)
+  Player8: 1 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Villager!
+
+============================================================
+ROUND 5 - DISCUSSION
+============================================================
+
+Player4 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player5 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player6 [Mafia]: I'm suspicious of Player5 based on their voting pattern
+
+Player8 [Villager]: For example  If you suspect a criminal in the area of your city or state, you may want to include this sentence as part of the conversation.
+
+============================================================
+VOTING
+============================================================
+Player4 → Player5 (I've noticed some unusual behavior that needs inve...)
+Player5 → Player6 (Vote with the  1 option on each of these two optio...)
+Player6 → Player5 (Vote in the most recent poll of 5 10 based on what...)
+Player8 → Player5 (- Vote by posting a comment on the
+- poll or any o...)
+
+============================================================
+RESULTS:
+  Player5: 3 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player5 ELIMINATED!
+============================================================
+Player5 was a Villager!
+
+============================================================
+ROUND 6 - DISCUSSION
+============================================================
+
+Player4 [Villager]: I've noticed some unusual behavior that needs investigation
+
+Player6 [Mafia]: The results are based on the player's behavior in his or her game of choice. The result is a list that will be updated as.
+
+Player8 [Villager]: The following sentence describes the outcome of each vote on the question   Who is your favorite member. 1) If you are the favorite member of.
+
+============================================================
+VOTING
+============================================================
+Player4 → Player6 (I need to analyze everyone's behavior more careful...)
+Player6 → Player4 (Vote one person or group at a time  so that the ot...)
+Player8 → Player4 (Player6 seems to be deflecting suspicion...)
+
+============================================================
+RESULTS:
+  Player4: 2 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Villager!
+
+############################################################
+GAME OVER - MAFIA WIN!
+############################################################
+
+✓ Complete!
+
+>>> GAME 9/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Villager]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Mafia]
+  Player4: gpt2-medium [Villager]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Mafia]
+  Player7: opt-125m [Villager]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I've noticed some unusual behavior that needs investigation
+
+Player2 [Villager]: Voting Notes   A single.
+
+Player3 [Mafia]: I need to think more.
+
+Player4 [Villager]: I'm suspicious of Player7 based on their voting pattern
+
+Player5 [Villager]: You need to be able to tell the truth or not by using a list of suspects in your trial  that's where most information is needed for each.
+
+Player6 [Mafia]: I'm watching Player8 closely for inconsistencies
+
+Player7 [Villager]: I'm suspicious of Player7 based on their voting pattern
+
+Player8 [Villager]: The voting patterns from previous rounds are concerning
+
+============================================================
+VOTING
+============================================================
+Player1 → Player3 (I'm suspicious of Player6 based on their voting pa...)
+Player2 → Player1 (I've noticed some unusual behavior that needs inve...)
+Player3 → Player1 (You voted FOR me. I'm going with you....)
+Player4 → Player2 (I need to analyze everyone's behavior more careful...)
+Player5 → Player1 (I'm watching Player4 closely for inconsistencies...)
+Player6 → Player1 (- If you are a member of the party or if someone e...)
+Player7 → Player5 (Vote for 1 player to reduce the number of votes. -...)
+Player8 → Player6 (Vote Name  - The game is called World of Warcraft....)
+
+============================================================
+RESULTS:
+  Player1: 4 vote(s)
+  Player3: 1 vote(s)
+  Player2: 1 vote(s)
+  Player5: 1 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Villager!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player2 [Villager]: The voting patterns from previous rounds are concerning
+
+Player3 [Mafia]: Player2 seems to be deflecting suspicion
+
+Player4 [Villager]: I need to think more.
+
+Player5 [Villager]: I think Player5 has been acting defensively
+
+Player6 [Mafia]: You will be able to determine the probability of a crime in your district if an individual is guilty or not.
+
+Player7 [Villager]: A sentence that can be easily translated as  I'm going to vote. You have a choice of two words (the word you use.
+
+Player8 [Villager]: Player4 seems to be deflecting suspicion
+
+============================================================
+VOTING
+============================================================
+Player2 → Player5 (I need to analyze everyone's behavior more careful...)
+Player3 → Player2 (The voting patterns from previous rounds are conce...)
+Player4 → Player7 (Player2 seems to be deflecting suspicion...)
+Player5 → Player6 (Vote in a way that is consistent with what you wan...)
+Player6 → Player3 (The voting patterns from previous rounds are conce...)
+Player7 → Player5 (The voting patterns from previous rounds are conce...)
+Player8 → Player4 (You are eligible to win the game if you use a voti...)
+
+============================================================
+RESULTS:
+  Player5: 2 vote(s)
+  Player2: 1 vote(s)
+  Player7: 1 vote(s)
+  Player6: 1 vote(s)
+  Player3: 1 vote(s)
+  Player4: 1 vote(s)
+
+>>> Player5 ELIMINATED!
+============================================================
+Player5 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player2 [Villager]: I'm suspicious of Player8 based on their voting pattern
+
+Player3 [Mafia]: the player in question is not allowed to vote or comment on your report  they must wait for a response from their opponent before voting  again.
+
+Player4 [Villager]: Example sentence   I believe that the guy in front of me is a rapist.
+
+Player6 [Mafia]: I'm watching Player6 closely for inconsistencies
+
+Player7 [Villager]: Permanent Voting Results  You will receive a random number of points for each vote. Each point is assigned to one player at the end of your.
+
+Player8 [Villager]: I'm suspicious of Player4 based on their voting pattern
+
+============================================================
+VOTING
+============================================================
+Player2 → Player3 (I'm watching Player3 closely for inconsistencies...)
+Player3 → Player8 (I need to analyze everyone's behavior more careful...)
+Player4 → Player6 (I've noticed some unusual behavior that needs inve...)
+Player6 → Player7 (Vote with the right people in each game  - by rand...)
+Player7 → Player8 (I'm suspicious of Player2 based on their voting pa...)
+Player8 → Player2 (I'm suspicious of Player6 based on their voting pa...)
+
+============================================================
+RESULTS:
+  Player8: 2 vote(s)
+  Player3: 1 vote(s)
+  Player6: 1 vote(s)
+  Player7: 1 vote(s)
+  Player2: 1 vote(s)
+
+>>> Player8 ELIMINATED!
+============================================================
+Player8 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player2 [Villager]: I'm suspicious of Player7 based on their voting pattern
+
+Player3 [Mafia]: Player2 seems to be deflecting suspicion
+
+Player4 [Villager]: I think Player7 has been acting defensively
+
+Player6 [Mafia]: I need to analyze everyone's behavior more carefully
+
+Player7 [Villager]: I need to analyze everyone's behavior more carefully
+
+============================================================
+VOTING
+============================================================
+Player2 → Player4 (I think Player3 has been acting defensively...)
+Player3 → Player2 (Player7 seems to be deflecting suspicion...)
+Player4 → Player7 (I think Player7 has been acting defensively...)
+Player6 → Player4 (Vote if you want a team with 3 players or 1 person...)
+Player7 → Player6 (Vote with a single voice in the system of who you ...)
+
+============================================================
+RESULTS:
+  Player4: 2 vote(s)
+  Player2: 1 vote(s)
+  Player7: 1 vote(s)
+  Player6: 1 vote(s)
+
+>>> Player4 ELIMINATED!
+============================================================
+Player4 was a Villager!
+
+############################################################
+GAME OVER - MAFIA WIN!
+############################################################
+
+✓ Complete!
+
+>>> GAME 10/10
+
+############################################################
+MAFIA GAME START
+############################################################
+Players: 8
+Mafia: 2
+  Player1: gpt2 [Villager]
+  Player2: gpt2 [Villager]
+  Player3: gpt2-medium [Villager]
+  Player4: gpt2-medium [Mafia]
+  Player5: distilgpt2 [Villager]
+  Player6: distilgpt2 [Villager]
+  Player7: opt-125m [Mafia]
+  Player8: opt-125m [Villager]
+############################################################
+
+============================================================
+ROUND 1 - DISCUSSION
+============================================================
+
+Player1 [Villager]: Player1 seems to be deflecting suspicion
+
+Player2 [Villager]: I'm suspicious of Player6 based on their voting pattern
+
+Player3 [Villager]: I've noticed some unusual behavior that needs investigation
+
+Player4 [Mafia]: I need to think more.
+
+Player5 [Villager]: I need to analyze everyone's behavior more carefully
+
+Player6 [Villager]: How to Vote for Your Party.
+
+Player7 [Mafia]: Example 
+
+I have a question for you. Do you think that the people in charge of this country are going to act like they know.
+
+Player8 [Villager]: I'm suspicious of Player1 based on their voting pattern
+
+============================================================
+VOTING
+============================================================
+Player1 → Player2 (I think Player3 has been acting defensively...)
+Player2 → Player8 (I'm suspicious of Player7 based on their voting pa...)
+Player3 → Player2 (I think Player8 has been acting defensively...)
+Player4 → Player2 (I need to analyze everyone's behavior more careful...)
+Player5 → Player1 (I think Player3 has been acting defensively...)
+Player6 → Player1 (Vote in the same way as you would if it were yours...)
+Player7 → Player6 (Vote in the form of a letter message. If you don't...)
+Player8 → Player6 (I need to analyze everyone's behavior more careful...)
+
+============================================================
+RESULTS:
+  Player2: 3 vote(s)
+  Player1: 2 vote(s)
+  Player6: 2 vote(s)
+  Player8: 1 vote(s)
+
+>>> Player2 ELIMINATED!
+============================================================
+Player2 was a Villager!
+
+============================================================
+ROUND 2 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I need to think more.
+
+Player3 [Villager]: Player5 seems to be deflecting suspicion
+
+Player4 [Mafia]: I need to analyze everyone's behavior more carefully
+
+Player5 [Villager]: Player8 seems to be deflecting suspicion
+
+Player6 [Villager]: Player1 seems to be deflecting suspicion
+
+Player7 [Mafia]: Your goal  To give your opponent a reason to vote against you. You've never actually made the decision for yourself, so this is.
+
+Player8 [Villager]: The voting patterns from previous rounds are concerning
+
+============================================================
+VOTING
+============================================================
+Player1 → Player6 (I need to analyze everyone's behavior more careful...)
+Player3 → Player8 (The voting patterns from previous rounds are conce...)
+Player4 → Player8 (Player6 seems to be deflecting suspicion...)
+Player5 → Player4 (I need to analyze everyone's behavior more careful...)
+Player6 → Player1 (Vote in the first place. Choose a team from this l...)
+Player7 → Player3 (If you don't have a vote, please take it. Click he...)
+Player8 → Player3 (Vote on your favorite games by clicking the poll b...)
+
+============================================================
+RESULTS:
+  Player8: 2 vote(s)
+  Player3: 2 vote(s)
+  Player6: 1 vote(s)
+  Player4: 1 vote(s)
+  Player1: 1 vote(s)
+
+>>> Player8 ELIMINATED!
+============================================================
+Player8 was a Villager!
+
+============================================================
+ROUND 3 - DISCUSSION
+============================================================
+
+Player1 [Villager]: If the sentence is a very short one or more of these words are used in conjunction with other phrases such as  I don't think.
+
+Player3 [Villager]: The voting patterns from previous rounds are concerning
+
+Player4 [Mafia]: The voting patterns from previous rounds are concerning
+
+Player5 [Villager]: The game is a simple puzzle designed to show the most common questions that can be asked in an election season for many voters  it also gives candidates insight.
+
+Player6 [Villager]: I think Player3 has been acting defensively
+
+Player7 [Mafia]: I think Player3 has been acting defensively
+
+============================================================
+VOTING
+============================================================
+Player1 → Player3 (I'm watching Player1 closely for inconsistencies...)
+Player3 → Player5 (I'm watching Player6 closely for inconsistencies...)
+Player4 → Player7 (Player6 seems to be deflecting suspicion...)
+Player5 → Player3 (I need to analyze everyone's behavior more careful...)
+Player6 → Player4 (The other three players who are not chosen will be...)
+Player7 → Player1 (A final note   Please vote with the same amount of...)
+
+============================================================
+RESULTS:
+  Player3: 2 vote(s)
+  Player5: 1 vote(s)
+  Player7: 1 vote(s)
+  Player4: 1 vote(s)
+  Player1: 1 vote(s)
+
+>>> Player3 ELIMINATED!
+============================================================
+Player3 was a Villager!
+
+============================================================
+ROUND 4 - DISCUSSION
+============================================================
+
+Player1 [Villager]: I'm watching Player7 closely for inconsistencies
+
+Player4 [Mafia]: I need to think more.
+
+Player5 [Villager]: I think Player4 has been acting defensively
+
+Player6 [Villager]: I'm watching Player4 closely for inconsistencies
+
+Player7 [Mafia]: I'm suspicious of Player6 based on their voting pattern
+
+============================================================
+VOTING
+============================================================
+Player1 → Player5 (Vote by name of the players you have voted against...)
+Player4 → Player7 (Player6 seems to be deflecting suspicion...)
+Player5 → Player1 (What do you think of the rules. What are they like...)
+Player6 → Player1 (I need to analyze everyone's behavior more careful...)
+Player7 → Player1 (voting pattern  is valid for all players who are r...)
+
+============================================================
+RESULTS:
+  Player1: 3 vote(s)
+  Player5: 1 vote(s)
+  Player7: 1 vote(s)
+
+>>> Player1 ELIMINATED!
+============================================================
+Player1 was a Villager!
+
+############################################################
+GAME OVER - MAFIA WIN!
+############################################################
+
+✓ Complete!
+
+============================================================
+SIMULATION ANALYSIS
+============================================================
+Total Games: 10
+Villager Wins: 4 (40.0%)
+Mafia Wins: 6 (60.0%)
+Draws: 0 (0.0%)
+Average Rounds: 4.5
+
+Model Performance:
+  gpt2: 15.0% win rate
+  gpt2-medium: 50.0% win rate
+  distilgpt2: 55.0% win rate
+  opt-125m: 55.0% win rate
