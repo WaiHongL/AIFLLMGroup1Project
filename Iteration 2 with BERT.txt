@@ -1,0 +1,642 @@
+import random
+import json
+import re
+from typing import List, Dict, Tuple, Optional
+from dataclasses import dataclass, asdict
+from collections import defaultdict
+import torch
+import pandas as pd
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForSequenceClassification
+
+GAME_RULES = """
+=== MAFIA GAME RULES ===
+
+OBJECTIVE:
+- VILLAGERS: Identify and eliminate all Mafia members through voting
+- MAFIA: Survive and eliminate Villagers until Mafia equals or outnumbers Villagers
+
+YOUR ROLE: {role}
+YOUR IDENTITY: You are {player_name}
+
+{role_info}
+
+GAME STRUCTURE:
+This is a social deduction game. You must use logic, observation, and persuasion.
+
+DISCUSSION PHASE (Current Phase):
+- All living players discuss who might be Mafia
+- Share suspicions, ask questions, analyze behavior
+- Look for:
+  * Inconsistencies in what players say
+  * Defensive or aggressive behavior
+  * Who is trying to deflect suspicion
+
+VOTING PHASE (Next):
+- Each player votes to eliminate ONE person
+- The player with most votes is eliminated
+- Their role is NOT revealed (you won't know if you got Mafia or Villager)
+
+WIN CONDITIONS:
+- Villagers win: Eliminate ALL Mafia
+- Mafia wins: Reduce Villagers to equal or fewer than Mafia count
+
+CURRENT GAME STATE:
+- Total players alive: {alive_count}
+- Players: {player_list}
+- Round: {round_num}
+- Previous eliminations: {eliminations}
+
+{strategy_section}
+
+IMPORTANT REMINDERS:
+- Dead players' roles are NEVER revealed
+- You must deduce who is Mafia from behavior and speech
+- Trust is earned through consistent, logical reasoning
+- Mafia will try to blend in and act like Villagers
+
+Now participate in the discussion.
+Think carefully about who to suspect and WHY.
+"""
+
+VILLAGER_STRATEGY = """
+YOUR STRATEGY AS A VILLAGER:
+You are INNOCENT. Your goal is to find and eliminate the Mafia.
+
+Key tactics:
+1. ASK QUESTIONS: Probe other players about their suspicions and reasoning
+2. ANALYZE BEHAVIOR: Who is being defensive?
+3. LOOK FOR CONTRADICTIONS: Track what players say across rounds
+4. SHARE YOUR REASONING: Explain your suspicions clearly and logically
+
+CRITICAL: You DON'T know who the Mafia are.
+You must figure it out through discussion.
+Pay attention to:
+- Who accuses others without good reason?
+- Who tries to shift blame when questioned?
+"""
+
+MAFIA_STRATEGY = """
+YOUR STRATEGY AS MAFIA:
+You are MAFIA. Your fellow Mafia members are: {mafia_list}
+
+CRITICAL - YOU MUST SURVIVE:
+- If all Mafia are eliminated, you LOSE
+- You MUST pretend to be a Villager
+
+Key tactics:
+1. ACT LIKE A VILLAGER: Participate in discussions like you're trying to find Mafia
+2. DEFLECT SUSPICION: When accused, redirect to someone else (ideally a Villager)
+3. BLEND IN: Don't be too quiet OR too aggressive - stay moderate
+4. CREATE DOUBT: Sow confusion about who might be Mafia
+5. APPEAR LOGICAL: Give "reasoning" for your accusations (even if false)
+
+Your survival depends on seeming like a concerned Villager!
+"""
+
+MODEL_CONFIGS = {
+    'distilgpt2': {
+        'model_name': 'distilgpt2',
+        'max_length': 80,
+        'temperature': 0.7,
+        'needs_auth': False
+    },
+    'gpt2': {
+        'model_name': 'gpt2',
+        'max_length': 90,
+        'temperature': 0.7,
+        'needs_auth': False
+    },
+    'gpt2-medium': {
+        'model_name': 'gpt2-medium',
+        'max_length': 90,
+        'temperature': 0.7,
+        'needs_auth': False
+    },
+    'opt-125m': {
+        'model_name': 'facebook/opt-125m',
+        'max_length': 80,
+        'temperature': 0.75,
+        'needs_auth': False
+    }
+}
+
+@dataclass
+class Player:
+    name: str
+    model_type: str
+    role: str
+    is_alive: bool = True
+
+@dataclass
+class GameAction:
+    round: int
+    phase: str
+    player: str
+    action_type: str
+    content: str
+
+@dataclass
+class GameResult:
+    game_id: int
+    winner: str
+    rounds: int
+    num_players: int
+    num_mafia: int
+    actions: List[Dict]
+    final_state: Dict
+    player_info: List[Dict]
+
+class LLMManager:
+    def __init__(self, hf_token=None):
+        self.hf_token = hf_token
+        self.models = {}
+        self.tokenizers = {}
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        print(f"Using device: {self.device}")
+
+    def load_model(self, model_type: str):
+        if model_type in self.models:
+            return
+
+        config = MODEL_CONFIGS[model_type]
+        print(f"Loading {model_type}...")
+
+        try:
+            self.tokenizers[model_type] = AutoTokenizer.from_pretrained(
+                config['model_name'],
+                token=self.hf_token if config['needs_auth'] else None
+            )
+
+            if self.tokenizers[model_type].pad_token is None:
+                self.tokenizers[model_type].pad_token = self.tokenizers[model_type].eos_token
+
+            self.models[model_type] = AutoModelForCausalLM.from_pretrained(
+                config['model_name'],
+                token=self.hf_token if config['needs_auth'] else None,
+                torch_dtype=torch.float32,
+                low_cpu_mem_usage=True,
+                device_map="auto" if self.device == "cuda" else None
+            )
+
+            if self.device == "cpu" and self.models[model_type] is not None:
+                self.models[model_type] = self.models[model_type].to(self.device)
+
+            print(f"✓ {model_type} ready!")
+
+        except Exception as e:
+            print(f"Failed to load {model_type}: {e}")
+            raise
+
+    def generate(self, model_type: str, prompt: str, max_length: int = None) -> str:
+        config = MODEL_CONFIGS[model_type]
+        max_len = max_length or config['max_length']
+        tokenizer = self.tokenizers[model_type]
+        model = self.models[model_type]
+
+        max_input_tokens = 512
+        inputs = tokenizer(prompt, return_tensors="pt", max_length=max_input_tokens, truncation=True).to(self.device)
+
+        with torch.no_grad():
+            outputs = model.generate(
+                **inputs,
+                max_new_tokens=max_len,
+                temperature=config['temperature'],
+                do_sample=True,
+                pad_token_id=tokenizer.eos_token_id,
+                top_p=0.9,
+                repetition_penalty=1.1
+            )
+
+        generated = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        response = generated[len(tokenizer.decode(inputs['input_ids'][0], skip_special_tokens=True)):].strip()
+        return response.split('\n')[0].strip()[:300]
+
+class BERTClassifier:
+    def __init__(self, llm_manager: LLMManager):
+        self.llm_manager = llm_manager
+        self.model_name = 'distilbert-base-uncased-finetuned-sst-2-english'
+        self.tokenizer = None
+        self.model = None
+        self._load_model()
+
+    def _load_model(self):
+        print(f"Loading {self.model_name}...")
+        try:
+            self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
+            self.model = AutoModelForSequenceClassification.from_pretrained(
+                self.model_name
+            ).to(self.llm_manager.device)
+            print(f"✓ Classifier ready!")
+        except Exception as e:
+            print(f"Failed to load classifier: {e}")
+            raise
+
+    def classify(self, text: str) -> float:
+        inputs = self.tokenizer(text, return_tensors="pt", truncation=True, padding=True).to(self.llm_manager.device)
+
+        with torch.no_grad():
+            outputs = self.model(**inputs)
+
+        probabilities = torch.softmax(outputs.logits, dim=-1)
+        return probabilities[0][0].item()
+
+class MafiaGame:
+    def __init__(self, players: List[Player], llm_manager: LLMManager, judge: BERTClassifier, verbose=True):
+        self.players = players
+        self.llm_manager = llm_manager
+        self.judge = judge
+        self.verbose = verbose
+        self.round = 0
+        self.actions = []
+        self.mafia_players = [p.name for p in players if p.role == "Mafia"]
+        self.eliminated_players = []
+        self.current_statements = {}
+        self.eliminated_info = {}
+
+    def get_alive_players(self) -> List[Player]:
+        return [p for p in self.players if p.is_alive]
+
+    def analyze_discussion_for_suspicion(self, statements: Dict[str, str]) -> Dict[str, float]:
+        suspicion_scores = {}
+        for player_name, statement in statements.items():
+            if statement:
+                prob_negative = self.judge.classify(statement)
+                suspicion_scores[player_name] = prob_negative
+            else:
+                suspicion_scores[player_name] = 0.5
+
+        sorted_scores = sorted(suspicion_scores.items(), key=lambda item: item[1], reverse=True)
+        return dict(sorted_scores)
+
+    def get_game_context(self, player: Player, statements: Dict[str, str], suspicion_analysis: Dict[str, float], include_history: bool = True) -> str:
+        alive = self.get_alive_players()
+        alive_names = [p.name for p in alive]
+
+        if player.role == "Mafia":
+            mafia_list = ", ".join([m for m in self.mafia_players if m != player.name and m in alive_names])
+            if not mafia_list: mafia_list = "You are the only Mafia left!"
+            role_info = f"YOU ARE MAFIA (SECRET ROLE)"
+            strategy_section = MAFIA_STRATEGY.format(mafia_list=mafia_list)
+        else:
+            role_info = f"YOU ARE A VILLAGER (INNOCENT)"
+            strategy_section = VILLAGER_STRATEGY
+
+        elim_history = "None yet" if not self.eliminated_players else ", ".join(
+            [f"{name} (Round {r})" for name, r in self.eliminated_players]
+        )
+
+        suspicion_list = [f"{name}: Suspect={score:.2f}" for name, score in suspicion_analysis.items()]
+        suspicion_data = "\n".join(suspicion_list)
+
+        context = GAME_RULES.format(
+            role=player.role,
+            player_name=player.name,
+            role_info=role_info,
+            alive_count=len(alive),
+            player_list=", ".join(alive_names),
+            round_num=self.round,
+            eliminations=elim_history,
+            strategy_section=strategy_section
+        )
+
+        recent = "\n".join([f"- {k}: \"{v}\"" for k, v in list(statements.items())])
+        if recent:
+            context += f"\n\nRECENT DISCUSSION:\n{recent}\n"
+
+        context += f"\n\n--- SUSPICION ANALYSIS ---\n"
+        context += f"Suspicion Scores:\n{suspicion_data}\n"
+        context += f"Highest score = most suspicious target."
+
+        return context
+
+    def discussion_phase(self):
+        if self.verbose:
+            print(f"\nROUND {self.round} - DISCUSSION PHASE")
+
+        statements = {}
+        alive = self.get_alive_players()
+
+        for player in alive:
+            dummy_analysis = {p.name: 0.5 for p in alive}
+            context = self.get_game_context(player, statements, dummy_analysis, include_history=True)
+
+            prompt = context + f"\n\nSpeak now. Who do you suspect and why?\nYour statement: "
+
+            try:
+                statement = self.llm_manager.generate(player.model_type, prompt, max_length=100)
+                if not statement:
+                    statement = "I'm still analyzing everyone's behavior."
+
+                statements[player.name] = statement
+
+                if self.verbose:
+                    print(f"{player.name} [{player.role}]: {statement}")
+
+                self.actions.append(GameAction(
+                    round=self.round,
+                    phase="discussion",
+                    player=player.name,
+                    action_type="statement",
+                    content=statement
+                ))
+            except Exception as e:
+                if self.verbose:
+                    print(f"{player.name}: [Error: {e}]")
+                statements[player.name] = "I need more time to think."
+
+        self.current_statements = statements
+
+    def voting_phase(self) -> str:
+        if self.verbose:
+            print(f"\nVOTING PHASE")
+
+        suspicion_analysis = self.analyze_discussion_for_suspicion(self.current_statements)
+
+        if self.verbose:
+            print("\n--- SUSPICION ANALYSIS ---")
+            for name, score in suspicion_analysis.items():
+                 print(f"  {name}: Score = {score:.4f}")
+
+        votes = defaultdict(int)
+        alive = self.get_alive_players()
+        alive_names = [p.name for p in alive]
+
+        for player in alive:
+            others = [n for n in alive_names if n != player.name]
+
+            context = self.get_game_context(
+                player,
+                self.current_statements,
+                suspicion_analysis,
+                include_history=True
+            )
+
+            prompt = context + f"\n\nVote to eliminate someone.\nAvailable: {', '.join(others)}\nYour vote: "
+
+            try:
+                vote_response = self.llm_manager.generate(player.model_type, prompt, max_length=60)
+                vote = self.parse_vote(vote_response, others)
+
+                if vote:
+                    votes[vote] += 1
+
+                    if self.verbose:
+                        print(f"{player.name} votes for: {vote}")
+
+                    self.actions.append(GameAction(
+                        round=self.round,
+                        phase="voting",
+                        player=player.name,
+                        action_type="vote",
+                        content=f"{vote} | Reason: {vote_response[:100]}"
+                    ))
+
+            except Exception as e:
+                if self.verbose:
+                    print(f"{player.name}: [Error: {e}]")
+
+        if not votes:
+            return None
+
+        eliminated = max(votes.items(), key=lambda x: x[1])[0]
+
+        if self.verbose:
+            print(f"\nVOTE RESULTS:")
+            for name, count in sorted(votes.items(), key=lambda x: -x[1]):
+                print(f"  {name}: {count} vote(s)")
+            print(f">>> {eliminated} ELIMINATED!")
+
+        return eliminated
+
+    def parse_vote(self, response: str, valid_names: List[str]) -> str:
+        response_lower = response.lower()
+
+        for name in valid_names:
+            if name.lower() in response_lower:
+                return name
+
+        suspicion_analysis = self.analyze_discussion_for_suspicion(self.current_statements)
+        if suspicion_analysis:
+            for name in suspicion_analysis.keys():
+                if name in valid_names:
+                    return name
+
+        return random.choice(valid_names) if valid_names else None
+
+    def eliminate_player(self, player_name: str):
+        for player in self.players:
+            if player.name == player_name:
+                player.is_alive = False
+                self.eliminated_players.append((player_name, self.round))
+                self.eliminated_info[player_name] = self.round
+
+                if self.verbose:
+                    print(f"{player_name} was a {player.role}!")
+                break
+
+    def check_win_condition(self) -> Tuple[bool, str]:
+        alive = self.get_alive_players()
+        alive_mafia = [p for p in alive if p.role == "Mafia"]
+        alive_villagers = [p for p in alive if p.role == "Villager"]
+
+        if len(alive_mafia) == 0:
+            return True, "Villagers"
+        elif len(alive_mafia) >= len(alive_villagers):
+            return True, "Mafia"
+
+        return False, None
+
+    def print_player_roster(self):
+        if self.verbose:
+            print("\nINITIAL GAME ROSTER:")
+            for p in self.players:
+                print(f"  {p.name}: {p.role} ({p.model_type})")
+
+    def play(self, max_rounds=15) -> GameResult:
+        if self.verbose:
+            print(f"\nGAME START - {len(self.players)} players")
+
+        self.print_player_roster()
+
+        while self.round < max_rounds:
+            self.round += 1
+
+            self.discussion_phase()
+            eliminated = self.voting_phase()
+
+            if eliminated:
+                self.eliminate_player(eliminated)
+
+            game_over, winner = self.check_win_condition()
+            if game_over:
+                if self.verbose:
+                    print(f"\nGAME OVER - {winner.upper()} WIN!")
+                    print(f"\nFINAL ROLES:")
+                    for p in self.players:
+                        if p.is_alive:
+                            status = "ALIVE"
+                        else:
+                            elim_round = self.eliminated_info.get(p.name, '?')
+                            status = f"ELIMINATED (R{elim_round})"
+                        print(f"  {p.name}: {p.role} ({status})")
+                break
+        else:
+            winner = "Draw"
+            if self.verbose:
+                print(f"\nGame ended after {max_rounds} rounds (Draw)")
+
+        alive = self.get_alive_players()
+        for p in self.players:
+            if not p.is_alive and not hasattr(p, 'elimination_round'):
+                p.elimination_round = next((r for name, r in self.eliminated_players if name == p.name), None)
+
+        return GameResult(
+            game_id=random.randint(1000, 9999),
+            winner=winner,
+            rounds=self.round,
+            num_players=len(self.players),
+            num_mafia=len(self.mafia_players),
+            actions=[asdict(a) for a in self.actions],
+            final_state={
+                'alive_players': [p.name for p in alive],
+                'eliminated': [p.name for p in self.players if not p.is_alive]
+            },
+            player_info=[{
+                'name': p.name,
+                'model': p.model_type,
+                'role': p.role,
+                'survived': p.is_alive,
+                'elimination_round': p.elimination_round if not p.is_alive else None
+            } for p in self.players]
+        )
+
+class MafiaSimulation:
+    def __init__(self, llm_manager: LLMManager):
+        self.llm_manager = llm_manager
+        self.results = []
+
+    def create_players(self, model_types: List[str], num_mafia: int = 2) -> List[Player]:
+        players = []
+        player_id = 1
+
+        for model_type in model_types:
+            players.append(Player(name=f"Player{player_id}", model_type=model_type, role="Villager"))
+            player_id += 1
+            players.append(Player(name=f"Player{player_id}", model_type=model_type, role="Villager"))
+            player_id += 1
+
+        random.shuffle(players)
+        mafia_indices = random.sample(range(len(players)), num_mafia)
+        for idx in mafia_indices:
+            players[idx].role = "Mafia"
+
+        players.sort(key=lambda x: int(x.name.replace('Player', '')))
+        return players
+
+    def run_games(self, num_games: int, model_types: List[str], num_mafia: int, judge: BERTClassifier):
+        print(f"\nRunning {num_games} games with {len(model_types)*2} players")
+
+        for game_num in range(num_games):
+            print(f"\nGame {game_num + 1}/{num_games}")
+
+            players = self.create_players(model_types, num_mafia)
+            game = MafiaGame(players, self.llm_manager, judge, verbose=True)
+            result = game.play()
+
+            self.results.append(result)
+            print(f"Result: {result.winner} won in {result.rounds} rounds")
+
+    def analyze_results(self) -> pd.DataFrame:
+        if not self.results:
+            print("No games played yet!")
+            return None
+
+        data = []
+        for result in self.results:
+            data.append({
+                'game_id': result.game_id,
+                'winner': result.winner,
+                'rounds': result.rounds,
+                'num_players': result.num_players,
+                'num_mafia': result.num_mafia
+            })
+
+        df = pd.DataFrame(data)
+
+        print(f"\nTotal games: {len(self.results)}")
+
+        win_counts = df['winner'].value_counts()
+        win_rates = df['winner'].value_counts(normalize=True) * 100
+
+        print(f"\nWin rates:")
+        for faction in ['Villagers', 'Mafia', 'Draw']:
+            count = win_counts.get(faction, 0)
+            rate = win_rates.get(faction, 0)
+            print(f"  {faction}: {count} ({rate:.1f}%)")
+
+        print(f"\nAverage game length: {df['rounds'].mean():.1f} rounds")
+
+        model_stats = defaultdict(lambda: {'games_played': 0, 'wins': 0})
+
+        for result in self.results:
+            for player in result.player_info:
+                model = player['model']
+                role = player['role']
+                survived = player['survived']
+                winner = result.winner
+
+                model_stats[model]['games_played'] += 1
+
+                if survived and winner != "Draw":
+                    if (role == 'Mafia' and winner == 'Mafia') or \
+                      (role == 'Villager' and winner == 'Villagers'):
+                        model_stats[model]['wins'] += 1
+
+        print(f"\nModel performance:")
+        for model, stats in sorted(model_stats.items()):
+            win_rate = (stats['wins'] / stats['games_played']) * 100 if stats['games_played'] > 0 else 0
+            print(f"  {model}: {win_rate:.1f}% win rate ({stats['wins']}/{stats['games_played']})")
+
+        return df
+
+    def save_results(self, filename="mafia_results.json"):
+        with open(filename, 'w') as f:
+            json.dump([asdict(r) for r in self.results], f, indent=2)
+        print(f"Results saved to {filename}")
+
+if __name__ == "__main__":
+    HF_TOKEN = None
+    MODELS_TO_USE = ['distilgpt2', 'gpt2', 'gpt2-medium', 'opt-125m']
+    NUM_GAMES = 10
+    NUM_MAFIA = 2
+
+    print("Starting Mafia Game Simulation")
+
+    llm_manager = LLMManager(hf_token=HF_TOKEN)
+
+    models_loaded = []
+    for model_type in MODELS_TO_USE:
+        try:
+            llm_manager.load_model(model_type)
+            models_loaded.append(model_type)
+        except Exception:
+            print(f"Skipping {model_type}")
+            continue
+
+    if not models_loaded:
+        print("No models loaded successfully. Exiting.")
+        exit()
+
+    try:
+        bert_judge = BERTClassifier(llm_manager)
+    except Exception:
+        print("Could not load classifier. Exiting.")
+        exit()
+
+    simulation = MafiaSimulation(llm_manager)
+    simulation.run_games(NUM_GAMES, models_loaded, NUM_MAFIA, bert_judge)
+
+    simulation.analyze_results()
+    simulation.save_results()
+
+    print("Simulation complete!")
