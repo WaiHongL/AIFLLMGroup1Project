@@ -1,0 +1,1720 @@
+Starting Mafia Game Simulation
+Using device: cpu
+Loading distilgpt2...
+✓ distilgpt2 ready!
+Loading gpt2...
+✓ gpt2 ready!
+Loading gpt2-medium...
+✓ gpt2-medium ready!
+Loading opt-125m...
+✓ opt-125m ready!
+Loading distilbert-base-uncased-finetuned-sst-2-english...
+✓ Classifier ready!
+
+Running 10 games with 8 players
+
+Game 1/10
+
+GAME START - 8 players
+
+INITIAL GAME ROSTER:
+  Player1: Villager (distilgpt2)
+  Player2: Villager (distilgpt2)
+  Player3: Villager (gpt2)
+  Player4: Mafia (gpt2)
+  Player5: Villager (gpt2-medium)
+  Player6: Villager (gpt2-medium)
+  Player7: Mafia (opt-125m)
+  Player8: Villager (opt-125m)
+
+ROUND 1 - DISCUSSION PHASE
+Player1 [Villager]: as an example of how we can learn new things by playing our games
+Player2 [Villager]: as an "accurate" witness
+Player3 [Villager]: as an ally against any opponent that may have been around before they became involved
+Player4 [Mafia]: uce that there's no way the rest of the team will help any more now they donned their masks/maskes while dead
+Player5 [Villager]: like normal people; they may not want to offend someone else by acting arrogant
+Player6 [Villager]: like they don´t exist - People become suspicious of eachother's intentions even after knowing them well enough
+Player7 [Mafia]: make sure that you do not give Mafia any advantages
+Player8 [Villager]: ignore you
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player8: Score = 0.9997
+  Player4: Score = 0.9997
+  Player6: Score = 0.9967
+  Player7: Score = 0.9937
+  Player3: Score = 0.0302
+  Player5: Score = 0.0081
+  Player1: Score = 0.0006
+  Player2: Score = 0.0004
+Player1 votes for: Player8
+Player2 votes for: Player8
+Player3 votes for: Player8
+Player4 votes for: Player8
+Player5 votes for: Player8
+Player6 votes for: Player8
+Player7 votes for: Player8
+Player8 votes for: Player4
+
+VOTE RESULTS:
+  Player8: 7 vote(s)
+  Player4: 1 vote(s)
+>>> Player8 ELIMINATED!
+Player8 was a Villager!
+
+ROUND 2 - DISCUSSION PHASE
+Player1 [Villager]: break up one another into two separate groups of victims that can solve problems such as getting rid of mafia's "boss" after someone dies
+Player2 [Villager]: prevent any of these situations occurring
+Player3 [Villager]: avoid confrontation by making clear choices that make them feel like they can do anything but vote against each other
+Player4 [Mafia]: kill at least one of each character's actions after they lose their life/deaths / no matter how much time passes before the death occurs
+Player5 [Villager]: hide behind people's words/actions
+Player6 [Villager]: hide behind any excuse they can come up WITH as long of course YOU get caught!
+Player7 [Mafia]: are NOT allowed to vote for Mafia members (this will be removed from the game)
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player4: Score = 0.9989
+  Player6: Score = 0.9985
+  Player2: Score = 0.9979
+  Player7: Score = 0.9974
+  Player5: Score = 0.9918
+  Player1: Score = 0.9505
+  Player3: Score = 0.1215
+Player1 votes for: Player4
+Player2 votes for: Player4
+Player3 votes for: Player4
+Player4 votes for: Player6
+Player5 votes for: Player4
+Player6 votes for: Player4
+Player7 votes for: Player4
+
+VOTE RESULTS:
+  Player4: 6 vote(s)
+  Player6: 1 vote(s)
+>>> Player4 ELIMINATED!
+Player4 was a Mafia!
+
+ROUND 3 - DISCUSSION PHASE
+Player1 [Villager]: avoid getting caught on TV talking crap at any time during an interview...
+Player2 [Villager]: avoid detection by using deception as punishment
+Player3 [Villager]: counterbalance each victim's accusations by pointing fingers at them even as they accuse someone else of doing something wrong
+Player5 [Villager]: cover up its mistakes
+Player6 [Villager]: manipulate people into giving them information so they can get ahead of themselves - If one knows enough then he/she may succeed against everyone else
+Player7 [Mafia]: can not enter the game; they can only exit from the lobby
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player5: Score = 0.9991
+  Player6: Score = 0.9984
+  Player7: Score = 0.9973
+  Player1: Score = 0.9944
+  Player2: Score = 0.9869
+  Player3: Score = 0.9725
+Player1 votes for: Player5
+Player2 votes for: Player5
+Player3 votes for: Player5
+Player5 votes for: Player6
+Player6 votes for: Player5
+Player7 votes for: Player5
+
+VOTE RESULTS:
+  Player5: 5 vote(s)
+  Player6: 1 vote(s)
+>>> Player5 ELIMINATED!
+Player5 was a Villager!
+
+ROUND 4 - DISCUSSION PHASE
+Player1 [Villager]: rules apply
+Player2 [Villager]: play will never go away unless they have strong evidence of wrongdoing
+Player3 [Villager]: rules don\'t have consequences because they never change at any time
+Player6 [Villager]: will not always agree with YOU on every point...but they'll likely disagree at least half of the time - remember that!
+Player7 [Mafia]: - It is a new player who has to be present to vote for their own faction, so please be careful of what they say.
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player2: Score = 0.9845
+  Player3: Score = 0.9666
+  Player6: Score = 0.9409
+  Player7: Score = 0.9032
+  Player1: Score = 0.0014
+Player1 votes for: Player2
+Player2 votes for: Player3
+Player3 votes for: Player2
+Player6 votes for: Player2
+Player7 votes for: Player2
+
+VOTE RESULTS:
+  Player2: 4 vote(s)
+  Player3: 1 vote(s)
+>>> Player2 ELIMINATED!
+Player2 was a Villager!
+
+ROUND 5 - DISCUSSION PHASE
+Player1 [Villager]: - If an opponent doesn�t have that information they can talk to him over text messages
+Player3 [Villager]: ; this means that any action taken by one of them does not constitute treason against humanity! If someone steals money off another's house then they will forfeit his property as well...but there would be consequences on everyone else too!!! - When an NPC dies under mysterious circumstances do we ne
+Player6 [Villager]: Gameplay Rules :
+Player7 [Mafia]: ER:
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player1: Score = 0.9994
+  Player3: Score = 0.9977
+  Player7: Score = 0.9609
+  Player6: Score = 0.0063
+Player1 votes for: Player3
+Player3 votes for: Player1
+Player6 votes for: Player1
+Player7 votes for: Player1
+
+VOTE RESULTS:
+  Player1: 3 vote(s)
+  Player3: 1 vote(s)
+>>> Player1 ELIMINATED!
+Player1 was a Villager!
+
+ROUND 6 - DISCUSSION PHASE
+Player3 [Villager]: questioning of opponents actions on purpose. No need tell people which way they vote! Also don´t kill any dead characters before playing against them...if there's one then that can help make sense of this situation :)
+Player6 [Villager]: actions over time
+Player7 [Mafia]: ANT NOTE:
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player3: Score = 0.9942
+  Player6: Score = 0.1106
+  Player7: Score = 0.0971
+Player3 votes for: Player6
+Player6 votes for: Player3
+Player7 votes for: Player3
+
+VOTE RESULTS:
+  Player3: 2 vote(s)
+  Player6: 1 vote(s)
+>>> Player3 ELIMINATED!
+Player3 was a Villager!
+
+GAME OVER - MAFIA WIN!
+
+FINAL ROLES:
+  Player1: Villager (ELIMINATED (R5))
+  Player2: Villager (ELIMINATED (R4))
+  Player3: Villager (ELIMINATED (R6))
+  Player4: Mafia (ELIMINATED (R2))
+  Player5: Villager (ELIMINATED (R3))
+  Player6: Villager (ALIVE)
+  Player7: Mafia (ALIVE)
+  Player8: Villager (ELIMINATED (R1))
+Result: Mafia won in 6 rounds
+
+Game 2/10
+
+GAME START - 8 players
+
+INITIAL GAME ROSTER:
+  Player1: Mafia (distilgpt2)
+  Player2: Villager (distilgpt2)
+  Player3: Villager (gpt2)
+  Player4: Villager (gpt2)
+  Player5: Villager (gpt2-medium)
+  Player6: Villager (gpt2-medium)
+  Player7: Villager (opt-125m)
+  Player8: Mafia (opt-125m)
+
+ROUND 1 - DISCUSSION PHASE
+Player1 [Mafia]: uce the truth of their actions by following them down
+Player2 [Villager]: on its own right so that nobody gets caught up in this cheating process
+Player3 [Villager]: as an important part of any fight / battle that needs them right now
+Player4 [Villager]: as they see fit unless there is evidence that leads them otherwise
+Player5 [Villager]: like any random group of people on street corners - NO one likes them!
+Player6 [Villager]: like normal people even though they can get away scot free at times
+Player7 [Villager]: leave
+Player8 [Mafia]: vote on whether to make sure the Mafia are eliminated from their current position
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player5: Score = 0.9997
+  Player7: Score = 0.9993
+  Player4: Score = 0.9957
+  Player2: Score = 0.9907
+  Player1: Score = 0.9833
+  Player8: Score = 0.6429
+  Player6: Score = 0.0242
+  Player3: Score = 0.0010
+Player1 votes for: Player5
+Player2 votes for: Player5
+Player3 votes for: Player5
+Player4 votes for: Player5
+Player5 votes for: Player7
+Player6 votes for: Player5
+Player7 votes for: Player5
+Player8 votes for: Player5
+
+VOTE RESULTS:
+  Player5: 7 vote(s)
+  Player7: 1 vote(s)
+>>> Player5 ELIMINATED!
+Player5 was a Villager!
+
+ROUND 2 - DISCUSSION PHASE
+Player1 [Mafia]: choose between being an Investigator, Prosecutor, Officer or Special Agent before committing Murder by using this strategy
+Player2 [Villager]: avoid losing power over people's actions.
+Player3 [Villager]: play nice by avoiding direct questioning of them
+Player4 [Villager]: hide information at any time
+Player6 [Villager]: avoid detection by remaining undetected while playing at low levels
+Player7 [Villager]: with people who are not Mafia
+Player8 [Mafia]: will not receive a Mafia badge
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player4: Score = 0.9987
+  Player1: Score = 0.9959
+  Player6: Score = 0.9902
+  Player8: Score = 0.9452
+  Player2: Score = 0.0187
+  Player3: Score = 0.0111
+  Player7: Score = 0.0044
+Player1 votes for: Player4
+Player2 votes for: Player4
+Player3 votes for: Player4
+Player4 votes for: Player1
+Player6 votes for: Player4
+Player7 votes for: Player4
+Player8 votes for: Player4
+
+VOTE RESULTS:
+  Player4: 6 vote(s)
+  Player1: 1 vote(s)
+>>> Player4 ELIMINATED!
+Player4 was a Villager!
+
+ROUND 3 - DISCUSSION PHASE
+Player1 [Mafia]: - They may not even have any idea where they came from
+Player2 [Villager]: get more points of evidence before making any decisions
+Player3 [Villager]: take over an entire group's mind at any time by changing its actions/think patterns... this can lead into "betting" on yourself! See below under how I explained these rules here : http://www..gameplayforums....hf=17&forum_id=-15559977
+Player6 [Villager]: manipulate people's actions as they should not do so by using deception - only strong characters can succeed at this task
+Player7 [Villager]: to get caught in any situation
+Player8 [Mafia]: (you will not know if you got Mafia or Villager)
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player1: Score = 0.9995
+  Player2: Score = 0.9983
+  Player8: Score = 0.9969
+  Player6: Score = 0.9945
+  Player3: Score = 0.9863
+  Player7: Score = 0.9534
+Player1 votes for: Player2
+Player2 votes for: Player1
+Player3 votes for: Player1
+Player6 votes for: Player1
+Player7 votes for: Player1
+Player8 votes for: Player1
+
+VOTE RESULTS:
+  Player1: 5 vote(s)
+  Player2: 1 vote(s)
+>>> Player1 ELIMINATED!
+Player1 was a Mafia!
+
+ROUND 4 - DISCUSSION PHASE
+Player2 [Villager]: may not show up after each round
+Player3 [Villager]: can take any action that's needed
+Player6 [Villager]: will always accuse someone they do not want killed - If possible try to avoid conflict where there is none!
+Player7 [Villager]: We want to create a real world Mafia that doesn't rely on deception to rule our society
+Player8 [Mafia]: 1. You do not have to "know" any Mafia member!
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player2: Score = 0.9996
+  Player8: Score = 0.9993
+  Player6: Score = 0.9881
+  Player3: Score = 0.0082
+  Player7: Score = 0.0015
+Player2 votes for: Player8
+Player3 votes for: Player2
+Player6 votes for: Player2
+Player7 votes for: Player2
+Player8 votes for: Player2
+
+VOTE RESULTS:
+  Player2: 4 vote(s)
+  Player8: 1 vote(s)
+>>> Player2 ELIMINATED!
+Player2 was a Villager!
+
+ROUND 5 - DISCUSSION PHASE
+Player3 [Villager]: - even by playing this type of strategy on yourself as well
+Player6 [Villager]: CONSIDERATION & EXPERIENCE POINTS: Some people will never vote correctly because of concerns over confidentiality/confidentiality issues. However...if someone gives up on them after round three they don´t deserve credit; so just trust that one has not yet voted incorrectly! Also keep an eye at how m
+Player7 [Villager]: reasoning
+Player8 [Mafia]: ER:
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player3: Score = 0.9857
+  Player8: Score = 0.9609
+  Player6: Score = 0.0184
+  Player7: Score = 0.0037
+Player3 votes for: Player8
+Player6 votes for: Player3
+Player7 votes for: Player3
+Player8 votes for: Player3
+
+VOTE RESULTS:
+  Player3: 3 vote(s)
+  Player8: 1 vote(s)
+>>> Player3 ELIMINATED!
+Player3 was a Villager!
+
+ROUND 6 - DISCUSSION PHASE
+Player6 [Villager]: effort & conversation
+Player7 [Villager]: conversation
+Player8 [Mafia]: ANT NOTICE:
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player8: Score = 0.1007
+  Player7: Score = 0.0083
+  Player6: Score = 0.0005
+Player6 votes for: Player8
+Player7 votes for: Player8
+Player8 votes for: Player7
+
+VOTE RESULTS:
+  Player8: 2 vote(s)
+  Player7: 1 vote(s)
+>>> Player8 ELIMINATED!
+Player8 was a Mafia!
+
+GAME OVER - VILLAGERS WIN!
+
+FINAL ROLES:
+  Player1: Mafia (ELIMINATED (R3))
+  Player2: Villager (ELIMINATED (R4))
+  Player3: Villager (ELIMINATED (R5))
+  Player4: Villager (ELIMINATED (R2))
+  Player5: Villager (ELIMINATED (R1))
+  Player6: Villager (ALIVE)
+  Player7: Villager (ALIVE)
+  Player8: Mafia (ELIMINATED (R6))
+Result: Villagers won in 6 rounds
+
+Game 3/10
+
+GAME START - 8 players
+
+INITIAL GAME ROSTER:
+  Player1: Villager (distilgpt2)
+  Player2: Villager (distilgpt2)
+  Player3: Villager (gpt2)
+  Player4: Villager (gpt2)
+  Player5: Mafia (gpt2-medium)
+  Player6: Villager (gpt2-medium)
+  Player7: Mafia (opt-125m)
+  Player8: Villager (opt-125m)
+
+ROUND 1 - DISCUSSION PHASE
+Player1 [Villager]: as an independent character within its own party/party structure
+Player2 [Villager]: on information while keeping track of things that don�t actually exist
+Player3 [Villager]: more quickly on any given round
+Player4 [Villager]: as one of two groups; they can either get along well but not have any significant differences - people usually like eachother very much that way
+Player5 [Mafia]: uce which party's people were the real mafia before deciding whether to cooperate
+Player6 [Villager]: normal by hiding behind cover of darkness
+Player7 [Mafia]: be the most vulnerable Villager in all scenarios
+Player8 [Villager]: be as innocent as possible
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player5: Score = 0.9995
+  Player2: Score = 0.9943
+  Player6: Score = 0.9630
+  Player7: Score = 0.1335
+  Player3: Score = 0.0729
+  Player8: Score = 0.0183
+  Player4: Score = 0.0135
+  Player1: Score = 0.0064
+Player1 votes for: Player5
+Player2 votes for: Player5
+Player3 votes for: Player5
+Player4 votes for: Player5
+Player5 votes for: Player2
+Player6 votes for: Player5
+Player7 votes for: Player5
+Player8 votes for: Player5
+
+VOTE RESULTS:
+  Player5: 7 vote(s)
+  Player2: 1 vote(s)
+>>> Player5 ELIMINATED!
+Player5 was a Mafia!
+
+ROUND 2 - DISCUSSION PHASE
+Player1 [Villager]: help them understand why they're doing things differently
+Player2 [Villager]: keep people honest and open by following up on these points of view
+Player3 [Villager]: make up new rules that add value within games of this type but may not do so consistently enough due either lack of trust as well by avoiding criticism &/or blaming each other on "fake" characters rather they're just doing things more like calling an election etc...
+Player4 [Villager]: become more powerful as time goes by
+Player6 [Villager]: avoid detection - If they do not fit into one of these categories, get rid them immediately!
+Player7 [Mafia]: no longer revealed (you'll have to see your own character in the next round!)
+Player8 [Villager]: with everyone else
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player3: Score = 0.9995
+  Player6: Score = 0.9994
+  Player7: Score = 0.9973
+  Player1: Score = 0.1028
+  Player4: Score = 0.0010
+  Player8: Score = 0.0006
+  Player2: Score = 0.0002
+Player1 votes for: Player3
+Player2 votes for: Player3
+Player3 votes for: Player6
+Player4 votes for: Player3
+Player6 votes for: Player3
+Player7 votes for: Player3
+Player8 votes for: Player3
+
+VOTE RESULTS:
+  Player3: 6 vote(s)
+  Player6: 1 vote(s)
+>>> Player3 ELIMINATED!
+Player3 was a Villager!
+
+ROUND 3 - DISCUSSION PHASE
+Player1 [Villager]: avoid any negative consequences as long as they don�t have too much influence on themselves
+Player2 [Villager]: influence people's opinions on how they behave - If there are no mafia , then only one bad idea can cause more problems...
+Player4 [Villager]: hide themselves at any time while ignoring important issues such as how they act etc.
+Player6 [Villager]: manipulate/deny actions by denying they were wronged as well - They often have multiple people working together at once on one round(s). For example, let's assume that there is someone else secretly helping them while another member of the group does something bad against everyone around him. If he 
+Player7 [Mafia]: have no chance of getting the game.
+Player8 [Villager]: to stop you
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player7: Score = 0.9998
+  Player8: Score = 0.9995
+  Player6: Score = 0.9983
+  Player4: Score = 0.9935
+  Player2: Score = 0.9465
+  Player1: Score = 0.1568
+Player1 votes for: Player7
+Player2 votes for: Player7
+Player4 votes for: Player7
+Player6 votes for: Player7
+Player7 votes for: Player8
+Player8 votes for: Player7
+
+VOTE RESULTS:
+  Player7: 5 vote(s)
+  Player8: 1 vote(s)
+>>> Player7 ELIMINATED!
+Player7 was a Mafia!
+
+GAME OVER - VILLAGERS WIN!
+
+FINAL ROLES:
+  Player1: Villager (ALIVE)
+  Player2: Villager (ALIVE)
+  Player3: Villager (ELIMINATED (R2))
+  Player4: Villager (ALIVE)
+  Player5: Mafia (ELIMINATED (R1))
+  Player6: Villager (ALIVE)
+  Player7: Mafia (ELIMINATED (R3))
+  Player8: Villager (ALIVE)
+Result: Villagers won in 3 rounds
+
+Game 4/10
+
+GAME START - 8 players
+
+INITIAL GAME ROSTER:
+  Player1: Villager (distilgpt2)
+  Player2: Mafia (distilgpt2)
+  Player3: Villager (gpt2)
+  Player4: Mafia (gpt2)
+  Player5: Villager (gpt2-medium)
+  Player6: Villager (gpt2-medium)
+  Player7: Villager (opt-125m)
+  Player8: Villager (opt-125m)
+
+ROUND 1 - DISCUSSION PHASE
+Player1 [Villager]: on its own feelings of guilt/disgust at this point
+Player2 [Mafia]: uce the correct positions of each other when talking about something from outside their group(s)
+Player3 [Villager]: well against one another; this may lead them into conflicts of interest between themselves
+Player4 [Mafia]: uce the correct position of any dead member from their corpse after they die by using Logic / Observation . In order not get caught up in some random bullshit thread where one side thinks it's an idiot while the other has no idea how many people were killed etc., I'd suggest finding clues that will 
+Player5 [Villager]: like they don/don´t exist but play dirty - Always stay aware of rumors that can change everything
+Player6 [Villager]: like normal people even though they may not always want to live up on society's expectations
+Player7 [Villager]: out of your game
+Player8 [Villager]: escape from you
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player4: Score = 0.9934
+  Player3: Score = 0.9918
+  Player1: Score = 0.9889
+  Player7: Score = 0.9885
+  Player2: Score = 0.0936
+  Player6: Score = 0.0410
+  Player5: Score = 0.0076
+  Player8: Score = 0.0065
+Player1 votes for: Player4
+Player2 votes for: Player4
+Player3 votes for: Player4
+Player4 votes for: Player3
+Player5 votes for: Player4
+Player6 votes for: Player4
+Player7 votes for: Player4
+Player8 votes for: Player4
+
+VOTE RESULTS:
+  Player4: 7 vote(s)
+  Player3: 1 vote(s)
+>>> Player4 ELIMINATED!
+Player4 was a Mafia!
+
+ROUND 2 - DISCUSSION PHASE
+Player1 [Villager]: maintain influence over people of different races and religions
+Player2 [Mafia]: shown as they get killed by mafia
+Player3 [Villager]: escape by exploiting loopholes that make them look like fools even though they aren´t! This makes sense as an attempt at winning respectability on its own terms; but don�ts mean losing this trust based on actions of certain people .
+Player5 [Villager]: get into any group they can Find people's identities by checking identification on IDs that have been thrown around etc.. If someone has an identity of "Mafia" then guess correctly!
+Player6 [Villager]: hide - They don´t care where they go!
+Player7 [Villager]: with everyone else
+Player8 [Villager]: as much as possible
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player6: Score = 0.9977
+  Player3: Score = 0.9970
+  Player5: Score = 0.9953
+  Player2: Score = 0.5278
+  Player8: Score = 0.0036
+  Player7: Score = 0.0006
+  Player1: Score = 0.0005
+Player1 votes for: Player6
+Player2 votes for: Player6
+Player3 votes for: Player6
+Player5 votes for: Player6
+Player6 votes for: Player3
+Player7 votes for: Player6
+Player8 votes for: Player6
+
+VOTE RESULTS:
+  Player6: 6 vote(s)
+  Player3: 1 vote(s)
+>>> Player6 ELIMINATED!
+Player6 was a Villager!
+
+ROUND 3 - DISCUSSION PHASE
+Player1 [Villager]: solve problems based on evidence as well as direct actions of certain people
+Player2 [Mafia]: actions will not change their outcome; they'll have less time to do so when needed
+Player3 [Villager]: avoid confrontation because of its strong sense that one has been wronged by another
+Player5 [Villager]: avoid confrontation by hiding behind masks of innocence
+Player7 [Villager]: to take advantage of you
+Player8 [Villager]: to keep up, but only if you know what they want to do to you
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player8: Score = 0.8628
+  Player2: Score = 0.8428
+  Player1: Score = 0.2126
+  Player3: Score = 0.0195
+  Player5: Score = 0.0089
+  Player7: Score = 0.0008
+Player1 votes for: Player8
+Player2 votes for: Player8
+Player3 votes for: Player8
+Player5 votes for: Player8
+Player7 votes for: Player8
+Player8 votes for: Player2
+
+VOTE RESULTS:
+  Player8: 5 vote(s)
+  Player2: 1 vote(s)
+>>> Player8 ELIMINATED!
+Player8 was a Villager!
+
+ROUND 4 - DISCUSSION PHASE
+Player1 [Villager]: does not have any influence on how they behave
+Player2 [Mafia]: Be cautious when it comes down to how long an accusation has been made based upon information from others rather then their knowledge of things they have already heard so far. For example:
+Player3 [Villager]: will not change its position of power as long they have control over someone else
+Player5 [Villager]: 's do not hide behind masks of "good guys" or "bad people". They will lie just as often as they like
+Player7 [Villager]: Only you can play this game!
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player1: Score = 0.9994
+  Player2: Score = 0.9976
+  Player5: Score = 0.9607
+  Player7: Score = 0.9580
+  Player3: Score = 0.9365
+Player1 votes for: Player2
+Player2 votes for: Player1
+Player3 votes for: Player1
+Player5 votes for: Player1
+Player7 votes for: Player1
+
+VOTE RESULTS:
+  Player1: 4 vote(s)
+  Player2: 1 vote(s)
+>>> Player1 ELIMINATED!
+Player1 was a Villager!
+
+ROUND 5 - DISCUSSION PHASE
+Player2 [Mafia]: : DO NOT TRIP YOUR DISCOVERIES AND DON'T STUPID THIS TIME UP IF THEY HAVE TO BE COOKED FOR THE LEGAL LEAVE WITH THEM THAT WILL MAKE IT EXACTLY SAFE ON THEIR BODY...
+Player3 [Villager]: - NO manipulation of information can change this fact...it's up To YOU! :)
+Player5 [Villager]: I have also added rules that allow people not involved directly playing as any one of these characters at once :
+Player7 [Villager]: , and persuasive reasoning
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player2: Score = 0.9866
+  Player3: Score = 0.4224
+  Player5: Score = 0.2436
+  Player7: Score = 0.0011
+Player2 votes for: Player3
+Player3 votes for: Player2
+Player5 votes for: Player2
+Player7 votes for: Player2
+
+VOTE RESULTS:
+  Player2: 3 vote(s)
+  Player3: 1 vote(s)
+>>> Player2 ELIMINATED!
+Player2 was a Mafia!
+
+GAME OVER - VILLAGERS WIN!
+
+FINAL ROLES:
+  Player1: Villager (ELIMINATED (R4))
+  Player2: Mafia (ELIMINATED (R5))
+  Player3: Villager (ALIVE)
+  Player4: Mafia (ELIMINATED (R1))
+  Player5: Villager (ALIVE)
+  Player6: Villager (ELIMINATED (R2))
+  Player7: Villager (ALIVE)
+  Player8: Villager (ELIMINATED (R3))
+Result: Villagers won in 5 rounds
+
+Game 5/10
+
+GAME START - 8 players
+
+INITIAL GAME ROSTER:
+  Player1: Villager (distilgpt2)
+  Player2: Mafia (distilgpt2)
+  Player3: Mafia (gpt2)
+  Player4: Villager (gpt2)
+  Player5: Villager (gpt2-medium)
+  Player6: Villager (gpt2-medium)
+  Player7: Villager (opt-125m)
+  Player8: Villager (opt-125m)
+
+ROUND 1 - DISCUSSION PHASE
+Player1 [Villager]: like an honest man - but never do that!
+Player2 [Mafia]: uce from the facts that they were just playing as an illegal party by simply showing their actions of interest at the time of any action against them .
+Player3 [Mafia]: uce from the fact that they died by casting magic spells after killing them/them why something happens when it does not happen at any other time without telling others how things happened
+Player4 [Villager]: as neutral force at any given time by killing people they don`t like - kill them off instantly! This means that everyone has no idea how bad he/she really feels!!! If I were on another team my first instinct would have been "I think she's going mad!" but not even this simple thinking was enough!! No
+Player5 [Villager]: normal; they don´t have much control over how people react to them
+Player6 [Villager]: as normal citizens of New Vegas
+Player7 [Villager]: out of opponents
+Player8 [Villager]: win
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player4: Score = 0.9996
+  Player2: Score = 0.9982
+  Player5: Score = 0.9976
+  Player3: Score = 0.9901
+  Player1: Score = 0.2721
+  Player6: Score = 0.0045
+  Player7: Score = 0.0005
+  Player8: Score = 0.0002
+Player1 votes for: Player4
+Player2 votes for: Player4
+Player3 votes for: Player4
+Player4 votes for: Player2
+Player5 votes for: Player4
+Player6 votes for: Player4
+Player7 votes for: Player4
+Player8 votes for: Player4
+
+VOTE RESULTS:
+  Player4: 7 vote(s)
+  Player2: 1 vote(s)
+>>> Player4 ELIMINATED!
+Player4 was a Villager!
+
+ROUND 2 - DISCUSSION PHASE
+Player1 [Villager]: get more money that can help them achieve their goals.
+Player2 [Mafia]: not have any knowledge of the situation because they do not really exist yet
+Player3 [Mafia]: reveal facts before they appear public knowledge; there's no way around that!! NO FACT IS WORSE THAN KNOWLEDGE!!!
+Player5 [Villager]: avoid confrontation - No one wants to admit they were guilty of anything!
+Player6 [Villager]: keep quiet - Avoid telling anyone anything that would cause them harm by playing this game
+Player7 [Villager]: to the rules of the game - not by ignoring the facts
+Player8 [Villager]: and be heard by the public
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player2: Score = 0.9997
+  Player1: Score = 0.9950
+  Player3: Score = 0.9942
+  Player6: Score = 0.9871
+  Player5: Score = 0.9861
+  Player7: Score = 0.9553
+  Player8: Score = 0.0010
+Player1 votes for: Player2
+Player2 votes for: Player1
+Player3 votes for: Player2
+Player5 votes for: Player2
+Player6 votes for: Player2
+Player7 votes for: Player2
+Player8 votes for: Player2
+
+VOTE RESULTS:
+  Player2: 6 vote(s)
+  Player1: 1 vote(s)
+>>> Player2 ELIMINATED!
+Player2 was a Mafia!
+
+ROUND 3 - DISCUSSION PHASE
+Player1 [Villager]: keep everyone happy despite having no explanation of why they're wrong .
+Player3 [Mafia]: names may not match up as they die at some point before their death; it's best to play them by themselves instead of using an opponent that has died already so there isn´t any chance this will happen again later on. Please don�d try everything possible when playing dead without knowing anything more
+Player5 [Villager]: hide behind anything they can think of as defense - including false accusations
+Player6 [Villager]: hide identities after elimination so they can only talk on stage/video chat!
+Player7 [Villager]: to hide behind some of their rules
+Player8 [Villager]: to hide information, but they are always honest
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player6: Score = 0.9991
+  Player3: Score = 0.9985
+  Player5: Score = 0.9975
+  Player7: Score = 0.9942
+  Player1: Score = 0.0007
+  Player8: Score = 0.0003
+Player1 votes for: Player6
+Player3 votes for: Player6
+Player5 votes for: Player6
+Player6 votes for: Player3
+Player7 votes for: Player6
+Player8 votes for: Player6
+
+VOTE RESULTS:
+  Player6: 5 vote(s)
+  Player3: 1 vote(s)
+>>> Player6 ELIMINATED!
+Player6 was a Villager!
+
+ROUND 4 - DISCUSSION PHASE
+Player1 [Villager]: will never give up on everyone else's actions
+Player3 [Mafia]: IF THE GROUP WINS against any of these groups at some point in the future, they will have lost their integrity as long not knowing that it was them vs one another's actions & mistakes...
+Player5 [Villager]: never admits guilt - No one can accuse someone of lying on purpose!
+Player7 [Villager]: A mafia can change over time
+Player8 [Villager]: Don't be afraid to change tactics - Always stay on top of the game
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player3: Score = 0.9998
+  Player7: Score = 0.7977
+  Player5: Score = 0.0201
+  Player1: Score = 0.0010
+  Player8: Score = 0.0003
+Player1 votes for: Player3
+Player3 votes for: Player7
+Player5 votes for: Player3
+Player7 votes for: Player3
+Player8 votes for: Player3
+
+VOTE RESULTS:
+  Player3: 4 vote(s)
+  Player7: 1 vote(s)
+>>> Player3 ELIMINATED!
+Player3 was a Mafia!
+
+GAME OVER - VILLAGERS WIN!
+
+FINAL ROLES:
+  Player1: Villager (ALIVE)
+  Player2: Mafia (ELIMINATED (R2))
+  Player3: Mafia (ELIMINATED (R4))
+  Player4: Villager (ELIMINATED (R1))
+  Player5: Villager (ALIVE)
+  Player6: Villager (ELIMINATED (R3))
+  Player7: Villager (ALIVE)
+  Player8: Villager (ALIVE)
+Result: Villagers won in 4 rounds
+
+Game 6/10
+
+GAME START - 8 players
+
+INITIAL GAME ROSTER:
+  Player1: Mafia (distilgpt2)
+  Player2: Mafia (distilgpt2)
+  Player3: Villager (gpt2)
+  Player4: Villager (gpt2)
+  Player5: Villager (gpt2-medium)
+  Player6: Villager (gpt2-medium)
+  Player7: Villager (opt-125m)
+  Player8: Villager (opt-125m)
+
+ROUND 1 - DISCUSSION PHASE
+Player1 [Mafia]: uce which group of people they support/support as well as how many other groups it supports
+Player2 [Mafia]: uce the situation so that they can avoid being seen as guilty of murder by their own means !
+Player3 [Villager]: as though they aren´t mafia because of bad information that doesn`re available - Even after death there may still have been some people around before this happened
+Player4 [Villager]: as one of its own; don´t trust them too much! - It's important that everyone knows where they stand on any given issue so we can work together around issues like this
+Player5 [Villager]: normal after winning - do not tell them that! It's against rules of play/rules of nature
+Player6 [Villager]: normal at first - then start attacking
+Player7 [Villager]: stay alive
+Player8 [Villager]: hide
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player3: Score = 0.9993
+  Player8: Score = 0.9979
+  Player5: Score = 0.9958
+  Player2: Score = 0.9945
+  Player4: Score = 0.9532
+  Player1: Score = 0.8105
+  Player6: Score = 0.6633
+  Player7: Score = 0.0004
+Player1 votes for: Player3
+Player2 votes for: Player3
+Player3 votes for: Player8
+Player4 votes for: Player3
+Player5 votes for: Player3
+Player6 votes for: Player3
+Player7 votes for: Player3
+Player8 votes for: Player3
+
+VOTE RESULTS:
+  Player3: 7 vote(s)
+  Player8: 1 vote(s)
+>>> Player3 ELIMINATED!
+Player3 was a Villager!
+
+ROUND 2 - DISCUSSION PHASE
+Player1 [Mafia]: do everything possible to avoid being killed by other people's actions
+Player2 [Mafia]: avoid going into trouble because they can only get away with being the one that kills them before it happens
+Player4 [Villager]: get rid of anyone they don`t like before he's too late
+Player5 [Villager]: disappear easily by not saying anything that would cause confusion
+Player6 [Villager]: avoid detection by hiding among people they don`t trust
+Player7 [Villager]: with others as long as they don't cheat
+Player8 [Villager]: with other players
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player5: Score = 0.9992
+  Player4: Score = 0.9943
+  Player6: Score = 0.9889
+  Player2: Score = 0.6189
+  Player1: Score = 0.0044
+  Player8: Score = 0.0025
+  Player7: Score = 0.0015
+Player1 votes for: Player5
+Player2 votes for: Player5
+Player4 votes for: Player5
+Player5 votes for: Player4
+Player6 votes for: Player5
+Player7 votes for: Player5
+Player8 votes for: Player5
+
+VOTE RESULTS:
+  Player5: 6 vote(s)
+  Player4: 1 vote(s)
+>>> Player5 ELIMINATED!
+Player5 was a Villager!
+
+ROUND 3 - DISCUSSION PHASE
+Player1 [Mafia]: - They don´t need to worry when they see them as the main culprits , so try not getting mad at others that make up their minds over this situation
+Player2 [Mafia]: - This means that the only real choice they make when attempting to kill them will be those of an enemy mafia member/Villager..  ...
+Player4 [Villager]: gain influence over another member of an alliance by talking up his personal weakness/disguise as well!
+Player6 [Villager]: undermine confidence by denying they exist - If there is no evidence of them then assume that's why someone didn�t vote against them
+Player7 [Villager]: to hide your position and make you feel uncomfortable
+Player8 [Villager]: to keep you at bay through verbal deception
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player6: Score = 0.9997
+  Player7: Score = 0.9995
+  Player2: Score = 0.9985
+  Player8: Score = 0.9811
+  Player4: Score = 0.2116
+  Player1: Score = 0.0086
+Player1 votes for: Player6
+Player2 votes for: Player6
+Player4 votes for: Player6
+Player6 votes for: Player7
+Player7 votes for: Player6
+Player8 votes for: Player6
+
+VOTE RESULTS:
+  Player6: 5 vote(s)
+  Player7: 1 vote(s)
+>>> Player6 ELIMINATED!
+Player6 was a Villager!
+
+ROUND 4 - DISCUSSION PHASE
+Player1 [Mafia]: not determined by the rules of the rulebook
+Player2 [Mafia]: not determined by their actions as the main characters of Mafia games
+Player4 [Villager]: has no rules of gameplay except at its core; they don´t want any interaction between people!
+Player7 [Villager]: YOU MUST UNDERSTAND AND ENJOY YOUR OWN PERSONAL GUIDANCE
+Player8 [Villager]: Don't be fooled by Mafia
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player4: Score = 0.9995
+  Player2: Score = 0.9995
+  Player1: Score = 0.9994
+  Player8: Score = 0.0017
+  Player7: Score = 0.0003
+Player1 votes for: Player4
+Player2 votes for: Player4
+Player4 votes for: Player2
+Player7 votes for: Player4
+Player8 votes for: Player4
+
+VOTE RESULTS:
+  Player4: 4 vote(s)
+  Player2: 1 vote(s)
+>>> Player4 ELIMINATED!
+Player4 was a Villager!
+
+GAME OVER - MAFIA WIN!
+
+FINAL ROLES:
+  Player1: Mafia (ALIVE)
+  Player2: Mafia (ALIVE)
+  Player3: Villager (ELIMINATED (R1))
+  Player4: Villager (ELIMINATED (R4))
+  Player5: Villager (ELIMINATED (R2))
+  Player6: Villager (ELIMINATED (R3))
+  Player7: Villager (ALIVE)
+  Player8: Villager (ALIVE)
+Result: Mafia won in 4 rounds
+
+Game 7/10
+
+GAME START - 8 players
+
+INITIAL GAME ROSTER:
+  Player1: Villager (distilgpt2)
+  Player2: Villager (distilgpt2)
+  Player3: Villager (gpt2)
+  Player4: Villager (gpt2)
+  Player5: Villager (gpt2-medium)
+  Player6: Mafia (gpt2-medium)
+  Player7: Villager (opt-125m)
+  Player8: Mafia (opt-125m)
+
+ROUND 1 - DISCUSSION PHASE
+Player1 [Villager]: as an independent force within society
+Player2 [Villager]: as its own people - this type of system works very well
+Player3 [Villager]: like an outsider even though they have no idea how that works
+Player4 [Villager]: as one group of people but has no purpose beyond spreading fear among itself
+Player5 [Villager]: normal - do not make them aware of this fact
+Player6 [Mafia]: uce each other's identities before playing the Game
+Player7 [Villager]: hide behind your "credibility"
+Player8 [Mafia]: ALWAYS do the right thing: not reveal details until the last minute
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player4: Score = 0.9994
+  Player5: Score = 0.9994
+  Player7: Score = 0.9986
+  Player6: Score = 0.9978
+  Player3: Score = 0.8391
+  Player8: Score = 0.0011
+  Player1: Score = 0.0006
+  Player2: Score = 0.0002
+Player1 votes for: Player4
+Player2 votes for: Player4
+Player3 votes for: Player4
+Player4 votes for: Player5
+Player5 votes for: Player4
+Player6 votes for: Player4
+Player7 votes for: Player4
+Player8 votes for: Player4
+
+VOTE RESULTS:
+  Player4: 7 vote(s)
+  Player5: 1 vote(s)
+>>> Player4 ELIMINATED!
+Player4 was a Villager!
+
+ROUND 2 - DISCUSSION PHASE
+Player1 [Villager]: manipulate these people into becoming more corrupt as they become less effective at solving problems
+Player2 [Villager]: solve problems rather then just get rid of them
+Player3 [Villager]: create problems; this leads them to play different ways of doing things... so don`t let that happen!
+Player5 [Villager]: hide - Avoid confrontation because they don�t want any trouble at home!
+Player6 [Mafia]: remain calm when talking down other people's beliefs/lives
+Player7 [Villager]: to the group, but they won't succeed
+Player8 [Mafia]: WILL NOT be in the list of Mafia players
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player1: Score = 0.9992
+  Player7: Score = 0.9990
+  Player8: Score = 0.9987
+  Player2: Score = 0.9979
+  Player6: Score = 0.6500
+  Player5: Score = 0.3017
+  Player3: Score = 0.0412
+Player1 votes for: Player7
+Player2 votes for: Player1
+Player3 votes for: Player1
+Player5 votes for: Player1
+Player6 votes for: Player1
+Player7 votes for: Player1
+Player8 votes for: Player1
+
+VOTE RESULTS:
+  Player1: 6 vote(s)
+  Player7: 1 vote(s)
+>>> Player1 ELIMINATED!
+Player1 was a Villager!
+
+ROUND 3 - DISCUSSION PHASE
+Player2 [Villager]: keep everyone accountable after they die of boredom
+Player3 [Villager]: get rid of people they don`t trust - but not everyone can handle that type!
+Player5 [Villager]: hide/hide details so no one knows they're not doing anything wrong
+Player6 [Mafia]: I'm still analyzing everyone's behavior.
+Player7 [Villager]: to kill you once, not once
+Player8 [Mafia]: - Your role is NOT revealed
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player3: Score = 0.9997
+  Player8: Score = 0.9995
+  Player6: Score = 0.9892
+  Player7: Score = 0.9889
+  Player5: Score = 0.4702
+  Player2: Score = 0.0134
+Player2 votes for: Player3
+Player3 votes for: Player8
+Player5 votes for: Player3
+Player6 votes for: Player3
+Player7 votes for: Player3
+Player8 votes for: Player3
+
+VOTE RESULTS:
+  Player3: 5 vote(s)
+  Player8: 1 vote(s)
+>>> Player3 ELIMINATED!
+Player3 was a Villager!
+
+ROUND 4 - DISCUSSION PHASE
+Player2 [Villager]: plays an important part of how we communicate between our characters
+Player5 [Villager]: kills innocent people but doesn´t always kill them on purpose
+Player6 [Mafia]: not shared during the Voting phase of the current round; only their own will be known later when they vote again. It's best that people avoid each other at this stage unless it makes sense from context/timeline. In addition there may also exist an alternate strategy where everyone gets into some sor
+Player7 [Villager]: Play to eliminate all Mafia
+Player8 [Mafia]: will not be revealed, or even known if you were Mafia or Villager
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player8: Score = 0.9996
+  Player6: Score = 0.9981
+  Player5: Score = 0.9929
+  Player7: Score = 0.0121
+  Player2: Score = 0.0004
+Player2 votes for: Player8
+Player5 votes for: Player8
+Player6 votes for: Player8
+Player7 votes for: Player8
+Player8 votes for: Player6
+
+VOTE RESULTS:
+  Player8: 4 vote(s)
+  Player6: 1 vote(s)
+>>> Player8 ELIMINATED!
+Player8 was a Mafia!
+
+ROUND 5 - DISCUSSION PHASE
+Player2 [Villager]: HOW TO WORK OUT OF THE MAJOR PROCESS:
+Player5 [Villager]: and persistence. If someone tells something that makes no sense then they can easily turn around later on by saying "Oh yeah I was just messing up."
+Player6 [Mafia]: ABOUT THE CRIME CHARACTERISTICS OF THIS POSSIBLE SERIES:
+Player7 [Villager]: thinking
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player6: Score = 0.4387
+  Player5: Score = 0.0867
+  Player7: Score = 0.0027
+  Player2: Score = 0.0021
+Player2 votes for: Player6
+Player5 votes for: Player6
+Player6 votes for: Player5
+Player7 votes for: Player6
+
+VOTE RESULTS:
+  Player6: 3 vote(s)
+  Player5: 1 vote(s)
+>>> Player6 ELIMINATED!
+Player6 was a Mafia!
+
+GAME OVER - VILLAGERS WIN!
+
+FINAL ROLES:
+  Player1: Villager (ELIMINATED (R2))
+  Player2: Villager (ALIVE)
+  Player3: Villager (ELIMINATED (R3))
+  Player4: Villager (ELIMINATED (R1))
+  Player5: Villager (ALIVE)
+  Player6: Mafia (ELIMINATED (R5))
+  Player7: Villager (ALIVE)
+  Player8: Mafia (ELIMINATED (R4))
+Result: Villagers won in 5 rounds
+
+Game 8/10
+
+GAME START - 8 players
+
+INITIAL GAME ROSTER:
+  Player1: Villager (distilgpt2)
+  Player2: Villager (distilgpt2)
+  Player3: Villager (gpt2)
+  Player4: Mafia (gpt2)
+  Player5: Villager (gpt2-medium)
+  Player6: Villager (gpt2-medium)
+  Player7: Villager (opt-125m)
+  Player8: Mafia (opt-125m)
+
+ROUND 1 - DISCUSSION PHASE
+Player1 [Villager]: on its own actions
+Player2 [Villager]: like people of different races/ethnicities..
+Player3 [Villager]: as though they were dead/deadly so don´t expect much of any progress on this one - but I would guess that we can make up some facts by considering them together then deciding which side should take control at each stage
+Player4 [Mafia]: uce from the evidence that any one of them has been killed by other people before playing this Game. It's always safe to assume dead characters were involved because it gives credence toward their deaths when they die instead OF being part Of THE KILLED FAMILY... as opposed To Being DEAD AND BORROWS
+Player5 [Villager]: as normal people would have been doing...without realizing they were criminals
+Player6 [Villager]: like normal people...just not everyone has full trust of them
+Player7 [Villager]: get to you (they can't)
+Player8 [Mafia]: kill Villagers before Mafia becomes an actual mafia
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player6: Score = 0.9989
+  Player3: Score = 0.9979
+  Player4: Score = 0.9852
+  Player5: Score = 0.9657
+  Player8: Score = 0.9377
+  Player7: Score = 0.1163
+  Player1: Score = 0.0414
+  Player2: Score = 0.0119
+Player1 votes for: Player6
+Player2 votes for: Player6
+Player3 votes for: Player6
+Player4 votes for: Player6
+Player5 votes for: Player6
+Player6 votes for: Player3
+Player7 votes for: Player6
+Player8 votes for: Player6
+
+VOTE RESULTS:
+  Player6: 7 vote(s)
+  Player3: 1 vote(s)
+>>> Player6 ELIMINATED!
+Player6 was a Villager!
+
+ROUND 2 - DISCUSSION PHASE
+Player1 [Villager]: help solve problems like cheating
+Player2 [Villager]: solve problems by creating more correct decisions that make them easier to resolve
+Player3 [Villager]: play by its rules every time they hear them... but beware! It's easy to get caught up at first because nobody cares much how many people there were before everyone started talking like that after some of us made calls on our phones saying "oh my God this guy was just getting off work" . If we don`t 
+Player4 [Mafia]: only vote against one Person at any time before the round starts
+Player5 [Villager]: survive as long possible!
+Player7 [Villager]: as much as possible, not just play along
+Player8 [Mafia]: can be killed with no proof (if you don't know)
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player8: Score = 0.9992
+  Player3: Score = 0.9989
+  Player4: Score = 0.8970
+  Player1: Score = 0.3149
+  Player2: Score = 0.0271
+  Player5: Score = 0.0057
+  Player7: Score = 0.0024
+Player1 votes for: Player8
+Player2 votes for: Player8
+Player3 votes for: Player8
+Player4 votes for: Player8
+Player5 votes for: Player8
+Player7 votes for: Player8
+Player8 votes for: Player3
+
+VOTE RESULTS:
+  Player8: 6 vote(s)
+  Player3: 1 vote(s)
+>>> Player8 ELIMINATED!
+Player8 was a Mafia!
+
+ROUND 3 - DISCUSSION PHASE
+Player1 [Villager]: avoid any potential mistakes of course
+Player2 [Villager]: avoid these mistakes by playing as an authority rather than simply because they don´t like them
+Player3 [Villager]: keep people honest while they play!
+Player4 [Mafia]: reputation will not decrease after they die due their level of loyalty/respectability at one point
+Player5 [Villager]: get rid of each member at some point before they can defeat them - remember that!
+Player7 [Villager]: to keep you safe by hiding behind the cover of secrecy
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player2: Score = 0.9717
+  Player7: Score = 0.8043
+  Player5: Score = 0.2485
+  Player1: Score = 0.0168
+  Player4: Score = 0.0061
+  Player3: Score = 0.0002
+Player1 votes for: Player2
+Player2 votes for: Player7
+Player3 votes for: Player2
+Player4 votes for: Player2
+Player5 votes for: Player2
+Player7 votes for: Player2
+
+VOTE RESULTS:
+  Player2: 5 vote(s)
+  Player7: 1 vote(s)
+>>> Player2 ELIMINATED!
+Player2 was a Villager!
+
+ROUND 4 - DISCUSSION PHASE
+Player1 [Villager]: can never claim responsibility of anything - but do not get caught up in making mistakes!
+Player3 [Villager]: can easily get caught up by deceitful means like tricking people into thinking they're mafia but that's not true...it only happens because of this rule/rule change!
+Player4 [Mafia]: We try not TO have any of our participants join mafia games after they play; we just want everyone involved because there's no way anyone can keep it from happening again when that happens! So please don´t get caught playing this one without knowing why people would do something so stupid at some po
+Player5 [Villager]: has an advantage over nonmafia because they can make more money at once; therefore any attempt by anyone to gain influence will backfire on them
+Player7 [Villager]: Do not vote in favor of Mafia or Villager but you will vote for those who
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player3: Score = 0.9995
+  Player4: Score = 0.9987
+  Player5: Score = 0.9647
+  Player1: Score = 0.0900
+  Player7: Score = 0.0035
+Player1 votes for: Player3
+Player3 votes for: Player4
+Player4 votes for: Player3
+Player5 votes for: Player3
+Player7 votes for: Player3
+
+VOTE RESULTS:
+  Player3: 4 vote(s)
+  Player4: 1 vote(s)
+>>> Player3 ELIMINATED!
+Player3 was a Villager!
+
+ROUND 5 - DISCUSSION PHASE
+Player1 [Villager]: - It's not always easy to avoid mistakes by playing as one of the main characters on this list...and often they can also do wrong things at some point! If someone comes up with an idea that fits into my definition then I will add them together so there's no need for me to go along with any further a
+Player4 [Mafia]: I'm still analyzing everyone's behavior.
+Player5 [Villager]: and persistence
+Player7 [Villager]: thinking and observation
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player4: Score = 0.9892
+  Player1: Score = 0.9879
+  Player7: Score = 0.0009
+  Player5: Score = 0.0003
+Player1 votes for: Player4
+Player4 votes for: Player1
+Player5 votes for: Player4
+Player7 votes for: Player4
+
+VOTE RESULTS:
+  Player4: 3 vote(s)
+  Player1: 1 vote(s)
+>>> Player4 ELIMINATED!
+Player4 was a Mafia!
+
+GAME OVER - VILLAGERS WIN!
+
+FINAL ROLES:
+  Player1: Villager (ALIVE)
+  Player2: Villager (ELIMINATED (R3))
+  Player3: Villager (ELIMINATED (R4))
+  Player4: Mafia (ELIMINATED (R5))
+  Player5: Villager (ALIVE)
+  Player6: Villager (ELIMINATED (R1))
+  Player7: Villager (ALIVE)
+  Player8: Mafia (ELIMINATED (R2))
+Result: Villagers won in 5 rounds
+
+Game 9/10
+
+GAME START - 8 players
+
+INITIAL GAME ROSTER:
+  Player1: Villager (distilgpt2)
+  Player2: Villager (distilgpt2)
+  Player3: Mafia (gpt2)
+  Player4: Villager (gpt2)
+  Player5: Villager (gpt2-medium)
+  Player6: Villager (gpt2-medium)
+  Player7: Villager (opt-125m)
+  Player8: Mafia (opt-125m)
+
+ROUND 1 - DISCUSSION PHASE
+Player1 [Villager]: like someone else's one..
+Player2 [Villager]: as an 'evil'
+Player3 [Mafia]: uce that they were killed by the mafia before playing any of their games/games...and then try again at some point when no one knows where it happened from
+Player4 [Villager]: like any one of them would do at some point
+Player5 [Villager]: like they aren/aren�t around...or do something bad that everyone knows wont lead to any clues of identity - They're not here just to get away but actually want to stay at home while playing games!
+Player6 [Villager]: normal!
+Player7 [Villager]: stay away from others
+Player8 [Mafia]: kill Mafia members before they can be eliminated (as far as possible)
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player3: Score = 0.9997
+  Player2: Score = 0.9993
+  Player5: Score = 0.9974
+  Player7: Score = 0.9965
+  Player8: Score = 0.9754
+  Player1: Score = 0.8196
+  Player4: Score = 0.0355
+  Player6: Score = 0.0012
+Player1 votes for: Player3
+Player2 votes for: Player3
+Player3 votes for: Player2
+Player4 votes for: Player3
+Player5 votes for: Player3
+Player6 votes for: Player3
+Player7 votes for: Player3
+Player8 votes for: Player3
+
+VOTE RESULTS:
+  Player3: 7 vote(s)
+  Player2: 1 vote(s)
+>>> Player3 ELIMINATED!
+Player3 was a Mafia!
+
+ROUND 2 - DISCUSSION PHASE
+Player1 [Villager]: become an active member
+Player2 [Villager]: destroy any evidence of mafia involvement by stealing money - even though there IS NO such thing as an illegal mob!
+Player4 [Villager]: make decisions that can lead them into trouble - especially as they get better at poker play!
+Player5 [Villager]: keep everyone at bay by using subtle methods of deception
+Player6 [Villager]: hide behind everyone else's masks
+Player7 [Villager]: (i.e., hide, cheat, and hide)
+Player8 [Mafia]: revealed in a secret way;
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player2: Score = 0.9994
+  Player7: Score = 0.9935
+  Player6: Score = 0.9918
+  Player4: Score = 0.9884
+  Player5: Score = 0.9068
+  Player8: Score = 0.0028
+  Player1: Score = 0.0004
+Player1 votes for: Player2
+Player2 votes for: Player7
+Player4 votes for: Player2
+Player5 votes for: Player2
+Player6 votes for: Player2
+Player7 votes for: Player2
+Player8 votes for: Player2
+
+VOTE RESULTS:
+  Player2: 6 vote(s)
+  Player7: 1 vote(s)
+>>> Player2 ELIMINATED!
+Player2 was a Villager!
+
+ROUND 3 - DISCUSSION PHASE
+Player1 [Villager]: do better at solving problems
+Player4 [Villager]: avoid discussing matters of importance/controversy before they commit crimes! If there's an impropriety between two people then he'll go back on his word by saying "Don`t speak up." That doesn�ta make sense at this point but I have no problem telling them that everyone knows everything!!! :)
+Player5 [Villager]: control every aspect of life including people's interactions with eachother
+Player6 [Villager]: avoid answering direct questioning unless they think there is an incriminating clue hidden behind someone's cloak
+Player7 [Villager]: to steal your favor
+Player8 [Mafia]: can be killed by other Mafia players.
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player6: Score = 0.9995
+  Player8: Score = 0.9968
+  Player4: Score = 0.9902
+  Player1: Score = 0.9890
+  Player7: Score = 0.9214
+  Player5: Score = 0.0095
+Player1 votes for: Player6
+Player4 votes for: Player6
+Player5 votes for: Player6
+Player6 votes for: Player8
+Player7 votes for: Player6
+Player8 votes for: Player6
+
+VOTE RESULTS:
+  Player6: 5 vote(s)
+  Player8: 1 vote(s)
+>>> Player6 ELIMINATED!
+Player6 was a Villager!
+
+ROUND 4 - DISCUSSION PHASE
+Player1 [Villager]: has no moral compass
+Player4 [Villager]: can only exist once played at least 10 times before they become Zombies - In any case, this will end up getting lost on many of them!
+Player5 [Villager]: cannot hide behind cover of darkness
+Player7 [Villager]: Be patient - If you don't agree with your strategy, you'll lose
+Player8 [Mafia]: - DO NOT TRY TO KILL THE MAFIA!
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player4: Score = 0.9997
+  Player1: Score = 0.9995
+  Player7: Score = 0.9993
+  Player5: Score = 0.9896
+  Player8: Score = 0.0032
+Player1 votes for: Player4
+Player4 votes for: Player1
+Player5 votes for: Player4
+Player7 votes for: Player4
+Player8 votes for: Player4
+
+VOTE RESULTS:
+  Player4: 4 vote(s)
+  Player1: 1 vote(s)
+>>> Player4 ELIMINATED!
+Player4 was a Villager!
+
+ROUND 5 - DISCUSSION PHASE
+Player1 [Villager]: - What's more, even though I'm not sure how much time has elapsed since this point of view was first published on October 7th 2011
+Player5 [Villager]: Player 6's strategy was successful so far; we will see how he does against his opponents next time!
+Player7 [Villager]: analysis
+Player8 [Mafia]: ER:
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player8: Score = 0.9609
+  Player7: Score = 0.0443
+  Player1: Score = 0.0124
+  Player5: Score = 0.0005
+Player1 votes for: Player8
+Player5 votes for: Player8
+Player7 votes for: Player8
+Player8 votes for: Player7
+
+VOTE RESULTS:
+  Player8: 3 vote(s)
+  Player7: 1 vote(s)
+>>> Player8 ELIMINATED!
+Player8 was a Mafia!
+
+GAME OVER - VILLAGERS WIN!
+
+FINAL ROLES:
+  Player1: Villager (ALIVE)
+  Player2: Villager (ELIMINATED (R2))
+  Player3: Mafia (ELIMINATED (R1))
+  Player4: Villager (ELIMINATED (R4))
+  Player5: Villager (ALIVE)
+  Player6: Villager (ELIMINATED (R3))
+  Player7: Villager (ALIVE)
+  Player8: Mafia (ELIMINATED (R5))
+Result: Villagers won in 5 rounds
+
+Game 10/10
+
+GAME START - 8 players
+
+INITIAL GAME ROSTER:
+  Player1: Villager (distilgpt2)
+  Player2: Villager (distilgpt2)
+  Player3: Mafia (gpt2)
+  Player4: Mafia (gpt2)
+  Player5: Villager (gpt2-medium)
+  Player6: Villager (gpt2-medium)
+  Player7: Villager (opt-125m)
+  Player8: Villager (opt-125m)
+
+ROUND 1 - DISCUSSION PHASE
+Player1 [Villager]: as an agent of mafia cooperation
+Player2 [Villager]: like an honest citizen so that everyone gets more free time .
+Player3 [Mafia]: uce where the mafia should go from here; no one can see how this will affect their future actions at home. This way they have an excuse not only because of being dead but also due towards losing it's life... that would've been worse anyway.. since everyone could probably figure something into why pe
+Player4 [Mafia]: uce the identity of dead mafia member from other's actions... This means that everyone can see this loser as an innocent bystander being shot by criminals .
+Player5 [Villager]: as normal people - they'll do anything except attack them!
+Player6 [Villager]: as normal villagers - avoid confrontation at first sight
+Player7 [Villager]: become a part of the game
+Player8 [Villager]: have fun
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player3: Score = 0.9997
+  Player4: Score = 0.9944
+  Player5: Score = 0.9922
+  Player1: Score = 0.4631
+  Player6: Score = 0.0285
+  Player2: Score = 0.0011
+  Player7: Score = 0.0007
+  Player8: Score = 0.0001
+Player1 votes for: Player3
+Player2 votes for: Player3
+Player3 votes for: Player4
+Player4 votes for: Player3
+Player5 votes for: Player3
+Player6 votes for: Player3
+Player7 votes for: Player3
+Player8 votes for: Player3
+
+VOTE RESULTS:
+  Player3: 7 vote(s)
+  Player4: 1 vote(s)
+>>> Player3 ELIMINATED!
+Player3 was a Mafia!
+
+ROUND 2 - DISCUSSION PHASE
+Player1 [Villager]: learn more before they get rid of them
+Player2 [Villager]: influence each other into an effective system of understanding that works best for everyone
+Player4 [Mafia]: used as an excuse of not having been able kill anyone before... because they'll just have their own way at it :-)
+Player5 [Villager]: take over once they have power/control of more people - DO NOT GET THEM TO TALK ABOUT YOU! They don`t want to talk shit because this makes them appear less guilty... but by doing so, you give up on convincing yourself that there's no mafia at work here. If everyone else says something suspicious, do
+Player6 [Villager]: hide behind cover of darkness - Never tell someone that they're not allowed to go home!
+Player7 [Villager]: , but they may never be as honest
+Player8 [Villager]: without any recognition from other players
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player8: Score = 0.9996
+  Player4: Score = 0.9987
+  Player7: Score = 0.9924
+  Player1: Score = 0.9661
+  Player5: Score = 0.8491
+  Player6: Score = 0.0138
+  Player2: Score = 0.0003
+Player1 votes for: Player8
+Player2 votes for: Player8
+Player4 votes for: Player8
+Player5 votes for: Player8
+Player6 votes for: Player8
+Player7 votes for: Player8
+Player8 votes for: Player4
+
+VOTE RESULTS:
+  Player8: 6 vote(s)
+  Player4: 1 vote(s)
+>>> Player8 ELIMINATED!
+Player8 was a Villager!
+
+ROUND 3 - DISCUSSION PHASE
+Player1 [Villager]: convince people that they have an advantage over everyone else
+Player2 [Villager]: hide this by hiding its true motives/intents of mafia actions before doing so.
+Player4 [Mafia]: names will not appear when playing as mafia member
+Player5 [Villager]: avoid retaliation; they have no problem killing someone that did not agree with them on everything else
+Player6 [Villager]: make up stories of false accusations/false accusation(s). If they do not have evidence that this happened, then don`t vote them! - Use objective facts such as how many people were present at an event during which certain behaviors occurred ("what did everyone eat?" "who was there?", etc.). Don´tea h
+Player7 [Villager]: to avoid detection
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player2: Score = 0.9982
+  Player4: Score = 0.9967
+  Player6: Score = 0.9966
+  Player7: Score = 0.9820
+  Player5: Score = 0.0204
+  Player1: Score = 0.0051
+Player1 votes for: Player2
+Player2 votes for: Player4
+Player4 votes for: Player2
+Player5 votes for: Player2
+Player6 votes for: Player2
+Player7 votes for: Player2
+
+VOTE RESULTS:
+  Player2: 5 vote(s)
+  Player4: 1 vote(s)
+>>> Player2 ELIMINATED!
+Player2 was a Villager!
+
+ROUND 4 - DISCUSSION PHASE
+Player1 [Villager]: will never stop working by people's motives.
+Player4 [Mafia]: This may require some time before we can publish our results...
+Player5 [Villager]: leaders have special abilities that can help them survive on average 90% of round's play
+Player6 [Villager]: can only get stronger as they become more powerful - so try not overdo this strategy!
+Player7 [Villager]: If Mafia is not Mafia, it will never be Mafia
+
+VOTING PHASE
+
+--- SUSPICION ANALYSIS ---
+  Player4: Score = 0.9985
+  Player6: Score = 0.6915
+  Player7: Score = 0.0143
+  Player5: Score = 0.0005
+  Player1: Score = 0.0004
+Player1 votes for: Player4
+Player4 votes for: Player6
+Player5 votes for: Player4
+Player6 votes for: Player4
+Player7 votes for: Player4
+
+VOTE RESULTS:
+  Player4: 4 vote(s)
+  Player6: 1 vote(s)
+>>> Player4 ELIMINATED!
+Player4 was a Mafia!
+
+GAME OVER - VILLAGERS WIN!
+
+FINAL ROLES:
+  Player1: Villager (ALIVE)
+  Player2: Villager (ELIMINATED (R3))
+  Player3: Mafia (ELIMINATED (R1))
+  Player4: Mafia (ELIMINATED (R4))
+  Player5: Villager (ALIVE)
+  Player6: Villager (ALIVE)
+  Player7: Villager (ALIVE)
+  Player8: Villager (ELIMINATED (R2))
+Result: Villagers won in 4 rounds
+
+Total games: 10
+
+Win rates:
+  Villagers: 8 (80.0%)
+  Mafia: 2 (20.0%)
+  Draw: 0 (0.0%)
+
+Average game length: 4.7 rounds
+
+Model performance:
+  distilgpt2: 45.0% win rate (9/20)
+  gpt2: 10.0% win rate (2/20)
+  gpt2-medium: 45.0% win rate (9/20)
+  opt-125m: 50.0% win rate (10/20)
+Results saved to mafia_results.json
+Simulation complete!
